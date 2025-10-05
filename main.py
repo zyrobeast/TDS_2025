@@ -8,16 +8,14 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Allow all in development
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-
 class Query(BaseModel):
     regions: List[str]
     threshold_ms: float
-
 
 @app.post('/')
 async def get_region_metrics(q: Query = Body(...)):

@@ -5,3 +5,11 @@ jobs:
     steps:
       - name: 22f3002240@ds.study.iitm.ac.in
         run: echo "Hello, world!"
+      - name: prime-cache-560203f
+        uses: actions/cache@v4
+        run: |
+            if [[ "${{ steps.cache.outputs.cache-hit }}" == "true" ]]; then
+              echo "Cache hit for key: cache-560203f"
+            else
+              echo "Cache miss for key: cache-560203f"
+            fi
