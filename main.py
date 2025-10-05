@@ -1,11 +1,33 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Body
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
-import json
+from pydantic import BaseModel
+from typing import List
 
-api = FastAPI()
+app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all in development
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+class Query(BaseModel):
+    regions: List[str]
+    threshold_ms: float
+
 
 @app.post('/')
-async def get_region_metrics(query):
-  df = pd.read_json('q-vercel-latency.json')
-  agg_df = df.groupby('region').agg({'latency_ms': ['mean', lambda x: x.quantile(0.95)], 'uptime_pct': 'mean'})
-  return {region: {'avg_latency': agg_df[region]['latency_ms'].iloc[0], 'p95_latency': agg_df[region]['latency_ms'].iloc[1], 'avg_uptime': agg_df[region]['uptime_pct'], 'breaches': ((df['region'] == region) & (df['latency_ms'] > query['threshold_ms'])).sum()} for region in query['regions']}
+async def get_region_metrics(q: Query = Body(...)):
+    df = pd.read_json('q-vercel-latency.json')
+    df_grouped = df.groupby('region')
+    return {
+        region: {
+            'avg_latency': float(df_grouped.get_group(region)['latency_ms'].mean()),
+            'p95_latency': float(df_grouped.get_group(region)['latency_ms'].quantile(0.95)),
+            'avg_uptime': float(df_grouped.get_group(region)['uptime_pct'].mean()),
+            'breaches': float(((df['region'] == region) & (df['latency_ms'] > q.threshold_ms)).sum())
+        } for region in q.regions
+    }
