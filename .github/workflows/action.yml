@@ -14,4 +14,8 @@ jobs:
 
       - name: prime-cache-560203f
         run: |
-          echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
+          if [[ "${{ steps.cache.outputs.cache-hit }}" == "true" ]]; then
+            echo "Cache hit for key: cache-560203f"
+          else
+            echo "Cache miss for key: cache-560203f"
+          fi
