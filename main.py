@@ -1,3 +1,4 @@
+import uvicorn
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
@@ -29,3 +30,6 @@ async def get_region_metrics(q: Query = Body(...)):
             'breaches': float(((df['region'] == region) & (df['latency_ms'] > q.threshold_ms)).sum())
         } for region in q.regions
     }
+
+if __name__ == '__main__':
+    uvicorn.run(app)
