@@ -26,13 +26,13 @@ async def get_region_metrics(q: Query = Body(...)):
     df = pd.read_json('q-vercel-latency.json')
     df_grouped = df.groupby('region')
     return [
-        {
-            'region': region,
-            'avg_latency': float(df_grouped.get_group(region)['latency_ms'].mean()),
-            'p95_latency': float(df_grouped.get_group(region)['latency_ms'].quantile(0.95)),
-            'avg_uptime': float(df_grouped.get_group(region)['uptime_pct'].mean()),
-            'breaches': float(((df['region'] == region) & (df['latency_ms'] > q.threshold_ms)).sum())
-        } for region in q.regions
+        [
+            region,
+            float(df_grouped.get_group(region)['latency_ms'].mean()),
+            float(df_grouped.get_group(region)['latency_ms'].quantile(0.95)),
+            float(df_grouped.get_group(region)['uptime_pct'].mean()),
+            float(((df['region'] == region) & (df['latency_ms'] > q.threshold_ms)).sum())
+        ] for region in q.regions
     ]
 
 
