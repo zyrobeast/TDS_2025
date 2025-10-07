@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from pydantic import BaseModel
 from typing import List
+import json
 
 app = FastAPI()
 app.add_middleware(
@@ -43,6 +44,12 @@ async def get_students_data(class_: List[str] = Query(None, alias='class')):
         return {'students': df[df['class'].isin(class_)].to_dict(orient='records')}
 
     return {'students': df.to_dict(orient='records')}
+
+
+@app.get('/emails')
+async def get_emails():
+    with open('email.json') as f:
+        return json.load(f)
 
 
 if __name__ == '__main__':
