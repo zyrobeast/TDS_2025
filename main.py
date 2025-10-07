@@ -8,10 +8,11 @@ from typing import List
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all in development
+    allow_origins=["*"],
     allow_credentials=False,
     allow_methods=["POST"],
     allow_headers=["*"],
+    expose_headers=["Access-Control-Allow-Origin"]
 )
 
 class Query(BaseModel):
