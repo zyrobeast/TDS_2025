@@ -40,9 +40,9 @@ async def get_region_metrics(q: Query = Body(...)):
 async def get_students_data(class_: List[str] = None):
     df = pd.read_csv('q-fastapi.csv')
     if class_:
-        return df[df['class'].isin(class_)].to_dict(orient='records')
+        return {'students': df[df['class'].isin(class_)].to_dict(orient='records')}
 
-    return df.to_dict(orient='records')
+    return {'students': df.to_dict(orient='records')}
 
 
 if __name__ == '__main__':
