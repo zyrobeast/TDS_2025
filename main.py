@@ -1,5 +1,5 @@
 import uvicorn
-from fastapi import FastAPI, Body
+from fastapi import FastAPI, Body, Query
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from pydantic import BaseModel
@@ -16,13 +16,13 @@ app.add_middleware(
 )
 
 
-class Query(BaseModel):
+class RegionList(BaseModel):
     regions: List[str]
     threshold_ms: float
 
 
 @app.post('/')
-async def get_region_metrics(q: Query = Body(...)):
+async def get_region_metrics(q: RegionList = Body(...)):
     df = pd.read_json('q-vercel-latency.json')
     df_grouped = df.groupby('region')
     return {
@@ -37,7 +37,7 @@ async def get_region_metrics(q: Query = Body(...)):
     }
 
 @app.get('/api')
-async def get_students_data(class_: List[str] = None):
+async def get_students_data(class_: List[str] = Query(None, alias='class')):
     df = pd.read_csv('q-fastapi.csv')
     if class_:
         return {'students': df[df['class'].isin(class_)].to_dict(orient='records')}
