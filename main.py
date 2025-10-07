@@ -36,6 +36,14 @@ async def get_region_metrics(q: Query = Body(...)):
             } for region in q.regions]
     }
 
+@app.get('/api')
+async def get_students_data(class_: List[str] = None):
+    df = pd.read_csv('q-fastapi.csv')
+    if class_:
+        return df[df['class'].isin(class_)].to_dict(orient='records')
+
+    return df.to_dict(orient='records')
+
 
 if __name__ == '__main__':
     uvicorn.run(app)
