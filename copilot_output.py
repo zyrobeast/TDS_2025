@@ -31,8 +31,12 @@ def find_first_palindrome_after_100():
             return num
         num += 1
 
+def find_third_prime():
+    """Find the third prime number."""
+    return find_nth_prime(3)
+
 def main():
-    result = find_first_palindrome_after_100()
+    result = find_third_prime()
     print(result)
 
 if __name__ == "__main__":

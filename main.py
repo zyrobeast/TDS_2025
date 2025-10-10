@@ -64,7 +64,7 @@ async def solve_task(q: str):
         if response.status_code != 200:
             return res
 
-        res['output'] = response.text
+        res['output'] = response.text.strip("\"")
     except Exception as e:
         pass
 
