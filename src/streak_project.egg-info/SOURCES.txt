@@ -1,0 +1,7 @@
+pyproject.toml
+src/streak.py
+src/streak_project.egg-info/PKG-INFO
+src/streak_project.egg-info/SOURCES.txt
+src/streak_project.egg-info/dependency_links.txt
+src/streak_project.egg-info/top_level.txt
+tests/test_streak.py
