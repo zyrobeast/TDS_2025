@@ -8,7 +8,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
     steps:
       - name: 22f3002240@ds.study.iitm.ac.in
         run: echo "Hello, world!"
@@ -28,14 +27,8 @@ jobs:
             echo "Cache miss for key: cache-560203f"
           fi
 
-  commit_last_check_date:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'schedule'
-    steps:
-      - name: 22f3002240@ds.study.iitm.ac.in
-        uses: actions/checkout@v2
-
       - name: Get current date
+        uses: actions/checkout@v2
         run: |
           echo "LAST_CHECK_DATE=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_ENV
 
