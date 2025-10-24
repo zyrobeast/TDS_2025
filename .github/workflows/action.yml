@@ -25,15 +25,19 @@ jobs:
             echo "Cache miss for key: cache-560203f"
           fi
 
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       - name: Get current date
-        uses: actions/checkout@v2
         run: |
           echo "LAST_CHECK_DATE=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_ENV
+          # This sets the current date and time as an environment variable
 
       - name: Create last_check_date file
         run: |
           echo "${{ env.LAST_CHECK_DATE }}" > last_check_date
           cat last_check_date
+          # This creates a file containing the current date
 
       - name: Commit last_check_date
         env:
