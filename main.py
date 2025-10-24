@@ -5,6 +5,9 @@ import pandas as pd
 from pydantic import BaseModel
 from typing import List
 import requests
+from bs4 import BeautifulSoup
+import wikipedia as wk
+import re
 
 app = FastAPI()
 app.add_middleware(
@@ -37,6 +40,7 @@ async def get_region_metrics(q: RegionList = Body(...)):
             } for region in q.regions]
     }
 
+
 @app.get('/api')
 async def get_students_data(class_: List[str] = Query(None, alias='class')):
     df = pd.read_csv('q-fastapi.csv')
@@ -45,9 +49,10 @@ async def get_students_data(class_: List[str] = Query(None, alias='class')):
 
     return {'students': df.to_dict(orient='records')}
 
+
 @app.get('/task')
 async def solve_task(q: str):
-    res = { "task": q, "agent": "copilot-cli", "output": "failed", "email": "22f3002240@ds.study.iitm.ac.in" }
+    res = {"task": q, "agent": "copilot-cli", "output": "failed", "email": "22f3002240@ds.study.iitm.ac.in"}
 
     q = q.strip()
     if not q:
@@ -69,6 +74,26 @@ async def solve_task(q: str):
         pass
 
     return res
+
+
+@app.get("/api/outline")
+async def get_country_wiki(country: str):
+    search_results = wk.search(country, results=5)
+    if not search_results:
+        return {"error": "No results found"}
+
+    page = wk.WikipediaPage(search_results[0])
+    soup = BeautifulSoup(page.html(), "html.parser")
+
+    headers = soup.find_all(re.compile("^h[1-6]$"))
+
+    markdown = ""
+    for h in headers:
+        level = int(h.name[1])  # h1 -> 1, h2 -> 2, etc.
+        markdown += f"{'#' * level} {h.get_text(strip=True)}\n\n"
+
+    return markdown
+
 
 if __name__ == '__main__':
     uvicorn.run(app, port=8080)

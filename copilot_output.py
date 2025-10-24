@@ -35,8 +35,12 @@ def find_third_prime():
     """Find the third prime number."""
     return find_nth_prime(3)
 
+def find_34th_prime():
+    """Find the 34th prime number."""
+    return find_nth_prime(34)
+
 def main():
-    result = find_third_prime()
+    result = find_34th_prime()
     print(result)
 
 if __name__ == "__main__":
