@@ -1,13 +1,18 @@
+name: Example Workflow
+
 on:
   push:
   schedule:
-    - cron:  "0 0 * * *"
+    - cron: "0 0 * * *"
+
 jobs:
   test:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     steps:
       - name: 22f3002240@ds.study.iitm.ac.in
         run: echo "Hello, world!"
+
       - name: Cache dependencies
         id: cache-step
         uses: actions/cache@v4
@@ -15,10 +20,36 @@ jobs:
           path: ~/.cache/pip
           key: cache-560203f
 
-      - name: prime-cache-560203f
+      - name: Prime cache check for cache-560203f
         run: |
           if [[ "${{ steps.cache.outputs.cache-hit }}" == "true" ]]; then
             echo "Cache hit for key: cache-560203f"
           else
             echo "Cache miss for key: cache-560203f"
           fi
+
+  commit_last_check_date:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    steps:
+      - name: 22f3002240@ds.study.iitm.ac.in
+        uses: actions/checkout@v2
+
+      - name: Get current date
+        run: |
+          echo "LAST_CHECK_DATE=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_ENV
+
+      - name: Create last_check_date file
+        run: |
+          echo "${{ env.LAST_CHECK_DATE }}" > last_check_date
+          cat last_check_date
+
+      - name: Commit last_check_date
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.email "hgniskesihba@gmail.com"
+          git config user.name "zyrobeast"
+          git add last_check_date
+          git commit -m "Update last_check_date file"
+          git push
