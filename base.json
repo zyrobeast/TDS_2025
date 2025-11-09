@@ -1,0 +1,327 @@
+{
+  "setting_001": {
+    "value": 29,
+    "enabled": true,
+    "priority": 4
+  },
+  "setting_002": {
+    "value": 78,
+    "enabled": true,
+    "priority": 9
+  },
+  "setting_003": {
+    "value": 14,
+    "enabled": false,
+    "priority": 1
+  },
+  "setting_004": {
+    "value": 33,
+    "enabled": true,
+    "priority": 7
+  },
+  "setting_005": {
+    "value": 21,
+    "enabled": false,
+    "priority": 7
+  },
+  "setting_006": {
+    "value": 25,
+    "enabled": true,
+    "priority": 7
+  },
+  "setting_007": {
+    "value": 7,
+    "enabled": true,
+    "priority": 5
+  },
+  "setting_008": {
+    "value": 55,
+    "enabled": true,
+    "priority": 2
+  },
+  "setting_009": {
+    "value": 2,
+    "enabled": false,
+    "priority": 5
+  },
+  "setting_010": {
+    "value": 78,
+    "enabled": true,
+    "priority": 3
+  },
+  "setting_011": {
+    "value": 33,
+    "enabled": false,
+    "priority": 9
+  },
+  "setting_012": {
+    "value": 89,
+    "enabled": true,
+    "priority": 4
+  },
+  "setting_013": {
+    "value": 40,
+    "enabled": false,
+    "priority": 6
+  },
+  "setting_014": {
+    "value": 59,
+    "enabled": true,
+    "priority": 8
+  },
+  "setting_015": {
+    "value": 56,
+    "enabled": true,
+    "priority": 5
+  },
+  "setting_016": {
+    "value": 30,
+    "enabled": false,
+    "priority": 9
+  },
+  "setting_017": {
+    "value": 64,
+    "enabled": true,
+    "priority": 5
+  },
+  "setting_018": {
+    "value": 1,
+    "enabled": true,
+    "priority": 9
+  },
+  "setting_019": {
+    "value": 83,
+    "enabled": true,
+    "priority": 6
+  },
+  "setting_020": {
+    "value": 84,
+    "enabled": false,
+    "priority": 0
+  },
+  "setting_021": {
+    "value": 71,
+    "enabled": false,
+    "priority": 6
+  },
+  "setting_022": {
+    "value": 82,
+    "enabled": false,
+    "priority": 5
+  },
+  "setting_023": {
+    "value": 9,
+    "enabled": false,
+    "priority": 1
+  },
+  "setting_024": {
+    "value": 15,
+    "enabled": false,
+    "priority": 0
+  },
+  "setting_025": {
+    "value": 1,
+    "enabled": true,
+    "priority": 5
+  },
+  "setting_026": {
+    "value": 4,
+    "enabled": true,
+    "priority": 0
+  },
+  "setting_027": {
+    "value": 40,
+    "enabled": false,
+    "priority": 3
+  },
+  "setting_028": {
+    "value": 1,
+    "enabled": true,
+    "priority": 2
+  },
+  "setting_029": {
+    "value": 23,
+    "enabled": true,
+    "priority": 6
+  },
+  "setting_030": {
+    "value": 20,
+    "enabled": false,
+    "priority": 8
+  },
+  "setting_031": {
+    "value": 30,
+    "enabled": true,
+    "priority": 8
+  },
+  "setting_032": {
+    "value": 22,
+    "enabled": true,
+    "priority": 1
+  },
+  "setting_033": {
+    "value": 61,
+    "enabled": true,
+    "priority": 0
+  },
+  "setting_034": {
+    "value": 52,
+    "enabled": false,
+    "priority": 3
+  },
+  "setting_035": {
+    "value": 57,
+    "enabled": true,
+    "priority": 9
+  },
+  "setting_036": {
+    "value": 75,
+    "enabled": false,
+    "priority": 9
+  },
+  "setting_037": {
+    "value": 4,
+    "enabled": false,
+    "priority": 8
+  },
+  "setting_038": {
+    "value": 30,
+    "enabled": true,
+    "priority": 4
+  },
+  "setting_039": {
+    "value": 67,
+    "enabled": true,
+    "priority": 6
+  },
+  "setting_040": {
+    "value": 58,
+    "enabled": true,
+    "priority": 3
+  },
+  "setting_041": {
+    "value": 63,
+    "enabled": true,
+    "priority": 7
+  },
+  "setting_042": {
+    "value": 13,
+    "enabled": true,
+    "priority": 2
+  },
+  "setting_043": {
+    "value": 67,
+    "enabled": true,
+    "priority": 0
+  },
+  "setting_044": {
+    "value": 5,
+    "enabled": true,
+    "priority": 4
+  },
+  "setting_045": {
+    "value": 74,
+    "enabled": false,
+    "priority": 3
+  },
+  "setting_046": {
+    "value": 59,
+    "enabled": true,
+    "priority": 3
+  },
+  "setting_047": {
+    "value": 81,
+    "enabled": true,
+    "priority": 2
+  },
+  "setting_048": {
+    "value": 70,
+    "enabled": false,
+    "priority": 9
+  },
+  "setting_049": {
+    "value": 77,
+    "enabled": true,
+    "priority": 6
+  },
+  "setting_050": {
+    "value": 18,
+    "enabled": true,
+    "priority": 3
+  },
+  "setting_051": {
+    "value": 18,
+    "enabled": true,
+    "priority": 7
+  },
+  "setting_052": {
+    "value": 85,
+    "enabled": true,
+    "priority": 9
+  },
+  "setting_053": {
+    "value": 55,
+    "enabled": true,
+    "priority": 5
+  },
+  "setting_054": {
+    "value": 1,
+    "enabled": true,
+    "priority": 2
+  },
+  "setting_055": {
+    "value": 29,
+    "enabled": true,
+    "priority": 7
+  },
+  "setting_056": {
+    "value": 72,
+    "enabled": true,
+    "priority": 1
+  },
+  "setting_057": {
+    "value": 17,
+    "enabled": true,
+    "priority": 7
+  },
+  "setting_058": {
+    "value": 42,
+    "enabled": true,
+    "priority": 1
+  },
+  "setting_059": {
+    "value": 46,
+    "enabled": false,
+    "priority": 9
+  },
+  "setting_060": {
+    "value": 55,
+    "enabled": false,
+    "priority": 1
+  },
+  "setting_061": {
+    "value": 62,
+    "enabled": true,
+    "priority": 2
+  },
+  "setting_062": {
+    "value": 75,
+    "enabled": true,
+    "priority": 1
+  },
+  "setting_063": {
+    "value": 49,
+    "enabled": true,
+    "priority": 2
+  },
+  "setting_064": {
+    "value": 95,
+    "enabled": true,
+    "priority": 9
+  },
+  "setting_065": {
+    "value": 73,
+    "enabled": true,
+    "priority": 5
+  }
+}

@@ -1,4 +1,6 @@
 .venv/
 .idea/
+.crawled-html/
+generated-code/
 __pycache__/*
 .vercel/
