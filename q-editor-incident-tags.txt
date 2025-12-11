@@ -1,0 +1,5042 @@
+[
+{
+    id=INC-627854,
+    team=MachineLearning,severity=Low,status=CLOSED,tags=[Partner Integrations,timed out],
+    owner=donnell.auer44,
+    opened=2024-03-23 10:53:56,
+    note:escalated via pager,impact 2792 sessions
+},
+{
+    id=INC-808614,
+    team=sre,severity=High,status=MONITORING,tags=[billing dispute,api failure,data-quality],
+    owner=tatyana.dicki30,
+    opened=2024-05-15 13:27:53,
+    note: triaged during daily standup,impact 1875 sessions
+},
+{
+    id=INC-221829,
+    team=commerce,severity=High,status=CLOSED,tags=[Authentication,LATENCY],
+    owner=reginald_kunde58,
+    opened=2024-02-08 23:47:46,
+    note:mitigated by automated rollback,impact 105 sessions
+},
+{
+    id=INC-138759,
+    team=Retail-IT,severity=Low,status=CLOSED,tags=[Authentication,DataQuality,api failure,Infrastructure issue,Infrastructure issue],
+    owner=pat43,
+    opened=2024-01-14 13:50:11,
+    note: requires partner communication,impact 595 sessions
+},
+{
+    id=INC-154921,
+    team=sre,severity=Medium,status=OPEN,tags=[Deployment,Latency],
+    owner=aiden.swaniawski69,
+    opened=2024-09-21 14:03:56,
+    note: validated against observability dashboard,impact 3229 sessions
+},
+{
+    id=INC-164117,
+    team=sre,severity=Low,status=OPEN,tags=[release-task,slow response],
+    owner=nicklaus2,
+    opened=2024-10-26 15:00:37,
+    note: validated against observability dashboard,impact 1619 sessions
+},
+{
+    id=INC-421287,
+    team=sre,severity=Medium,status=OPEN,tags=[deploy ment,timed out,bad data],
+    owner=federico_murphy57,
+    opened=2024-01-20 14:21:47,
+    note: requires partner communication,impact 810 sessions
+},
+{
+    id=INC-890810,
+    team=sre,severity=Medium,status=CLOSED,tags=[infra-fault,integration issue,auth-error],
+    owner=aaron_becker,
+    opened=2024-05-26 14:07:30,
+    note:  validated against observability dashboard,impact 1777 sessions
+},
+{
+    id=INC-105791,
+    team=MachineLearning,severity=Low,status=OPEN,tags=[API Error,LATENCY,Infrastructure,LATENCY],
+    owner=lewis_dicki91,
+    opened=2024-08-29 08:45:33,
+    note:mitigated by automated rollback,impact 1971 sessions
+},
+{
+    id=INC-183044,
+    team=Payments-OPS,severity=Medium,status=CLOSED,tags=[INFRASTRUCTURE,response lag,quality issue],
+    owner=vincent.cummings,
+    opened=2024-07-15 19:32:28,
+    note:requires partner communication,impact 3926 sessions
+},
+{
+    id=INC-548041,
+    team=ML Enablement,severity=Critical,status=REOPENED,tags=[response lag,integration issue,release-task],
+    owner=damien.schuster,
+    opened=2024-02-15 01:41:24,
+    note:  validated against observability dashboard,impact 4421 sessions
+},
+{
+    id=INC-833558,
+    team=ML Ops,severity=Medium,status=OPEN,tags=[Integration,Auth failure,Auth failure],
+    owner=reyes1,
+    opened=2024-07-08 14:13:02,
+    note:  validated against observability dashboard,impact 3693 sessions
+},
+{
+    id=INC-100502,
+    team=ML Enablement,severity=Low,status=REOPENED,tags=[Authentication,infra-fault,Integration],
+    owner=vergie.kassulke31,
+    opened=2024-08-12 15:31:02,
+    note:  requires partner communication,impact 83 sessions
+},
+{
+    id=INC-349515,
+    team=sre,severity=High,status=OPEN,tags=[AUTH,time out],
+    owner=johnpaul58,
+    opened=2024-03-02 03:10:13,
+    note:  follow-up action pending RCA,impact 3555 sessions
+},
+{
+    id=INC-403401,
+    team=Data Platform,severity=High,status=OPEN,tags=[Auth failure,TIMEOUT,Infrastructure],
+    owner=golden_harvey79,
+    opened=2024-07-13 09:35:23,
+    note:follow-up action pending RCA,impact 2899 sessions
+},
+{
+    id=INC-871597,
+    team=Commerce Ops,severity=High,status=OPEN,tags=[AUTH,invoice issue,quality issue],
+    owner=rodolfo.monahan,
+    opened=2024-03-16 20:01:32,
+    note:escalated via pager,impact 4863 sessions
+},
+{
+    id=INC-729161,
+    team=MachineLearning,severity=Low,status=MONITORING,tags=[AUTH,response lag,Partner Integrations],
+    owner=madilyn15,
+    opened=2024-08-26 16:51:44,
+    note:  mitigated by automated rollback,impact 3949 sessions
+},
+{
+    id=INC-145144,
+    team=Data Platform,severity=Medium,status=OPEN,tags=[TIMEOUT,billing dispute,LATENCY],
+    owner=corrine95,
+    opened=2024-03-21 20:04:52,
+    note:  validated against observability dashboard,impact 965 sessions
+},
+{
+    id=INC-481822,
+    team=DataPlatform,severity=High,status=MONITORING,tags=[api err,integration-failure,INFRASTRUCTURE],
+    owner=america72,
+    opened=2024-10-13 18:38:53,
+    note:  validated against observability dashboard,impact 3469 sessions
+},
+{
+    id=INC-907712,
+    team=sre,severity=Medium,status=REOPENED,tags=[api err,INTG],
+    owner=isadore_ward41,
+    opened=2024-03-21 08:10:14,
+    note:  validated against observability dashboard,impact 4799 sessions
+},
+{
+    id=INC-386151,
+    team=data platform,severity=Low,status=OPEN,tags=[API Error,AUTH,infra-fault],
+    owner=pietro.waelchi-wiegand,
+    opened=2024-07-22 07:15:56,
+    note:mitigated by automated rollback,impact 2849 sessions
+},
+{
+    id=INC-235209,
+    team=sre,severity=Medium,status=REOPENED,tags=[request timeout,ApiError,request timeout],
+    owner=theo_beier,
+    opened=2024-03-29 02:44:47,
+    note:triaged during daily standup,impact 4214 sessions
+},
+{
+    id=INC-590867,
+    team=Payments,severity=High,status=REOPENED,tags=[time out,Integration,Deployment,Auth failure],
+    owner=daren.keebler,
+    opened=2024-05-06 10:13:06,
+    note: escalated via pager,impact 2311 sessions
+},
+{
+    id=INC-834409,
+    team=Payments-OPS,severity=Medium,status=CLOSED,tags=[slow-response,auth-error],
+    owner=dorothea.sporer,
+    opened=2024-07-21 13:32:51,
+    note:escalated via pager,impact 2516 sessions
+},
+{
+    id=INC-572832,
+    team=data platform,severity=Low,status=CLOSED,tags=[TIMEOUT,api failure,integration-failure,api failure],
+    owner=shyann_keebler73,
+    opened=2024-02-02 19:52:26,
+    note:  triaged during daily standup,impact 626 sessions
+},
+{
+    id=INC-917787,
+    team=Payments,severity=High,status=CLOSED,tags=[BILLING,quality issue,time out],
+    owner=vivianne_cummings,
+    opened=2024-07-08 06:42:46,
+    note:  escalated via pager,impact 557 sessions
+},
+{
+    id=INC-794787,
+    team=Retail-IT,severity=Low,status=REOPENED,tags=[api failure,Deployment,infra,infra],
+    owner=fermin.ondricka,
+    opened=2024-04-28 20:54:37,
+    note:triaged during daily standup,impact 1535 sessions
+},
+{
+    id=INC-595806,
+    team=Payments,severity=Critical,status=CLOSED,tags=[api-error,TIMEOUT],
+    owner=cathy84,
+    opened=2024-04-08 00:58:38,
+    note:  triaged during daily standup,impact 4601 sessions
+},
+{
+    id=INC-929828,
+    team=CommerceIT,severity=High,status=CLOSED,tags=[INFRASTRUCTURE,Release,request timeout],
+    owner=araceli63,
+    opened=2024-01-08 04:46:34,
+    note:validated against observability dashboard,impact 4011 sessions
+},
+{
+    id=INC-524931,
+    team=payments,severity=Medium,status=CLOSED,tags=[slow response,infra,deploy],
+    owner=margaretta3,
+    opened=2024-10-28 07:40:42,
+    note:  requires partner communication,impact 254 sessions
+},
+{
+    id=INC-749403,
+    team=Data Platform,severity=High,status=REOPENED,tags=[Integration,billing-error],
+    owner=lauryn57,
+    opened=2024-02-17 18:50:17,
+    note: triaged during daily standup,impact 3502 sessions
+},
+{
+    id=INC-580381,
+    team=Platform (Data),severity=Low,status=CLOSED,tags=[integration issue,Release],
+    owner=keara.boyer,
+    opened=2024-09-04 15:41:55,
+    note:requires partner communication,impact 4998 sessions
+},
+{
+    id=INC-615666,
+    team=Payments,severity=Low,status=CLOSED,tags=[BILLING,Infrastructure issue],
+    owner=verner14,
+    opened=2024-07-31 01:59:13,
+    note: follow-up action pending RCA,impact 3352 sessions
+},
+{
+    id=INC-849746,
+    team=Payments,severity=Low,status=OPEN,tags=[slow-response,release-task,DataQuality,DataQuality],
+    owner=art32,
+    opened=2024-04-23 14:35:38,
+    note:  requires partner communication,impact 3069 sessions
+},
+{
+    id=INC-987971,
+    team=ml-enablement,severity=Low,status=OPEN,tags=[time out,Billing,deploy ment,Auth failure],
+    owner=jany_osinski,
+    opened=2024-09-07 11:52:57,
+    note: triaged during daily standup,impact 2802 sessions
+},
+{
+    id=INC-965333,
+    team=Gateway,severity=Low,status=OPEN,tags=[infra-fault,auth-error,quality issue],
+    owner=dean.fadel80,
+    opened=2024-01-20 23:49:19,
+    note:validated against observability dashboard,impact 2560 sessions
+},
+{
+    id=INC-161572,
+    team=Payments,severity=Low,status=CLOSED,tags=[Billing,infra-fault,sign-in issue,sign-in issue],
+    owner=dangelo65,
+    opened=2024-04-26 04:21:47,
+    note: mitigated by automated rollback,impact 1428 sessions
+},
+{
+    id=INC-262499,
+    team=Data-Platform,severity=Low,status=OPEN,tags=[DataQuality,api-error],
+    owner=frida_shields58,
+    opened=2024-03-15 12:27:28,
+    note:  requires partner communication,impact 3318 sessions
+},
+{
+    id=INC-412246,
+    team=sre,severity=Critical,status=REOPENED,tags=[Integration,API Error,AUTH],
+    owner=marshall_cummerata,
+    opened=2024-03-17 08:48:02,
+    note: escalated via pager,impact 4683 sessions
+},
+{
+    id=INC-202825,
+    team=payments,severity=Medium,status=OPEN,tags=[Integration,slow-response,timed out,sign-in issue,Integration],
+    owner=georgette10,
+    opened=2024-01-08 23:56:46,
+    note: triaged during daily standup,impact 3273 sessions
+},
+{
+    id=INC-186299,
+    team=Gateway,severity=Critical,status=REOPENED,tags=[api err,INTG,BILLING],
+    owner=dewayne_fritsch36,
+    opened=2024-03-20 22:25:03,
+    note:requires partner communication,impact 545 sessions
+},
+{
+    id=INC-916984,
+    team=DataPlatform,severity=High,status=CLOSED,tags=[data-quality,api failure,Infrastructure issue,Billing,Billing],
+    owner=lazaro_bauch96,
+    opened=2024-03-12 06:24:30,
+    note: triaged during daily standup,impact 396 sessions
+},
+{
+    id=INC-168788,
+    team=data platform,severity=High,status=MONITORING,tags=[billing-error,AUTH],
+    owner=meredith33,
+    opened=2024-03-02 02:43:46,
+    note:  follow-up action pending RCA,impact 2487 sessions
+},
+{
+    id=INC-559038,
+    team=sre,severity=Critical,status=OPEN,tags=[Release,billing dispute],
+    owner=finn_frami25,
+    opened=2024-04-07 23:25:39,
+    note: mitigated by automated rollback,impact 3978 sessions
+},
+{
+    id=INC-494006,
+    team=Data-Platform,severity=High,status=MONITORING,tags=[time out,Latency],
+    owner=jalon_donnelly,
+    opened=2024-10-18 09:13:42,
+    note: follow-up action pending RCA,impact 3022 sessions
+},
+{
+    id=INC-146214,
+    team=data platform,severity=Critical,status=OPEN,tags=[LATENCY,api failure,Infrastructure issue],
+    owner=maximus.bayer-ohara91,
+    opened=2024-07-13 11:06:24,
+    note: triaged during daily standup,impact 314 sessions
+},
+{
+    id=INC-864046,
+    team=Payments Squad,severity=High,status=REOPENED,tags=[deploy ment,invoice issue,bad data],
+    owner=idella_schneider,
+    opened=2024-06-03 07:17:54,
+    note:escalated via pager,impact 3581 sessions
+},
+{
+    id=INC-503203,
+    team=MachineLearning,severity=Critical,status=CLOSED,tags=[request timeout,infra-fault,DataQuality,INTG],
+    owner=myrtie.gislason9,
+    opened=2024-09-21 22:05:17,
+    note:triaged during daily standup,impact 469 sessions
+},
+{
+    id=INC-212921,
+    team=Commerce Ops,severity=Medium,status=OPEN,tags=[auth-error,LATENCY],
+    owner=lempi62,
+    opened=2024-03-31 06:54:45,
+    note:requires partner communication,impact 4769 sessions
+},
+{
+    id=INC-558734,
+    team=MachineLearning,severity=High,status=CLOSED,tags=[sign-in issue,ApiError,invoice issue],
+    owner=kaleigh.ledner92,
+    opened=2024-05-27 02:36:02,
+    note:  mitigated by automated rollback,impact 932 sessions
+},
+{
+    id=INC-386762,
+    team=data platform,severity=Low,status=CLOSED,tags=[ApiError,integration-failure,response lag,response lag],
+    owner=gene.osinski,
+    opened=2024-06-13 12:38:39,
+    note: validated against observability dashboard,impact 4873 sessions
+},
+{
+    id=INC-438425,
+    team=Payments,severity=Low,status=CLOSED,tags=[time out,Infrastructure issue,time out],
+    owner=cassidy_collins98,
+    opened=2024-10-01 10:59:10,
+    note:escalated via pager,impact 1811 sessions
+},
+{
+    id=INC-827926,
+    team=Commerce Ops,severity=Medium,status=OPEN,tags=[Integration,deploy,DataQuality,infra],
+    owner=jakob.pouros16,
+    opened=2024-04-27 19:23:13,
+    note:escalated via pager,impact 4853 sessions
+},
+{
+    id=INC-673084,
+    team=sre,severity=Low,status=REOPENED,tags=[infra-fault,integration-failure,time out],
+    owner=agnes49,
+    opened=2024-02-10 15:51:55,
+    note:  triaged during daily standup,impact 1624 sessions
+},
+{
+    id=INC-884680,
+    team=MachineLearning,severity=Critical,status=REOPENED,tags=[api err,Latency],
+    owner=zion.torp-schumm,
+    opened=2024-08-19 02:03:09,
+    note:escalated via pager,impact 3045 sessions
+},
+{
+    id=INC-809762,
+    team=Data Platform,severity=Critical,status=REOPENED,tags=[Integration,Data Quality,Timeout,Integration],
+    owner=evans10,
+    opened=2024-10-05 19:14:15,
+    note: follow-up action pending RCA,impact 2174 sessions
+},
+{
+    id=INC-781199,
+    team=ML Enablement,severity=Low,status=MONITORING,tags=[Release,TIMEOUT,BILLING,AUTH,Release],
+    owner=garth99,
+    opened=2024-09-28 00:28:33,
+    note:  escalated via pager,impact 140 sessions
+},
+{
+    id=INC-499711,
+    team=Site Reliability,severity=High,status=REOPENED,tags=[Infrastructure,auth-error],
+    owner=jon58,
+    opened=2024-08-06 14:23:20,
+    note:  requires partner communication,impact 1930 sessions
+},
+{
+    id=INC-686173,
+    team=Data-Platform,severity=Low,status=CLOSED,tags=[invoice issue,sign-in issue,bad data],
+    owner=jessyca.bahringer,
+    opened=2024-06-05 05:31:05,
+    note:  triaged during daily standup,impact 1381 sessions
+},
+{
+    id=INC-238280,
+    team=sre,severity=High,status=CLOSED,tags=[INFRASTRUCTURE,Integration],
+    owner=devante30,
+    opened=2024-10-08 04:52:36,
+    note: follow-up action pending RCA,impact 3417 sessions
+},
+{
+    id=INC-474412,
+    team=Payments-OPS,severity=Critical,status=REOPENED,tags=[bad data,Release],
+    owner=vivianne_smith22,
+    opened=2024-02-12 23:36:15,
+    note:  requires partner communication,impact 3595 sessions
+},
+{
+    id=INC-631512,
+    team=Payments Squad,severity=High,status=MONITORING,tags=[release-task,api failure],
+    owner=libbie.schowalter,
+    opened=2024-09-30 03:28:29,
+    note: mitigated by automated rollback,impact 1437 sessions
+},
+{
+    id=INC-208206,
+    team=sre,severity=Critical,status=MONITORING,tags=[api-error,time out],
+    owner=paris.senger66,
+    opened=2024-06-11 09:00:10,
+    note: triaged during daily standup,impact 396 sessions
+},
+{
+    id=INC-551083,
+    team=data platform,severity=Low,status=OPEN,tags=[data-quality,release-task,billing dispute],
+    owner=cali_hammes63,
+    opened=2024-10-05 06:08:30,
+    note:triaged during daily standup,impact 1479 sessions
+},
+{
+    id=INC-879348,
+    team=Platform (Data),severity=Low,status=MONITORING,tags=[Timeout,api failure],
+    owner=mitchell32,
+    opened=2024-05-20 10:33:33,
+    note:  validated against observability dashboard,impact 1966 sessions
+},
+{
+    id=INC-281487,
+    team=data platform,severity=Low,status=OPEN,tags=[quality issue,Deployment,Timeout,Timeout],
+    owner=maddison1,
+    opened=2024-10-20 14:10:32,
+    note: mitigated by automated rollback,impact 831 sessions
+},
+{
+    id=INC-624421,
+    team=Commerce Ops,severity=Critical,status=MONITORING,tags=[Partner Integrations,infra,timed out],
+    owner=gunner_conroy,
+    opened=2024-04-29 01:58:11,
+    note:  triaged during daily standup,impact 607 sessions
+},
+{
+    id=INC-515084,
+    team=CommerceIT,severity=Low,status=MONITORING,tags=[Infrastructure,quality issue,Infrastructure],
+    owner=darrick_morar,
+    opened=2024-01-20 15:11:04,
+    note:mitigated by automated rollback,impact 680 sessions
+},
+{
+    id=INC-249431,
+    team=ML Enablement,severity=Medium,status=OPEN,tags=[API Error,DataQuality],
+    owner=katharina.gutkowski14,
+    opened=2024-05-22 16:22:20,
+    note:validated against observability dashboard,impact 2932 sessions
+},
+{
+    id=INC-840758,
+    team=sre,severity=Critical,status=OPEN,tags=[data-quality,ApiError],
+    owner=liam27,
+    opened=2024-04-30 23:21:00,
+    note:  requires partner communication,impact 4501 sessions
+},
+{
+    id=INC-940897,
+    team=Payments Squad,severity=Low,status=CLOSED,tags=[Data Quality,api err,api err],
+    owner=katlyn_lebsack,
+    opened=2024-10-02 11:58:18,
+    note:follow-up action pending RCA,impact 4953 sessions
+},
+{
+    id=INC-536981,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[Deployment,Latency,TIMEOUT,TIMEOUT],
+    owner=oswaldo_lehner92,
+    opened=2024-03-14 20:30:34,
+    note: follow-up action pending RCA,impact 4737 sessions
+},
+{
+    id=INC-649413,
+    team=Payments,severity=Low,status=OPEN,tags=[time out,Billing,ApiError],
+    owner=leland20,
+    opened=2024-02-08 21:33:30,
+    note: triaged during daily standup,impact 846 sessions
+},
+{
+    id=INC-977855,
+    team=MachineLearning,severity=Medium,status=CLOSED,tags=[timed out,Auth failure],
+    owner=geovanni17,
+    opened=2024-09-09 19:36:26,
+    note: mitigated by automated rollback,impact 4162 sessions
+},
+{
+    id=INC-317725,
+    team=Commerce Ops,severity=Critical,status=MONITORING,tags=[TIMEOUT,infra-fault],
+    owner=kristian41,
+    opened=2024-09-27 14:40:07,
+    note:  mitigated by automated rollback,impact 1218 sessions
+},
+{
+    id=INC-352832,
+    team=MachineLearning,severity=Critical,status=CLOSED,tags=[data-quality,invoice issue,deploy,api failure],
+    owner=peter64,
+    opened=2024-06-07 08:24:09,
+    note: follow-up action pending RCA,impact 3581 sessions
+},
+{
+    id=INC-961087,
+    team=commerce,severity=Low,status=CLOSED,tags=[time out,Latency,Infrastructure,billing dispute],
+    owner=daron70,
+    opened=2024-08-28 19:20:42,
+    note:escalated via pager,impact 2828 sessions
+},
+{
+    id=INC-397331,
+    team=Payments Squad,severity=Medium,status=REOPENED,tags=[bad data,Auth failure,infra-fault,slow-response,bad data],
+    owner=solon.stiedemann,
+    opened=2024-01-05 11:43:13,
+    note:validated against observability dashboard,impact 4725 sessions
+},
+{
+    id=INC-901421,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[deploy,bad data],
+    owner=vicenta.bradtke44,
+    opened=2024-09-22 04:19:51,
+    note:mitigated by automated rollback,impact 4286 sessions
+},
+{
+    id=INC-642438,
+    team=sre,severity=Low,status=OPEN,tags=[invoice issue,response lag,integration-failure],
+    owner=bryon67,
+    opened=2024-04-24 11:19:05,
+    note:escalated via pager,impact 2846 sessions
+},
+{
+    id=INC-983217,
+    team=sre,severity=Medium,status=OPEN,tags=[INFRASTRUCTURE,API Error],
+    owner=deonte.herman90,
+    opened=2024-07-12 05:03:00,
+    note:validated against observability dashboard,impact 2027 sessions
+},
+{
+    id=INC-119385,
+    team=payments,severity=High,status=OPEN,tags=[LATENCY,api failure,Integration],
+    owner=issac18,
+    opened=2024-02-01 07:07:12,
+    note:validated against observability dashboard,impact 3896 sessions
+},
+{
+    id=INC-420955,
+    team=DataPlatform,severity=Low,status=OPEN,tags=[timed out,ApiError,billing-error,deploy],
+    owner=lisette27,
+    opened=2024-09-17 06:13:14,
+    note: triaged during daily standup,impact 4727 sessions
+},
+{
+    id=INC-357167,
+    team=ML Ops,severity=High,status=MONITORING,tags=[slow response,invoice issue,bad data,Auth failure],
+    owner=narciso.schroeder68,
+    opened=2024-06-30 06:18:08,
+    note: escalated via pager,impact 2610 sessions
+},
+{
+    id=INC-805785,
+    team=Gateway,severity=High,status=REOPENED,tags=[data-quality,INFRASTRUCTURE],
+    owner=adrienne_treutel-harber62,
+    opened=2024-07-27 21:43:23,
+    note:triaged during daily standup,impact 163 sessions
+},
+{
+    id=INC-626483,
+    team=ML Enablement,severity=Critical,status=MONITORING,tags=[quality issue,AUTH],
+    owner=aisha29,
+    opened=2024-03-01 12:01:29,
+    note: escalated via pager,impact 2943 sessions
+},
+{
+    id=INC-493652,
+    team=sre,severity=Critical,status=MONITORING,tags=[Infrastructure,Authentication,integration-failure],
+    owner=josue48,
+    opened=2024-09-15 19:18:55,
+    note:escalated via pager,impact 4779 sessions
+},
+{
+    id=INC-963706,
+    team=sre,severity=High,status=OPEN,tags=[api failure,LATENCY],
+    owner=vladimir.stokes,
+    opened=2024-06-14 08:23:17,
+    note:  triaged during daily standup,impact 1439 sessions
+},
+{
+    id=INC-358472,
+    team=sre,severity=Medium,status=REOPENED,tags=[response lag,Authentication,invoice issue],
+    owner=camryn.zieme,
+    opened=2024-06-20 07:50:48,
+    note:mitigated by automated rollback,impact 948 sessions
+},
+{
+    id=INC-625619,
+    team=payments,severity=Low,status=REOPENED,tags=[Auth failure,timed out,Infrastructure],
+    owner=lori_cassin98,
+    opened=2024-02-03 19:22:21,
+    note: escalated via pager,impact 865 sessions
+},
+{
+    id=INC-963450,
+    team=Payments-OPS,severity=Medium,status=OPEN,tags=[Data Quality,deploy ment,deploy ment],
+    owner=jay20,
+    opened=2024-03-07 01:10:43,
+    note:  validated against observability dashboard,impact 884 sessions
+},
+{
+    id=INC-191424,
+    team=Commerce,severity=High,status=OPEN,tags=[timed out,slow-response],
+    owner=noe54,
+    opened=2024-06-19 01:03:35,
+    note: mitigated by automated rollback,impact 2079 sessions
+},
+{
+    id=INC-964313,
+    team=Payments,severity=Critical,status=MONITORING,tags=[ApiError,Release,timed out,infra-fault],
+    owner=ulises_ondricka,
+    opened=2024-01-14 20:19:41,
+    note: mitigated by automated rollback,impact 2032 sessions
+},
+{
+    id=INC-516844,
+    team=sre,severity=High,status=MONITORING,tags=[sign-in issue,LATENCY,BILLING],
+    owner=cindy.ferry,
+    opened=2024-01-23 05:24:48,
+    note: triaged during daily standup,impact 4526 sessions
+},
+{
+    id=INC-301151,
+    team=Payments,severity=High,status=REOPENED,tags=[Infrastructure,sign-in issue,Infrastructure],
+    owner=garrett.reynolds73,
+    opened=2024-04-29 23:34:41,
+    note:requires partner communication,impact 1448 sessions
+},
+{
+    id=INC-295726,
+    team=Payments Squad,severity=Medium,status=REOPENED,tags=[timed out,AUTH],
+    owner=jerrell48,
+    opened=2024-02-29 03:08:50,
+    note:  validated against observability dashboard,impact 1029 sessions
+},
+{
+    id=INC-455506,
+    team=Payments,severity=Critical,status=CLOSED,tags=[deploy,Partner Integrations],
+    owner=annette69,
+    opened=2024-01-15 23:10:42,
+    note:  requires partner communication,impact 2768 sessions
+},
+{
+    id=INC-550945,
+    team=ML Enablement,severity=Low,status=REOPENED,tags=[deploy ment,BILLING],
+    owner=glenna49,
+    opened=2024-06-30 16:00:22,
+    note: escalated via pager,impact 4934 sessions
+},
+{
+    id=INC-993907,
+    team=ML Enablement,severity=High,status=OPEN,tags=[INTG,auth-error],
+    owner=kira63,
+    opened=2024-10-05 04:32:29,
+    note: validated against observability dashboard,impact 1810 sessions
+},
+{
+    id=INC-807043,
+    team=sre,severity=Critical,status=CLOSED,tags=[Auth failure,request timeout,api err,deploy ment],
+    owner=elenor_rogahn46,
+    opened=2024-06-21 01:05:30,
+    note:follow-up action pending RCA,impact 284 sessions
+},
+{
+    id=INC-636270,
+    team=Retail-IT,severity=High,status=REOPENED,tags=[api-error,time out,data-quality,data-quality],
+    owner=lyda_mertz,
+    opened=2024-08-13 11:16:49,
+    note:validated against observability dashboard,impact 4505 sessions
+},
+{
+    id=INC-440474,
+    team=sre,severity=Medium,status=CLOSED,tags=[auth-error,api err,api err],
+    owner=amina.fisher90,
+    opened=2024-01-23 22:14:24,
+    note:escalated via pager,impact 3797 sessions
+},
+{
+    id=INC-574917,
+    team=Payments Squad,severity=Medium,status=MONITORING,tags=[Infrastructure issue,sign-in issue],
+    owner=alison_casper23,
+    opened=2024-06-07 21:07:31,
+    note: validated against observability dashboard,impact 1671 sessions
+},
+{
+    id=INC-306728,
+    team=sre,severity=Low,status=CLOSED,tags=[infra-fault,data-quality],
+    owner=jaime97,
+    opened=2024-03-10 20:48:32,
+    note:follow-up action pending RCA,impact 3689 sessions
+},
+{
+    id=INC-266968,
+    team=ML Ops,severity=High,status=REOPENED,tags=[auth-error,deploy ment,Partner Integrations],
+    owner=julia20,
+    opened=2024-04-15 08:04:34,
+    note:  follow-up action pending RCA,impact 1622 sessions
+},
+{
+    id=INC-891022,
+    team=sre,severity=High,status=MONITORING,tags=[quality issue,infra,API Error,release-task],
+    owner=trey_toy18,
+    opened=2024-03-24 08:37:21,
+    note:mitigated by automated rollback,impact 938 sessions
+},
+{
+    id=INC-657071,
+    team=Site Reliability,severity=Medium,status=CLOSED,tags=[Timeout,response lag,integration issue,invoice issue,Timeout],
+    owner=reggie75,
+    opened=2024-03-09 07:20:11,
+    note: escalated via pager,impact 2684 sessions
+},
+{
+    id=INC-384267,
+    team=sre,severity=Low,status=CLOSED,tags=[INFRASTRUCTURE,BILLING,slow-response,INFRASTRUCTURE],
+    owner=stanton_kihn,
+    opened=2024-08-03 16:00:28,
+    note:  validated against observability dashboard,impact 3875 sessions
+},
+{
+    id=INC-267519,
+    team=sre,severity=Critical,status=CLOSED,tags=[Billing,integration issue],
+    owner=pedro_fahey,
+    opened=2024-03-02 02:11:40,
+    note:  triaged during daily standup,impact 4289 sessions
+},
+{
+    id=INC-697963,
+    team=Commerce Ops,severity=Critical,status=CLOSED,tags=[slow response,deploy ment,Auth failure,deploy ment],
+    owner=scot.brakus62,
+    opened=2024-04-26 15:58:07,
+    note:validated against observability dashboard,impact 1109 sessions
+},
+{
+    id=INC-826359,
+    team=Data-Platform,severity=High,status=CLOSED,tags=[integration issue,Auth failure,integration issue],
+    owner=pasquale_lehner,
+    opened=2024-04-23 04:53:03,
+    note: escalated via pager,impact 1874 sessions
+},
+{
+    id=INC-125579,
+    team=commerce,severity=Low,status=CLOSED,tags=[integration-failure,release-task],
+    owner=paul.kertzmann,
+    opened=2024-06-05 01:19:44,
+    note: escalated via pager,impact 3447 sessions
+},
+{
+    id=INC-159995,
+    team=sre,severity=Critical,status=REOPENED,tags=[slow response,AUTH,release-task],
+    owner=irma.volkman76,
+    opened=2024-10-30 14:22:05,
+    note:escalated via pager,impact 2180 sessions
+},
+{
+    id=INC-770431,
+    team=sre,severity=High,status=REOPENED,tags=[bad data,timed out],
+    owner=jed15,
+    opened=2024-01-07 04:27:48,
+    note: requires partner communication,impact 2009 sessions
+},
+{
+    id=INC-467120,
+    team=Commerce Ops,severity=Low,status=REOPENED,tags=[Timeout,Infrastructure,sign-in issue,slow-response],
+    owner=johan.renner24,
+    opened=2024-07-28 08:31:38,
+    note:triaged during daily standup,impact 995 sessions
+},
+{
+    id=INC-898681,
+    team=sre,severity=Medium,status=REOPENED,tags=[DataQuality,API Error,Integration],
+    owner=maegan_block-murray10,
+    opened=2024-06-06 03:50:11,
+    note:escalated via pager,impact 766 sessions
+},
+{
+    id=INC-977036,
+    team=Payments,severity=Low,status=OPEN,tags=[response lag,DataQuality,response lag],
+    owner=antoinette_bahringer,
+    opened=2024-01-09 17:04:25,
+    note:triaged during daily standup,impact 1207 sessions
+},
+{
+    id=INC-591529,
+    team=Payments,severity=Low,status=REOPENED,tags=[Deployment,Partner Integrations],
+    owner=curtis.okuneva43,
+    opened=2024-01-23 05:50:41,
+    note:  validated against observability dashboard,impact 1420 sessions
+},
+{
+    id=INC-993313,
+    team=Payments,severity=Medium,status=REOPENED,tags=[Timeout,integration issue,infra,infra],
+    owner=hershel_moen5,
+    opened=2024-08-28 12:24:15,
+    note:mitigated by automated rollback,impact 3935 sessions
+},
+{
+    id=INC-955338,
+    team=MachineLearning,severity=High,status=OPEN,tags=[integration issue,api-error],
+    owner=juliana.stehr,
+    opened=2024-01-15 05:48:38,
+    note:follow-up action pending RCA,impact 1914 sessions
+},
+{
+    id=INC-997147,
+    team=sre,severity=Medium,status=MONITORING,tags=[billing-error,ApiError,integration-failure,sign-in issue],
+    owner=shanna_hagenes66,
+    opened=2024-02-12 13:40:07,
+    note:  requires partner communication,impact 4901 sessions
+},
+{
+    id=INC-809660,
+    team=Commerce,severity=Critical,status=OPEN,tags=[release-task,Authentication,DataQuality],
+    owner=larissa_sawayn37,
+    opened=2024-01-18 14:40:20,
+    note:  mitigated by automated rollback,impact 3124 sessions
+},
+{
+    id=INC-960079,
+    team=sre,severity=Medium,status=CLOSED,tags=[deploy ment,Partner Integrations,api failure,deploy ment],
+    owner=ciara74,
+    opened=2024-04-13 11:50:22,
+    note:requires partner communication,impact 4072 sessions
+},
+{
+    id=INC-260577,
+    team=ML Ops,severity=Medium,status=REOPENED,tags=[auth-error,infra-fault,Latency],
+    owner=nelle_conn7,
+    opened=2024-05-26 20:34:56,
+    note: mitigated by automated rollback,impact 1359 sessions
+},
+{
+    id=INC-247170,
+    team=commerce,severity=Medium,status=MONITORING,tags=[DataQuality,infra,Latency,Latency],
+    owner=alanis_bailey81,
+    opened=2024-08-27 04:28:29,
+    note:  triaged during daily standup,impact 755 sessions
+},
+{
+    id=INC-408513,
+    team=Data Platform,severity=Low,status=MONITORING,tags=[integration issue,api-error,Auth failure,data-quality],
+    owner=jo56,
+    opened=2024-04-21 05:45:50,
+    note:validated against observability dashboard,impact 2569 sessions
+},
+{
+    id=INC-431620,
+    team=Gateway,severity=Medium,status=REOPENED,tags=[Infrastructure,integration issue,Authentication],
+    owner=ariane68,
+    opened=2024-06-06 00:31:59,
+    note:  triaged during daily standup,impact 2806 sessions
+},
+{
+    id=INC-676771,
+    team=sre,severity=High,status=REOPENED,tags=[infra-fault,sign-in issue,integration issue,integration issue],
+    owner=breana.wyman,
+    opened=2024-02-19 07:20:28,
+    note:validated against observability dashboard,impact 246 sessions
+},
+{
+    id=INC-876688,
+    team=ML Enablement,severity=High,status=CLOSED,tags=[INTG,billing dispute],
+    owner=al61,
+    opened=2024-04-26 19:31:51,
+    note: requires partner communication,impact 4810 sessions
+},
+{
+    id=INC-392489,
+    team=payments,severity=Critical,status=REOPENED,tags=[INTG,request timeout],
+    owner=hermann46,
+    opened=2024-03-30 18:03:29,
+    note:requires partner communication,impact 2127 sessions
+},
+{
+    id=INC-968072,
+    team=ml-enablement,severity=Low,status=CLOSED,tags=[response lag,INTG],
+    owner=alexys88,
+    opened=2024-04-02 20:29:43,
+    note:  triaged during daily standup,impact 4460 sessions
+},
+{
+    id=INC-291475,
+    team=sre,severity=Critical,status=CLOSED,tags=[deploy ment,LATENCY,Partner Integrations],
+    owner=minerva_feil,
+    opened=2024-01-15 13:54:06,
+    note: escalated via pager,impact 4107 sessions
+},
+{
+    id=INC-666430,
+    team=Payments,severity=Critical,status=OPEN,tags=[Timeout,slow response,Release],
+    owner=precious71,
+    opened=2024-10-01 11:41:48,
+    note:  follow-up action pending RCA,impact 4524 sessions
+},
+{
+    id=INC-525031,
+    team=sre,severity=Medium,status=REOPENED,tags=[INFRASTRUCTURE,api-error,bad data,INFRASTRUCTURE],
+    owner=geovanny_abbott,
+    opened=2024-04-09 17:38:33,
+    note:  mitigated by automated rollback,impact 3698 sessions
+},
+{
+    id=INC-880998,
+    team=ML Ops,severity=Medium,status=REOPENED,tags=[Auth failure,deploy,api failure,Auth failure],
+    owner=pierce_mayert98,
+    opened=2024-06-24 08:51:04,
+    note:  mitigated by automated rollback,impact 617 sessions
+},
+{
+    id=INC-411979,
+    team=DataPlatform,severity=Medium,status=OPEN,tags=[infra-fault,AUTH],
+    owner=darron.zieme,
+    opened=2024-07-01 10:56:36,
+    note:requires partner communication,impact 218 sessions
+},
+{
+    id=INC-427268,
+    team=Payments Squad,severity=High,status=MONITORING,tags=[time out,Latency],
+    owner=colt83,
+    opened=2024-07-01 09:26:14,
+    note:  follow-up action pending RCA,impact 1052 sessions
+},
+{
+    id=INC-133867,
+    team=payments,severity=Critical,status=OPEN,tags=[deploy,slow response,TIMEOUT,slow response],
+    owner=buck_franey,
+    opened=2024-07-24 00:23:42,
+    note:  requires partner communication,impact 781 sessions
+},
+{
+    id=INC-492574,
+    team=commerce,severity=Medium,status=OPEN,tags=[Integration,slow-response,infra,Deployment,slow-response],
+    owner=tomasa.cronin56,
+    opened=2024-04-08 03:29:38,
+    note:  triaged during daily standup,impact 4701 sessions
+},
+{
+    id=INC-492080,
+    team=CommerceIT,severity=Low,status=CLOSED,tags=[deploy,slow response,Infrastructure],
+    owner=dewayne10,
+    opened=2024-07-16 16:57:08,
+    note: validated against observability dashboard,impact 4570 sessions
+},
+{
+    id=INC-228778,
+    team=Commerce Ops,severity=Critical,status=OPEN,tags=[DataQuality,response lag],
+    owner=jennyfer.krajcik,
+    opened=2024-04-10 16:30:36,
+    note:  triaged during daily standup,impact 4305 sessions
+},
+{
+    id=INC-968639,
+    team=Data-Platform,severity=High,status=OPEN,tags=[Billing,Auth failure],
+    owner=anabel.sawayn,
+    opened=2024-01-12 03:45:03,
+    note:triaged during daily standup,impact 4874 sessions
+},
+{
+    id=INC-417939,
+    team=MachineLearning,severity=Medium,status=OPEN,tags=[time out,deploy,ApiError,Infrastructure],
+    owner=sierra.quitzon78,
+    opened=2024-03-20 00:30:09,
+    note:  validated against observability dashboard,impact 1014 sessions
+},
+{
+    id=INC-789981,
+    team=Site Reliability,severity=Critical,status=REOPENED,tags=[AUTH,time out,AUTH],
+    owner=wellington_cartwright65,
+    opened=2024-10-21 03:59:00,
+    note: validated against observability dashboard,impact 4767 sessions
+},
+{
+    id=INC-858058,
+    team=Platform (Data),severity=Medium,status=CLOSED,tags=[slow response,INFRASTRUCTURE],
+    owner=audra.botsford,
+    opened=2024-06-12 14:26:10,
+    note: mitigated by automated rollback,impact 4078 sessions
+},
+{
+    id=INC-136723,
+    team=MachineLearning,severity=Medium,status=CLOSED,tags=[AUTH,DataQuality,DataQuality],
+    owner=nelle_toy,
+    opened=2024-07-24 11:45:25,
+    note:mitigated by automated rollback,impact 1848 sessions
+},
+{
+    id=INC-416216,
+    team=DataPlatform,severity=Low,status=MONITORING,tags=[LATENCY,API Error,time out],
+    owner=adrienne.bradtke42,
+    opened=2024-09-28 09:32:44,
+    note:mitigated by automated rollback,impact 56 sessions
+},
+{
+    id=INC-106958,
+    team=sre,severity=Critical,status=MONITORING,tags=[DataQuality,INFRASTRUCTURE,Partner Integrations],
+    owner=frederique_daugherty,
+    opened=2024-07-11 19:55:53,
+    note: mitigated by automated rollback,impact 258 sessions
+},
+{
+    id=INC-488136,
+    team=data platform,severity=Critical,status=MONITORING,tags=[response lag,timed out,DataQuality,integration issue],
+    owner=joaquin6,
+    opened=2024-04-09 12:07:32,
+    note:follow-up action pending RCA,impact 995 sessions
+},
+{
+    id=INC-442498,
+    team=Payments,severity=Critical,status=REOPENED,tags=[Authentication,timed out,API Error],
+    owner=hal_doyle,
+    opened=2024-05-12 01:00:40,
+    note:  escalated via pager,impact 463 sessions
+},
+{
+    id=INC-273542,
+    team=payments,severity=Low,status=MONITORING,tags=[response lag,BILLING,api failure],
+    owner=morris40,
+    opened=2024-09-10 21:24:40,
+    note:requires partner communication,impact 2072 sessions
+},
+{
+    id=INC-467945,
+    team=Data-Platform,severity=Low,status=MONITORING,tags=[slow response,Timeout,api failure],
+    owner=laurel.kuphal21,
+    opened=2024-08-10 22:39:14,
+    note: follow-up action pending RCA,impact 418 sessions
+},
+{
+    id=INC-508846,
+    team=payments,severity=Critical,status=MONITORING,tags=[Auth failure,Release,quality issue,Auth failure],
+    owner=michale6,
+    opened=2024-10-28 07:23:24,
+    note: escalated via pager,impact 2268 sessions
+},
+{
+    id=INC-289255,
+    team=Commerce Ops,severity=Low,status=CLOSED,tags=[invoice issue,api-error,slow-response,INTG],
+    owner=alexandrine57,
+    opened=2024-01-28 15:33:43,
+    note:follow-up action pending RCA,impact 4705 sessions
+},
+{
+    id=INC-280321,
+    team=ml-enablement,severity=Critical,status=REOPENED,tags=[quality issue,ApiError,Timeout],
+    owner=jazmyn53,
+    opened=2024-08-26 17:31:10,
+    note:triaged during daily standup,impact 3032 sessions
+},
+{
+    id=INC-538885,
+    team=sre,severity=High,status=OPEN,tags=[integration-failure,slow response,api err,INFRASTRUCTURE,INFRASTRUCTURE],
+    owner=toni7,
+    opened=2024-03-03 11:42:37,
+    note:  mitigated by automated rollback,impact 1074 sessions
+},
+{
+    id=INC-231632,
+    team=payments,severity=High,status=MONITORING,tags=[API Error,integration-failure,INFRASTRUCTURE,integration-failure],
+    owner=leopold_jones-douglas75,
+    opened=2024-06-24 11:18:00,
+    note:requires partner communication,impact 2228 sessions
+},
+{
+    id=INC-397306,
+    team=payments,severity=High,status=CLOSED,tags=[quality issue,deploy],
+    owner=monique.haag,
+    opened=2024-03-22 14:32:33,
+    note:  requires partner communication,impact 2240 sessions
+},
+{
+    id=INC-523815,
+    team=Commerce Ops,severity=Low,status=CLOSED,tags=[Authentication,Release,billing-error],
+    owner=al_hegmann42,
+    opened=2024-06-21 09:33:28,
+    note: mitigated by automated rollback,impact 2809 sessions
+},
+{
+    id=INC-550684,
+    team=Data Platform,severity=Medium,status=OPEN,tags=[invoice issue,infra,Latency,sign-in issue,infra],
+    owner=anastacio.schuster,
+    opened=2024-05-20 19:06:55,
+    note: escalated via pager,impact 1187 sessions
+},
+{
+    id=INC-717532,
+    team=Payments Squad,severity=Low,status=MONITORING,tags=[LATENCY,infra,Release,infra],
+    owner=malika.gutmann72,
+    opened=2024-07-04 01:09:58,
+    note:  mitigated by automated rollback,impact 1974 sessions
+},
+{
+    id=INC-489506,
+    team=data platform,severity=High,status=MONITORING,tags=[INFRASTRUCTURE,data-quality],
+    owner=madalyn54,
+    opened=2024-06-24 17:01:01,
+    note: requires partner communication,impact 4916 sessions
+},
+{
+    id=INC-227676,
+    team=Payments-OPS,severity=Low,status=CLOSED,tags=[deploy,api err],
+    owner=dave11,
+    opened=2024-10-01 12:06:54,
+    note:  mitigated by automated rollback,impact 4302 sessions
+},
+{
+    id=INC-829113,
+    team=sre,severity=Medium,status=OPEN,tags=[Deployment,Partner Integrations],
+    owner=caleigh.frami,
+    opened=2024-06-01 18:54:24,
+    note:  validated against observability dashboard,impact 1060 sessions
+},
+{
+    id=INC-971171,
+    team=DataPlatform,severity=Critical,status=MONITORING,tags=[api failure,Latency,time out],
+    owner=zelda.feest32,
+    opened=2024-08-01 06:41:38,
+    note:  requires partner communication,impact 4495 sessions
+},
+{
+    id=INC-638061,
+    team=ML Enablement,severity=Medium,status=OPEN,tags=[billing-error,quality issue,integration issue,quality issue],
+    owner=toy_cole71,
+    opened=2024-02-17 16:05:38,
+    note:escalated via pager,impact 2515 sessions
+},
+{
+    id=INC-434396,
+    team=Payments,severity=Low,status=MONITORING,tags=[API Error,integration issue,sign-in issue,Release,API Error],
+    owner=jaylon29,
+    opened=2024-09-11 15:23:52,
+    note: triaged during daily standup,impact 707 sessions
+},
+{
+    id=INC-744453,
+    team=data platform,severity=Critical,status=OPEN,tags=[API Error,data-quality,release-task,data-quality],
+    owner=roberta_purdy99,
+    opened=2024-09-27 16:11:37,
+    note: triaged during daily standup,impact 110 sessions
+},
+{
+    id=INC-228111,
+    team=Site Reliability,severity=Medium,status=OPEN,tags=[API Error,response lag,billing-error,timed out],
+    owner=darrin.stroman,
+    opened=2024-10-06 04:58:54,
+    note:validated against observability dashboard,impact 3832 sessions
+},
+{
+    id=INC-676685,
+    team=sre,severity=Critical,status=OPEN,tags=[auth-error,Latency],
+    owner=lawrence_renner,
+    opened=2024-10-18 23:16:12,
+    note: triaged during daily standup,impact 2572 sessions
+},
+{
+    id=INC-713073,
+    team=Payments Squad,severity=High,status=OPEN,tags=[infra-fault,billing-error,quality issue,quality issue],
+    owner=anna91,
+    opened=2024-06-13 22:01:30,
+    note:  mitigated by automated rollback,impact 599 sessions
+},
+{
+    id=INC-636734,
+    team=Payments-OPS,severity=Critical,status=CLOSED,tags=[Partner Integrations,Timeout,Deployment,Timeout],
+    owner=deven38,
+    opened=2024-10-04 01:31:56,
+    note:follow-up action pending RCA,impact 1948 sessions
+},
+{
+    id=INC-724044,
+    team=commerce,severity=Low,status=MONITORING,tags=[api failure,slow-response,billing-error],
+    owner=letha.lowe62,
+    opened=2024-09-27 00:57:33,
+    note:  validated against observability dashboard,impact 701 sessions
+},
+{
+    id=INC-692759,
+    team=sre,severity=High,status=CLOSED,tags=[request timeout,bad data,api failure,bad data],
+    owner=linwood_armstrong37,
+    opened=2024-05-12 19:29:55,
+    note:follow-up action pending RCA,impact 3514 sessions
+},
+{
+    id=INC-964778,
+    team=Payments,severity=High,status=CLOSED,tags=[Deployment,integration issue,Data Quality,slow-response],
+    owner=trudie.reilly,
+    opened=2024-06-17 23:53:52,
+    note:requires partner communication,impact 2595 sessions
+},
+{
+    id=INC-245311,
+    team=Platform (Data),severity=High,status=MONITORING,tags=[billing dispute,Infrastructure,DataQuality],
+    owner=everardo.harris,
+    opened=2024-01-22 14:44:35,
+    note:escalated via pager,impact 2017 sessions
+},
+{
+    id=INC-604439,
+    team=Commerce,severity=Medium,status=OPEN,tags=[Auth failure,Integration,infra,slow-response],
+    owner=guy_parisian73,
+    opened=2024-03-05 14:20:55,
+    note:follow-up action pending RCA,impact 4092 sessions
+},
+{
+    id=INC-496478,
+    team=Commerce Ops,severity=High,status=OPEN,tags=[auth-error,Latency,billing dispute,Release],
+    owner=chase_bernier96,
+    opened=2024-02-25 03:24:58,
+    note:requires partner communication,impact 3804 sessions
+},
+{
+    id=INC-780133,
+    team=Data-Platform,severity=Critical,status=MONITORING,tags=[ApiError,Authentication],
+    owner=deion.reilly10,
+    opened=2024-08-14 22:13:54,
+    note: follow-up action pending RCA,impact 4946 sessions
+},
+{
+    id=INC-925782,
+    team=MachineLearning,severity=Critical,status=MONITORING,tags=[BILLING,Latency,Data Quality],
+    owner=mireille_haley,
+    opened=2024-09-25 14:07:45,
+    note: follow-up action pending RCA,impact 4107 sessions
+},
+{
+    id=INC-363908,
+    team=commerce,severity=High,status=MONITORING,tags=[timed out,bad data,Infrastructure issue,timed out],
+    owner=brooklyn.hermiston58,
+    opened=2024-05-30 16:01:48,
+    note:escalated via pager,impact 429 sessions
+},
+{
+    id=INC-595653,
+    team=Retail-IT,severity=Critical,status=REOPENED,tags=[release-task,Authentication,API Error,Authentication],
+    owner=adonis.morissette,
+    opened=2024-06-07 23:04:37,
+    note:  follow-up action pending RCA,impact 3225 sessions
+},
+{
+    id=INC-852959,
+    team=ML Enablement,severity=High,status=CLOSED,tags=[API Error,deploy ment],
+    owner=xander.kessler45,
+    opened=2024-05-18 03:39:21,
+    note:  follow-up action pending RCA,impact 2087 sessions
+},
+{
+    id=INC-955049,
+    team=CommerceIT,severity=Low,status=CLOSED,tags=[timed out,billing-error,auth-error,timed out],
+    owner=maud.cartwright,
+    opened=2024-06-15 17:52:21,
+    note:escalated via pager,impact 4929 sessions
+},
+{
+    id=INC-929659,
+    team=sre,severity=High,status=REOPENED,tags=[Data Quality,deploy ment,AUTH],
+    owner=jody_sauer,
+    opened=2024-08-08 17:10:27,
+    note:validated against observability dashboard,impact 2647 sessions
+},
+{
+    id=INC-636833,
+    team=Payments-OPS,severity=High,status=REOPENED,tags=[Partner Integrations,invoice issue],
+    owner=salvador_hansen,
+    opened=2024-01-29 12:00:11,
+    note:follow-up action pending RCA,impact 4781 sessions
+},
+{
+    id=INC-304745,
+    team=Payments-OPS,severity=Low,status=MONITORING,tags=[deploy,invoice issue,bad data,invoice issue],
+    owner=alphonso_schulist66,
+    opened=2024-01-07 17:12:33,
+    note: follow-up action pending RCA,impact 4406 sessions
+},
+{
+    id=INC-588585,
+    team=Platform (Data),severity=Low,status=OPEN,tags=[Auth failure,INTG,time out],
+    owner=ben_jaskolski,
+    opened=2024-07-20 06:04:02,
+    note: follow-up action pending RCA,impact 4795 sessions
+},
+{
+    id=INC-538148,
+    team=data platform,severity=Medium,status=CLOSED,tags=[response lag,AUTH,deploy,DataQuality,DataQuality],
+    owner=kylie_hand,
+    opened=2024-01-15 00:16:26,
+    note:  requires partner communication,impact 194 sessions
+},
+{
+    id=INC-892752,
+    team=Data-Platform,severity=High,status=REOPENED,tags=[Deployment,timed out,Partner Integrations,billing-error],
+    owner=kristoffer.quigley,
+    opened=2024-02-01 17:10:32,
+    note:validated against observability dashboard,impact 875 sessions
+},
+{
+    id=INC-185949,
+    team=sre,severity=High,status=OPEN,tags=[infra-fault,Latency],
+    owner=kiarra.lesch44,
+    opened=2024-01-08 18:42:54,
+    note: triaged during daily standup,impact 2324 sessions
+},
+{
+    id=INC-897795,
+    team=Payments Squad,severity=High,status=MONITORING,tags=[api err,deploy],
+    owner=meaghan.nikolaus35,
+    opened=2024-02-21 06:29:55,
+    note:  mitigated by automated rollback,impact 4270 sessions
+},
+{
+    id=INC-428935,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[Deployment,api-error],
+    owner=terrell_smith,
+    opened=2024-07-04 22:49:22,
+    note:mitigated by automated rollback,impact 4210 sessions
+},
+{
+    id=INC-621314,
+    team=sre,severity=Critical,status=OPEN,tags=[Deployment,invoice issue,API Error],
+    owner=jessyca40,
+    opened=2024-04-01 07:05:43,
+    note:  validated against observability dashboard,impact 2215 sessions
+},
+{
+    id=INC-862457,
+    team=data platform,severity=High,status=CLOSED,tags=[Billing,sign-in issue],
+    owner=sophia_ankunding21,
+    opened=2024-01-05 01:17:07,
+    note: triaged during daily standup,impact 4947 sessions
+},
+{
+    id=INC-637376,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[LATENCY,Partner Integrations],
+    owner=sidney.hoppe,
+    opened=2024-09-14 13:42:43,
+    note:triaged during daily standup,impact 3054 sessions
+},
+{
+    id=INC-945581,
+    team=sre,severity=Low,status=REOPENED,tags=[ApiError,Data Quality,Auth failure],
+    owner=helena_spinka9,
+    opened=2024-08-01 19:42:44,
+    note:escalated via pager,impact 1017 sessions
+},
+{
+    id=INC-113747,
+    team=Platform (Data),severity=Medium,status=MONITORING,tags=[Release,BILLING,response lag],
+    owner=isom_carroll83,
+    opened=2024-01-10 21:51:04,
+    note: follow-up action pending RCA,impact 4731 sessions
+},
+{
+    id=INC-750640,
+    team=Payments Squad,severity=Medium,status=MONITORING,tags=[TIMEOUT,billing-error,integration issue],
+    owner=gracie12,
+    opened=2024-09-04 10:43:25,
+    note: escalated via pager,impact 4510 sessions
+},
+{
+    id=INC-199276,
+    team=Site Reliability,severity=High,status=CLOSED,tags=[API Error,Release,slow response],
+    owner=brigitte.armstrong33,
+    opened=2024-04-07 17:41:07,
+    note:  requires partner communication,impact 3032 sessions
+},
+{
+    id=INC-851687,
+    team=Data Platform,severity=Critical,status=CLOSED,tags=[BILLING,bad data],
+    owner=malika_hessel-turcotte59,
+    opened=2024-10-18 18:04:51,
+    note:  requires partner communication,impact 4551 sessions
+},
+{
+    id=INC-794418,
+    team=ML Enablement,severity=High,status=MONITORING,tags=[billing dispute,timed out],
+    owner=monique50,
+    opened=2024-05-28 01:32:03,
+    note:  escalated via pager,impact 4170 sessions
+},
+{
+    id=INC-659539,
+    team=Commerce,severity=Critical,status=CLOSED,tags=[ApiError,Infrastructure,ApiError],
+    owner=una0,
+    opened=2024-04-14 07:20:33,
+    note: escalated via pager,impact 819 sessions
+},
+{
+    id=INC-164952,
+    team=Site Reliability,severity=Low,status=OPEN,tags=[ApiError,Billing,Integration],
+    owner=genoveva.roob,
+    opened=2024-02-09 18:06:14,
+    note:validated against observability dashboard,impact 4973 sessions
+},
+{
+    id=INC-976718,
+    team=sre,severity=Critical,status=CLOSED,tags=[deploy ment,sign-in issue,Integration],
+    owner=zachery26,
+    opened=2024-08-23 04:06:10,
+    note:mitigated by automated rollback,impact 304 sessions
+},
+{
+    id=INC-398761,
+    team=ml-enablement,severity=Critical,status=REOPENED,tags=[invoice issue,Release,quality issue],
+    owner=sofia.cole36,
+    opened=2024-05-16 20:39:31,
+    note: follow-up action pending RCA,impact 3038 sessions
+},
+{
+    id=INC-282713,
+    team=Commerce Ops,severity=High,status=OPEN,tags=[release-task,Infrastructure issue,time out],
+    owner=oma34,
+    opened=2024-02-27 02:01:41,
+    note: triaged during daily standup,impact 4019 sessions
+},
+{
+    id=INC-754340,
+    team=Payments,severity=High,status=MONITORING,tags=[INTG,INFRASTRUCTURE,TIMEOUT,deploy ment],
+    owner=matilde.kunze,
+    opened=2024-04-05 05:30:18,
+    note:  escalated via pager,impact 3570 sessions
+},
+{
+    id=INC-512369,
+    team=MachineLearning,severity=Critical,status=MONITORING,tags=[bad data,deploy ment,integration issue],
+    owner=ara40,
+    opened=2024-06-16 16:16:45,
+    note: validated against observability dashboard,impact 1018 sessions
+},
+{
+    id=INC-273620,
+    team=Data-Platform,severity=Medium,status=MONITORING,tags=[Data Quality,Integration,Authentication,Deployment],
+    owner=gabriella47,
+    opened=2024-08-21 13:05:04,
+    note:triaged during daily standup,impact 3688 sessions
+},
+{
+    id=INC-869813,
+    team=Platform (Data),severity=High,status=OPEN,tags=[AUTH,Partner Integrations],
+    owner=amber_morar,
+    opened=2024-06-09 23:27:47,
+    note: triaged during daily standup,impact 2597 sessions
+},
+{
+    id=INC-193769,
+    team=MachineLearning,severity=Critical,status=OPEN,tags=[billing dispute,deploy],
+    owner=dolores_johnston52,
+    opened=2024-04-26 07:15:35,
+    note:validated against observability dashboard,impact 3701 sessions
+},
+{
+    id=INC-997193,
+    team=ML Ops,severity=High,status=REOPENED,tags=[quality issue,request timeout,invoice issue,invoice issue],
+    owner=daisy37,
+    opened=2024-10-17 01:05:02,
+    note:  triaged during daily standup,impact 4246 sessions
+},
+{
+    id=INC-505207,
+    team=ml-enablement,severity=Medium,status=REOPENED,tags=[time out,Partner Integrations,billing dispute,billing dispute],
+    owner=mac_leannon80,
+    opened=2024-07-28 03:15:12,
+    note:requires partner communication,impact 3250 sessions
+},
+{
+    id=INC-881046,
+    team=Commerce,severity=High,status=REOPENED,tags=[Auth failure,integration-failure,quality issue],
+    owner=saige.keeling,
+    opened=2024-05-27 11:05:43,
+    note:  mitigated by automated rollback,impact 396 sessions
+},
+{
+    id=INC-555565,
+    team=sre,severity=Critical,status=OPEN,tags=[BILLING,quality issue],
+    owner=paxton4,
+    opened=2024-07-30 20:17:11,
+    note:escalated via pager,impact 2557 sessions
+},
+{
+    id=INC-338776,
+    team=DataPlatform,severity=High,status=MONITORING,tags=[Timeout,INFRASTRUCTURE],
+    owner=connor_balistreri,
+    opened=2024-10-31 11:41:01,
+    note: validated against observability dashboard,impact 3192 sessions
+},
+{
+    id=INC-432710,
+    team=CommerceIT,severity=Low,status=OPEN,tags=[time out,Integration],
+    owner=herminia43,
+    opened=2024-07-24 17:46:09,
+    note:  escalated via pager,impact 1570 sessions
+},
+{
+    id=INC-201907,
+    team=sre,severity=Low,status=MONITORING,tags=[api failure,infra,deploy],
+    owner=florida8,
+    opened=2024-07-22 15:30:24,
+    note:escalated via pager,impact 696 sessions
+},
+{
+    id=INC-783064,
+    team=Data-Platform,severity=High,status=OPEN,tags=[api-error,timed out,api-error],
+    owner=jermain74,
+    opened=2024-04-05 05:41:30,
+    note:mitigated by automated rollback,impact 703 sessions
+},
+{
+    id=INC-345868,
+    team=data platform,severity=Critical,status=OPEN,tags=[Billing,integration issue,slow-response],
+    owner=reymundo_schroeder9,
+    opened=2024-01-10 05:43:05,
+    note: triaged during daily standup,impact 2125 sessions
+},
+{
+    id=INC-574675,
+    team=sre,severity=Critical,status=REOPENED,tags=[api err,Auth failure,invoice issue],
+    owner=sadye34,
+    opened=2024-01-22 05:47:12,
+    note:validated against observability dashboard,impact 2958 sessions
+},
+{
+    id=INC-621714,
+    team=ml-enablement,severity=Critical,status=REOPENED,tags=[Release,sign-in issue,TIMEOUT],
+    owner=evan.schneider,
+    opened=2024-07-06 07:41:51,
+    note:requires partner communication,impact 1121 sessions
+},
+{
+    id=INC-102945,
+    team=sre,severity=Critical,status=CLOSED,tags=[deploy,AUTH,infra-fault],
+    owner=kay87,
+    opened=2024-02-04 05:18:47,
+    note:  requires partner communication,impact 1627 sessions
+},
+{
+    id=INC-615424,
+    team=CommerceIT,severity=Medium,status=CLOSED,tags=[Data Quality,billing dispute,billing dispute],
+    owner=francesco61,
+    opened=2024-08-25 09:03:40,
+    note:mitigated by automated rollback,impact 2603 sessions
+},
+{
+    id=INC-864885,
+    team=MachineLearning,severity=Low,status=CLOSED,tags=[API Error,Integration,DataQuality,billing-error,DataQuality],
+    owner=katlynn.skiles86,
+    opened=2024-08-20 00:37:17,
+    note: follow-up action pending RCA,impact 1048 sessions
+},
+{
+    id=INC-171317,
+    team=sre,severity=Critical,status=MONITORING,tags=[api failure,infra,infra],
+    owner=fernando_treutel63,
+    opened=2024-01-26 20:03:19,
+    note:  triaged during daily standup,impact 2745 sessions
+},
+{
+    id=INC-489145,
+    team=Data-Platform,severity=High,status=MONITORING,tags=[INTG,infra-fault,Auth failure],
+    owner=marques.franey73,
+    opened=2024-09-17 20:54:40,
+    note:validated against observability dashboard,impact 689 sessions
+},
+{
+    id=INC-316656,
+    team=sre,severity=High,status=OPEN,tags=[Integration,infra-fault,BILLING],
+    owner=kaylee16,
+    opened=2024-01-05 08:38:04,
+    note:  escalated via pager,impact 435 sessions
+},
+{
+    id=INC-648737,
+    team=Commerce Ops,severity=High,status=REOPENED,tags=[slow-response,deploy,integration issue,deploy],
+    owner=salvatore.kub47,
+    opened=2024-05-21 11:12:50,
+    note:mitigated by automated rollback,impact 1135 sessions
+},
+{
+    id=INC-808934,
+    team=Commerce,severity=High,status=OPEN,tags=[timed out,LATENCY,integration issue],
+    owner=evert.hoppe,
+    opened=2024-06-05 16:31:41,
+    note:  mitigated by automated rollback,impact 3163 sessions
+},
+{
+    id=INC-466670,
+    team=CommerceIT,severity=Low,status=OPEN,tags=[Infrastructure,TIMEOUT],
+    owner=amya_mccullough28,
+    opened=2024-08-03 19:40:12,
+    note:  follow-up action pending RCA,impact 1021 sessions
+},
+{
+    id=INC-239478,
+    team=payments,severity=High,status=MONITORING,tags=[quality issue,Auth failure],
+    owner=sebastian_jacobi,
+    opened=2024-08-03 03:36:40,
+    note:requires partner communication,impact 728 sessions
+},
+{
+    id=INC-573890,
+    team=sre,severity=Medium,status=OPEN,tags=[Release,invoice issue,API Error,Infrastructure issue],
+    owner=bonita24,
+    opened=2024-02-27 06:04:59,
+    note:follow-up action pending RCA,impact 2570 sessions
+},
+{
+    id=INC-661404,
+    team=Site Reliability,severity=Critical,status=MONITORING,tags=[integration-failure,Authentication,Authentication],
+    owner=therese_lebsack88,
+    opened=2024-04-16 17:40:45,
+    note:  validated against observability dashboard,impact 4665 sessions
+},
+{
+    id=INC-494186,
+    team=Payments-OPS,severity=High,status=REOPENED,tags=[api err,response lag,deploy,api err],
+    owner=dameon_morissette,
+    opened=2024-08-12 19:28:43,
+    note:  triaged during daily standup,impact 174 sessions
+},
+{
+    id=INC-134242,
+    team=MachineLearning,severity=Low,status=REOPENED,tags=[integration-failure,Timeout],
+    owner=laurine_dickens,
+    opened=2024-06-02 08:13:31,
+    note:escalated via pager,impact 4494 sessions
+},
+{
+    id=INC-884523,
+    team=sre,severity=Medium,status=REOPENED,tags=[INTG,Infrastructure,release-task,Infrastructure],
+    owner=van.morar,
+    opened=2024-10-28 23:53:35,
+    note: validated against observability dashboard,impact 891 sessions
+},
+{
+    id=INC-436058,
+    team=sre,severity=Low,status=CLOSED,tags=[api err,integration issue,invoice issue],
+    owner=shaina86,
+    opened=2024-06-17 09:03:30,
+    note:  escalated via pager,impact 4621 sessions
+},
+{
+    id=INC-272633,
+    team=Payments-OPS,severity=High,status=CLOSED,tags=[slow response,API Error,sign-in issue,INFRASTRUCTURE],
+    owner=cristian.jaskolski97,
+    opened=2024-02-21 14:30:19,
+    note:triaged during daily standup,impact 2193 sessions
+},
+{
+    id=INC-872068,
+    team=payments,severity=Medium,status=CLOSED,tags=[time out,deploy ment],
+    owner=autumn.jenkins,
+    opened=2024-07-26 07:43:41,
+    note: triaged during daily standup,impact 574 sessions
+},
+{
+    id=INC-199676,
+    team=Retail-IT,severity=Medium,status=OPEN,tags=[Deployment,TIMEOUT,Latency,Infrastructure issue],
+    owner=emilia_koss,
+    opened=2024-08-14 21:22:21,
+    note:  follow-up action pending RCA,impact 2246 sessions
+},
+{
+    id=INC-527326,
+    team=CommerceIT,severity=Low,status=OPEN,tags=[quality issue,Infrastructure issue,TIMEOUT,quality issue],
+    owner=jayce80,
+    opened=2024-08-22 02:47:51,
+    note: triaged during daily standup,impact 1951 sessions
+},
+{
+    id=INC-185963,
+    team=sre,severity=Low,status=CLOSED,tags=[BILLING,api-error],
+    owner=kim24,
+    opened=2024-09-04 05:56:22,
+    note:requires partner communication,impact 3251 sessions
+},
+{
+    id=INC-223985,
+    team=Commerce,severity=Low,status=REOPENED,tags=[ApiError,infra-fault,ApiError],
+    owner=lester.bernhard,
+    opened=2024-01-03 00:34:23,
+    note: follow-up action pending RCA,impact 3803 sessions
+},
+{
+    id=INC-867116,
+    team=Commerce,severity=Medium,status=OPEN,tags=[Data Quality,BILLING,api-error],
+    owner=luna.boyer68,
+    opened=2024-07-16 12:23:58,
+    note: requires partner communication,impact 1360 sessions
+},
+{
+    id=INC-562939,
+    team=Commerce Ops,severity=Low,status=OPEN,tags=[integration issue,quality issue,sign-in issue,quality issue],
+    owner=zetta_luettgen,
+    opened=2024-08-18 17:37:37,
+    note: validated against observability dashboard,impact 4706 sessions
+},
+{
+    id=INC-676754,
+    team=data platform,severity=High,status=REOPENED,tags=[slow response,DataQuality,slow response],
+    owner=hazel.senger3,
+    opened=2024-08-16 00:12:56,
+    note: escalated via pager,impact 194 sessions
+},
+{
+    id=INC-146165,
+    team=Payments-OPS,severity=Low,status=MONITORING,tags=[Infrastructure,deploy ment],
+    owner=sterling.ullrich,
+    opened=2024-04-01 07:14:57,
+    note: triaged during daily standup,impact 684 sessions
+},
+{
+    id=INC-858729,
+    team=ml-enablement,severity=Low,status=CLOSED,tags=[Partner Integrations,Auth failure,release-task,API Error],
+    owner=maya.durgan2,
+    opened=2024-01-16 02:26:54,
+    note: validated against observability dashboard,impact 2124 sessions
+},
+{
+    id=INC-886045,
+    team=Data-Platform,severity=High,status=MONITORING,tags=[response lag,quality issue,Infrastructure],
+    owner=haylee.waters,
+    opened=2024-10-27 08:08:20,
+    note: mitigated by automated rollback,impact 3205 sessions
+},
+{
+    id=INC-532477,
+    team=payments,severity=Medium,status=CLOSED,tags=[response lag,auth-error,quality issue,time out,quality issue],
+    owner=alan.walter19,
+    opened=2024-01-06 14:23:03,
+    note:  triaged during daily standup,impact 3072 sessions
+},
+{
+    id=INC-467457,
+    team=ML Ops,severity=Low,status=CLOSED,tags=[invoice issue,api failure,Release],
+    owner=juana_langworth,
+    opened=2024-02-28 21:27:52,
+    note:follow-up action pending RCA,impact 1387 sessions
+},
+{
+    id=INC-922403,
+    team=Payments,severity=Critical,status=REOPENED,tags=[slow response,infra-fault],
+    owner=tracy_collins6,
+    opened=2024-01-05 03:17:03,
+    note: mitigated by automated rollback,impact 3326 sessions
+},
+{
+    id=INC-303429,
+    team=Data-Platform,severity=Low,status=OPEN,tags=[Partner Integrations,LATENCY],
+    owner=krystina_gusikowski44,
+    opened=2024-05-02 06:28:16,
+    note:  requires partner communication,impact 1690 sessions
+},
+{
+    id=INC-314809,
+    team=Commerce Ops,severity=High,status=CLOSED,tags=[INTG,timed out,api-error],
+    owner=dasia_wilkinson,
+    opened=2024-08-24 16:24:59,
+    note: escalated via pager,impact 4409 sessions
+},
+{
+    id=INC-214868,
+    team=commerce,severity=High,status=CLOSED,tags=[data-quality,infra,invoice issue,infra],
+    owner=zack85,
+    opened=2024-05-18 18:24:19,
+    note:mitigated by automated rollback,impact 1441 sessions
+},
+{
+    id=INC-952295,
+    team=sre,severity=Low,status=CLOSED,tags=[integration-failure,response lag,Deployment,auth-error],
+    owner=jewel50,
+    opened=2024-04-10 10:42:15,
+    note: escalated via pager,impact 2821 sessions
+},
+{
+    id=INC-138240,
+    team=payments,severity=Low,status=CLOSED,tags=[Latency,Partner Integrations],
+    owner=leonor_hermiston56,
+    opened=2024-05-22 12:45:34,
+    note:  requires partner communication,impact 4212 sessions
+},
+{
+    id=INC-700902,
+    team=CommerceIT,severity=High,status=REOPENED,tags=[response lag,ApiError,INTG,INTG],
+    owner=jody_kozey,
+    opened=2024-07-05 00:58:57,
+    note:mitigated by automated rollback,impact 379 sessions
+},
+{
+    id=INC-127436,
+    team=sre,severity=Medium,status=MONITORING,tags=[Deployment,api err,Integration,Integration],
+    owner=flavio_lesch,
+    opened=2024-07-30 15:54:13,
+    note:mitigated by automated rollback,impact 4552 sessions
+},
+{
+    id=INC-569724,
+    team=Payments Squad,severity=Critical,status=CLOSED,tags=[BILLING,Timeout],
+    owner=cordia7,
+    opened=2024-09-23 12:04:00,
+    note:  validated against observability dashboard,impact 1244 sessions
+},
+{
+    id=INC-444780,
+    team=DataPlatform,severity=Critical,status=REOPENED,tags=[DataQuality,api-error,integration issue],
+    owner=lisette.welch77,
+    opened=2024-10-04 10:31:42,
+    note: requires partner communication,impact 4671 sessions
+},
+{
+    id=INC-421162,
+    team=Data Platform,severity=High,status=OPEN,tags=[Infrastructure issue,deploy,api-error],
+    owner=damion_mayert35,
+    opened=2024-05-01 18:14:16,
+    note:  mitigated by automated rollback,impact 3308 sessions
+},
+{
+    id=INC-777902,
+    team=Gateway,severity=High,status=CLOSED,tags=[Latency,auth-error,BILLING],
+    owner=jazmin_ferry,
+    opened=2024-08-24 00:27:18,
+    note:  follow-up action pending RCA,impact 2601 sessions
+},
+{
+    id=INC-121235,
+    team=Retail-IT,severity=Critical,status=REOPENED,tags=[AUTH,api-error,slow-response],
+    owner=cordell.jacobson,
+    opened=2024-04-22 11:51:42,
+    note: escalated via pager,impact 2072 sessions
+},
+{
+    id=INC-999240,
+    team=ML Ops,severity=Critical,status=CLOSED,tags=[integration-failure,Billing,Auth failure],
+    owner=madge_johnson14,
+    opened=2024-04-18 16:13:13,
+    note: follow-up action pending RCA,impact 4584 sessions
+},
+{
+    id=INC-313990,
+    team=Commerce Ops,severity=Medium,status=CLOSED,tags=[integration issue,quality issue,Release],
+    owner=wilford.brown10,
+    opened=2024-05-28 23:42:39,
+    note: requires partner communication,impact 1501 sessions
+},
+{
+    id=INC-704263,
+    team=Payments Squad,severity=Low,status=REOPENED,tags=[LATENCY,INFRASTRUCTURE,Authentication,api failure],
+    owner=ernie99,
+    opened=2024-07-11 19:32:50,
+    note:  triaged during daily standup,impact 51 sessions
+},
+{
+    id=INC-736271,
+    team=ML Enablement,severity=Low,status=CLOSED,tags=[API Error,quality issue,TIMEOUT,infra-fault],
+    owner=keenan_nikolaus42,
+    opened=2024-06-08 10:56:04,
+    note:  triaged during daily standup,impact 4982 sessions
+},
+{
+    id=INC-978969,
+    team=ml-enablement,severity=Low,status=CLOSED,tags=[sign-in issue,DataQuality,BILLING,sign-in issue],
+    owner=marcella.zboncak9,
+    opened=2024-06-26 01:23:20,
+    note:escalated via pager,impact 4511 sessions
+},
+{
+    id=INC-839365,
+    team=Data-Platform,severity=High,status=CLOSED,tags=[slow response,bad data,timed out],
+    owner=morgan_klein55,
+    opened=2024-08-24 12:15:38,
+    note:  validated against observability dashboard,impact 3673 sessions
+},
+{
+    id=INC-205270,
+    team=Gateway,severity=Medium,status=OPEN,tags=[release-task,AUTH],
+    owner=eulah.champlin,
+    opened=2024-03-23 01:49:41,
+    note:follow-up action pending RCA,impact 2587 sessions
+},
+{
+    id=INC-224731,
+    team=sre,severity=Low,status=MONITORING,tags=[LATENCY,request timeout],
+    owner=ransom_hauck10,
+    opened=2024-09-26 19:10:49,
+    note: triaged during daily standup,impact 4012 sessions
+},
+{
+    id=INC-900789,
+    team=Payments,severity=Critical,status=CLOSED,tags=[integration-failure,auth-error],
+    owner=jackson85,
+    opened=2024-07-03 02:43:32,
+    note:  escalated via pager,impact 3220 sessions
+},
+{
+    id=INC-618953,
+    team=sre,severity=Low,status=OPEN,tags=[Infrastructure issue,request timeout,Auth failure,Infrastructure issue],
+    owner=carolina_buckridge67,
+    opened=2024-01-12 04:39:10,
+    note:  triaged during daily standup,impact 1295 sessions
+},
+{
+    id=INC-403171,
+    team=ml-enablement,severity=Low,status=OPEN,tags=[infra-fault,Auth failure,api err],
+    owner=antwan.weimann,
+    opened=2024-10-03 04:16:16,
+    note:mitigated by automated rollback,impact 1620 sessions
+},
+{
+    id=INC-719992,
+    team=DataPlatform,severity=Low,status=OPEN,tags=[Partner Integrations,timed out,timed out],
+    owner=dina.haley33,
+    opened=2024-10-24 12:18:43,
+    note: validated against observability dashboard,impact 1447 sessions
+},
+{
+    id=INC-611003,
+    team=data platform,severity=High,status=CLOSED,tags=[bad data,request timeout,infra-fault,request timeout],
+    owner=nayeli.schneider,
+    opened=2024-09-09 10:32:56,
+    note:  requires partner communication,impact 3610 sessions
+},
+{
+    id=INC-656458,
+    team=commerce,severity=Critical,status=CLOSED,tags=[bad data,request timeout],
+    owner=lilliana10,
+    opened=2024-04-02 19:56:45,
+    note:validated against observability dashboard,impact 105 sessions
+},
+{
+    id=INC-328887,
+    team=sre,severity=High,status=CLOSED,tags=[LATENCY,BILLING,api-error],
+    owner=vilma2,
+    opened=2024-08-18 21:45:26,
+    note:requires partner communication,impact 714 sessions
+},
+{
+    id=INC-460902,
+    team=Platform (Data),severity=High,status=MONITORING,tags=[integration-failure,BILLING,deploy ment],
+    owner=daisy.olson,
+    opened=2024-01-14 05:32:54,
+    note:requires partner communication,impact 1223 sessions
+},
+{
+    id=INC-908005,
+    team=ML Enablement,severity=Critical,status=CLOSED,tags=[invoice issue,Infrastructure issue],
+    owner=miracle_torphy-blick,
+    opened=2024-02-16 06:07:05,
+    note:escalated via pager,impact 3317 sessions
+},
+{
+    id=INC-438722,
+    team=Payments Squad,severity=Low,status=CLOSED,tags=[sign-in issue,slow response,integration-failure,INFRASTRUCTURE],
+    owner=winifred15,
+    opened=2024-03-01 04:07:50,
+    note:  validated against observability dashboard,impact 4548 sessions
+},
+{
+    id=INC-586835,
+    team=sre,severity=Low,status=OPEN,tags=[Release,data-quality,data-quality],
+    owner=jamal_koelpin,
+    opened=2024-07-28 16:03:01,
+    note: validated against observability dashboard,impact 3039 sessions
+},
+{
+    id=INC-236754,
+    team=sre,severity=High,status=MONITORING,tags=[response lag,DataQuality],
+    owner=gene.mann,
+    opened=2024-09-08 06:15:07,
+    note:  escalated via pager,impact 4442 sessions
+},
+{
+    id=INC-385474,
+    team=Payments,severity=Low,status=CLOSED,tags=[billing dispute,sign-in issue],
+    owner=eda.douglas,
+    opened=2024-04-24 07:24:07,
+    note:  escalated via pager,impact 657 sessions
+},
+{
+    id=INC-352693,
+    team=ML Enablement,severity=Critical,status=CLOSED,tags=[Deployment,api failure,Infrastructure],
+    owner=fleta.feeney4,
+    opened=2024-03-25 18:20:38,
+    note:follow-up action pending RCA,impact 3499 sessions
+},
+{
+    id=INC-305697,
+    team=ml-enablement,severity=High,status=REOPENED,tags=[auth-error,integration-failure,BILLING],
+    owner=jabari.jakubowski,
+    opened=2024-04-05 13:09:22,
+    note:validated against observability dashboard,impact 1394 sessions
+},
+{
+    id=INC-377755,
+    team=sre,severity=High,status=CLOSED,tags=[Authentication,request timeout,infra,Latency],
+    owner=marilie64,
+    opened=2024-03-10 00:57:24,
+    note:  mitigated by automated rollback,impact 1144 sessions
+},
+{
+    id=INC-972811,
+    team=sre,severity=High,status=CLOSED,tags=[integration-failure,Data Quality],
+    owner=darion_kling59,
+    opened=2024-06-19 01:39:20,
+    note:  requires partner communication,impact 2909 sessions
+},
+{
+    id=INC-994734,
+    team=ML Enablement,severity=Medium,status=OPEN,tags=[auth-error,ApiError],
+    owner=sam_little23,
+    opened=2024-06-21 19:45:36,
+    note:requires partner communication,impact 2214 sessions
+},
+{
+    id=INC-746303,
+    team=Platform (Data),severity=High,status=REOPENED,tags=[Deployment,Timeout],
+    owner=madyson3,
+    opened=2024-03-12 09:03:12,
+    note:validated against observability dashboard,impact 891 sessions
+},
+{
+    id=INC-150192,
+    team=Commerce,severity=High,status=REOPENED,tags=[Partner Integrations,time out],
+    owner=zita94,
+    opened=2024-09-23 22:56:18,
+    note:  validated against observability dashboard,impact 3210 sessions
+},
+{
+    id=INC-484582,
+    team=MachineLearning,severity=Medium,status=MONITORING,tags=[Authentication,quality issue,infra,infra],
+    owner=toney_pollich,
+    opened=2024-05-30 09:48:04,
+    note: requires partner communication,impact 4446 sessions
+},
+{
+    id=INC-789279,
+    team=Commerce,severity=Low,status=OPEN,tags=[Integration,AUTH,Billing],
+    owner=edna.fadel-turner,
+    opened=2024-02-28 18:12:55,
+    note: mitigated by automated rollback,impact 1794 sessions
+},
+{
+    id=INC-435001,
+    team=ML Enablement,severity=Critical,status=OPEN,tags=[TIMEOUT,auth-error],
+    owner=jacques94,
+    opened=2024-02-03 08:24:21,
+    note: validated against observability dashboard,impact 270 sessions
+},
+{
+    id=INC-558069,
+    team=Commerce,severity=High,status=CLOSED,tags=[billing dispute,LATENCY,INFRASTRUCTURE],
+    owner=nicklaus14,
+    opened=2024-09-14 21:15:31,
+    note:  validated against observability dashboard,impact 2599 sessions
+},
+{
+    id=INC-327778,
+    team=Payments Squad,severity=High,status=OPEN,tags=[bad data,api failure,request timeout],
+    owner=freeman_lesch1,
+    opened=2024-07-23 18:29:50,
+    note:  triaged during daily standup,impact 4636 sessions
+},
+{
+    id=INC-481426,
+    team=ml-enablement,severity=High,status=OPEN,tags=[request timeout,LATENCY,LATENCY],
+    owner=maribel.raynor20,
+    opened=2024-02-14 11:03:52,
+    note:  escalated via pager,impact 1765 sessions
+},
+{
+    id=INC-852778,
+    team=sre,severity=Low,status=CLOSED,tags=[api failure,Auth failure,deploy,bad data,bad data],
+    owner=samantha.kihn45,
+    opened=2024-10-12 00:53:54,
+    note: follow-up action pending RCA,impact 2482 sessions
+},
+{
+    id=INC-939219,
+    team=Data-Platform,severity=Medium,status=MONITORING,tags=[integration-failure,deploy ment,slow-response,timed out],
+    owner=trinity.zulauf7,
+    opened=2024-03-05 00:16:10,
+    note:requires partner communication,impact 1408 sessions
+},
+{
+    id=INC-646022,
+    team=Gateway,severity=Low,status=OPEN,tags=[infra-fault,billing-error],
+    owner=laurie.schamberger15,
+    opened=2024-07-01 18:26:23,
+    note:triaged during daily standup,impact 4514 sessions
+},
+{
+    id=INC-971578,
+    team=payments,severity=High,status=OPEN,tags=[api-error,AUTH],
+    owner=sister18,
+    opened=2024-06-22 02:17:08,
+    note:  validated against observability dashboard,impact 3991 sessions
+},
+{
+    id=INC-241586,
+    team=sre,severity=Low,status=OPEN,tags=[DataQuality,invoice issue],
+    owner=micheal.stracke,
+    opened=2024-04-05 22:49:27,
+    note:escalated via pager,impact 3019 sessions
+},
+{
+    id=INC-887293,
+    team=ML Enablement,severity=High,status=CLOSED,tags=[slow-response,timed out,quality issue,Integration],
+    owner=theodore28,
+    opened=2024-05-22 16:19:34,
+    note:follow-up action pending RCA,impact 337 sessions
+},
+{
+    id=INC-354289,
+    team=Data Platform,severity=Critical,status=MONITORING,tags=[Integration,Timeout],
+    owner=jude14,
+    opened=2024-09-17 19:51:03,
+    note: requires partner communication,impact 2629 sessions
+},
+{
+    id=INC-992868,
+    team=MachineLearning,severity=Low,status=REOPENED,tags=[time out,API Error,Integration,Integration],
+    owner=brooke58,
+    opened=2024-02-22 01:29:09,
+    note:triaged during daily standup,impact 2810 sessions
+},
+{
+    id=INC-315186,
+    team=commerce,severity=Medium,status=REOPENED,tags=[release-task,billing dispute,INFRASTRUCTURE],
+    owner=chesley.klein,
+    opened=2024-08-26 01:33:44,
+    note:triaged during daily standup,impact 2207 sessions
+},
+{
+    id=INC-504097,
+    team=Retail-IT,severity=Critical,status=MONITORING,tags=[INFRASTRUCTURE,Timeout,Deployment],
+    owner=jeanne8,
+    opened=2024-05-31 13:42:58,
+    note:escalated via pager,impact 2157 sessions
+},
+{
+    id=INC-213807,
+    team=ml-enablement,severity=Low,status=MONITORING,tags=[infra-fault,Billing,bad data],
+    owner=esteban39,
+    opened=2024-10-12 21:27:31,
+    note:  mitigated by automated rollback,impact 781 sessions
+},
+{
+    id=INC-917530,
+    team=Platform (Data),severity=Low,status=REOPENED,tags=[billing-error,TIMEOUT,integration-failure],
+    owner=meggie70,
+    opened=2024-10-03 07:26:24,
+    note:  mitigated by automated rollback,impact 3735 sessions
+},
+{
+    id=INC-612464,
+    team=Retail-IT,severity=High,status=MONITORING,tags=[API Error,Data Quality,response lag],
+    owner=sunny.brown93,
+    opened=2024-04-18 07:05:46,
+    note:  mitigated by automated rollback,impact 726 sessions
+},
+{
+    id=INC-384420,
+    team=Platform (Data),severity=Critical,status=REOPENED,tags=[time out,DataQuality,api-error],
+    owner=waldo.jacobson,
+    opened=2024-07-13 13:22:01,
+    note:mitigated by automated rollback,impact 2739 sessions
+},
+{
+    id=INC-367905,
+    team=sre,severity=Medium,status=REOPENED,tags=[Deployment,data-quality],
+    owner=vergie.hartmann,
+    opened=2024-06-11 02:56:18,
+    note:validated against observability dashboard,impact 1041 sessions
+},
+{
+    id=INC-914407,
+    team=data platform,severity=High,status=REOPENED,tags=[ApiError,Integration,DataQuality,DataQuality],
+    owner=randy_boehm-mcclure76,
+    opened=2024-08-14 02:54:02,
+    note:  triaged during daily standup,impact 1184 sessions
+},
+{
+    id=INC-486319,
+    team=sre,severity=Critical,status=REOPENED,tags=[Deployment,infra,api failure,Authentication],
+    owner=gussie55,
+    opened=2024-02-02 07:10:01,
+    note:  validated against observability dashboard,impact 2220 sessions
+},
+{
+    id=INC-844655,
+    team=Commerce Ops,severity=Medium,status=MONITORING,tags=[Data Quality,BILLING,deploy,AUTH],
+    owner=rico.muller,
+    opened=2024-10-29 13:46:09,
+    note:validated against observability dashboard,impact 4457 sessions
+},
+{
+    id=INC-783940,
+    team=Data Platform,severity=Medium,status=CLOSED,tags=[billing-error,api err,time out],
+    owner=catalina.towne,
+    opened=2024-03-27 14:31:57,
+    note:requires partner communication,impact 2346 sessions
+},
+{
+    id=INC-132633,
+    team=Payments,severity=High,status=OPEN,tags=[infra,bad data],
+    owner=lambert.hilpert,
+    opened=2024-10-03 01:50:18,
+    note: follow-up action pending RCA,impact 4622 sessions
+},
+{
+    id=INC-125107,
+    team=Data Platform,severity=Medium,status=MONITORING,tags=[Latency,Billing,timed out,timed out],
+    owner=magali.windler,
+    opened=2024-07-24 12:09:33,
+    note:  escalated via pager,impact 3303 sessions
+},
+{
+    id=INC-301282,
+    team=Commerce Ops,severity=Critical,status=MONITORING,tags=[LATENCY,invoice issue],
+    owner=ruben.kreiger63,
+    opened=2024-06-08 05:56:38,
+    note: validated against observability dashboard,impact 2228 sessions
+},
+{
+    id=INC-119463,
+    team=ML Enablement,severity=Medium,status=REOPENED,tags=[AUTH,timed out,slow-response,slow-response],
+    owner=solon.metz,
+    opened=2024-04-14 00:50:54,
+    note:escalated via pager,impact 1985 sessions
+},
+{
+    id=INC-510666,
+    team=payments,severity=Medium,status=MONITORING,tags=[INTG,Deployment,INTG],
+    owner=charlene91,
+    opened=2024-08-17 16:42:24,
+    note:  escalated via pager,impact 4046 sessions
+},
+{
+    id=INC-660027,
+    team=Payments-OPS,severity=Low,status=MONITORING,tags=[auth-error,slow-response],
+    owner=karen.konopelski51,
+    opened=2024-08-06 09:21:53,
+    note:  triaged during daily standup,impact 2946 sessions
+},
+{
+    id=INC-529417,
+    team=ML Enablement,severity=Critical,status=OPEN,tags=[api-error,slow response,billing-error,slow response],
+    owner=rafael.mosciski,
+    opened=2024-09-06 06:24:47,
+    note: escalated via pager,impact 2716 sessions
+},
+{
+    id=INC-676410,
+    team=payments,severity=High,status=MONITORING,tags=[deploy ment,invoice issue,api err,deploy ment],
+    owner=maximilian18,
+    opened=2024-03-23 13:07:53,
+    note:triaged during daily standup,impact 2383 sessions
+},
+{
+    id=INC-566101,
+    team=CommerceIT,severity=Medium,status=OPEN,tags=[DataQuality,api failure,AUTH],
+    owner=jaeden.kihn,
+    opened=2024-10-08 17:35:17,
+    note:  escalated via pager,impact 1078 sessions
+},
+{
+    id=INC-550609,
+    team=DataPlatform,severity=Low,status=REOPENED,tags=[api failure,Release,Release],
+    owner=alf.larson,
+    opened=2024-01-11 05:10:17,
+    note:  triaged during daily standup,impact 1101 sessions
+},
+{
+    id=INC-773250,
+    team=Data-Platform,severity=High,status=CLOSED,tags=[slow response,infra-fault,deploy,integration-failure,deploy],
+    owner=courtney_fay,
+    opened=2024-04-08 13:34:19,
+    note: requires partner communication,impact 4720 sessions
+},
+{
+    id=INC-310353,
+    team=ML Enablement,severity=Low,status=OPEN,tags=[infra,Partner Integrations,api err],
+    owner=salvador.konopelski,
+    opened=2024-02-15 23:55:17,
+    note:escalated via pager,impact 1851 sessions
+},
+{
+    id=INC-444109,
+    team=commerce,severity=High,status=CLOSED,tags=[BILLING,release-task,LATENCY],
+    owner=haylee93,
+    opened=2024-09-04 06:47:34,
+    note:escalated via pager,impact 4252 sessions
+},
+{
+    id=INC-133210,
+    team=Payments-OPS,severity=Low,status=CLOSED,tags=[Partner Integrations,INFRASTRUCTURE],
+    owner=jude1,
+    opened=2024-01-23 00:30:51,
+    note:  requires partner communication,impact 2916 sessions
+},
+{
+    id=INC-523636,
+    team=Commerce,severity=Medium,status=MONITORING,tags=[slow response,infra-fault,api err],
+    owner=mark14,
+    opened=2024-05-15 01:40:57,
+    note:requires partner communication,impact 4446 sessions
+},
+{
+    id=INC-827127,
+    team=sre,severity=High,status=REOPENED,tags=[billing-error,request timeout,DataQuality],
+    owner=shany.rice,
+    opened=2024-03-08 17:08:02,
+    note:escalated via pager,impact 614 sessions
+},
+{
+    id=INC-220643,
+    team=Payments-OPS,severity=Critical,status=CLOSED,tags=[billing-error,sign-in issue,data-quality,billing-error],
+    owner=mafalda.gerhold,
+    opened=2024-01-07 06:17:00,
+    note:triaged during daily standup,impact 3819 sessions
+},
+{
+    id=INC-545857,
+    team=Retail-IT,severity=Medium,status=MONITORING,tags=[AUTH,data-quality,Infrastructure issue,api-error],
+    owner=domenica34,
+    opened=2024-03-03 08:44:59,
+    note:  follow-up action pending RCA,impact 4746 sessions
+},
+{
+    id=INC-691357,
+    team=MachineLearning,severity=High,status=OPEN,tags=[api-error,request timeout,Authentication,Release,api-error],
+    owner=grover32,
+    opened=2024-08-06 16:56:28,
+    note: requires partner communication,impact 1904 sessions
+},
+{
+    id=INC-646891,
+    team=CommerceIT,severity=Critical,status=CLOSED,tags=[TIMEOUT,deploy ment,response lag],
+    owner=alivia.rippin18,
+    opened=2024-09-12 18:14:34,
+    note:  escalated via pager,impact 2552 sessions
+},
+{
+    id=INC-525273,
+    team=Platform (Data),severity=Low,status=CLOSED,tags=[TIMEOUT,slow response,Authentication],
+    owner=zachary.brown37,
+    opened=2024-06-12 12:14:09,
+    note:  validated against observability dashboard,impact 4993 sessions
+},
+{
+    id=INC-559790,
+    team=Data Platform,severity=Critical,status=CLOSED,tags=[time out,bad data,slow-response],
+    owner=bennett60,
+    opened=2024-01-24 19:45:54,
+    note: triaged during daily standup,impact 484 sessions
+},
+{
+    id=INC-700037,
+    team=Commerce,severity=Critical,status=OPEN,tags=[api err,TIMEOUT,infra],
+    owner=marcelle79,
+    opened=2024-10-01 16:43:56,
+    note:validated against observability dashboard,impact 1957 sessions
+},
+{
+    id=INC-879625,
+    team=Commerce Ops,severity=Medium,status=CLOSED,tags=[Auth failure,TIMEOUT,quality issue],
+    owner=raul.mclaughlin82,
+    opened=2024-04-29 12:48:13,
+    note:  mitigated by automated rollback,impact 3751 sessions
+},
+{
+    id=INC-814576,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[deploy,DataQuality],
+    owner=jovani.murazik55,
+    opened=2024-10-29 10:03:07,
+    note:  requires partner communication,impact 2448 sessions
+},
+{
+    id=INC-803637,
+    team=Commerce,severity=High,status=CLOSED,tags=[Infrastructure issue,response lag,time out],
+    owner=laury.nikolaus47,
+    opened=2024-01-21 07:39:44,
+    note:  follow-up action pending RCA,impact 1585 sessions
+},
+{
+    id=INC-321379,
+    team=Gateway,severity=Medium,status=CLOSED,tags=[bad data,api-error],
+    owner=kieran55,
+    opened=2024-04-10 02:56:08,
+    note:  escalated via pager,impact 1863 sessions
+},
+{
+    id=INC-993543,
+    team=payments,severity=Medium,status=REOPENED,tags=[DataQuality,Authentication,Authentication],
+    owner=lacey_quigley30,
+    opened=2024-07-27 11:03:23,
+    note:requires partner communication,impact 2578 sessions
+},
+{
+    id=INC-602732,
+    team=sre,severity=High,status=CLOSED,tags=[request timeout,release-task,billing dispute,release-task],
+    owner=peggie94,
+    opened=2024-08-07 17:18:48,
+    note:  mitigated by automated rollback,impact 436 sessions
+},
+{
+    id=INC-111633,
+    team=Payments,severity=Critical,status=MONITORING,tags=[Billing,AUTH,time out],
+    owner=earnest_bashirian,
+    opened=2024-08-05 07:41:24,
+    note:follow-up action pending RCA,impact 501 sessions
+},
+{
+    id=INC-889890,
+    team=ML Ops,severity=High,status=MONITORING,tags=[integration-failure,Billing,sign-in issue],
+    owner=loy96,
+    opened=2024-02-15 14:16:56,
+    note: triaged during daily standup,impact 1863 sessions
+},
+{
+    id=INC-215434,
+    team=payments,severity=Medium,status=CLOSED,tags=[data-quality,sign-in issue],
+    owner=nyah_cartwright,
+    opened=2024-01-09 20:30:20,
+    note:  mitigated by automated rollback,impact 4657 sessions
+},
+{
+    id=INC-939892,
+    team=ML Ops,severity=Medium,status=CLOSED,tags=[LATENCY,deploy ment,sign-in issue,deploy ment],
+    owner=berenice_mante,
+    opened=2024-09-06 00:15:18,
+    note: mitigated by automated rollback,impact 2434 sessions
+},
+{
+    id=INC-492993,
+    team=MachineLearning,severity=High,status=CLOSED,tags=[billing dispute,infra-fault,billing dispute],
+    owner=raegan21,
+    opened=2024-05-19 18:58:42,
+    note:  triaged during daily standup,impact 4296 sessions
+},
+{
+    id=INC-186927,
+    team=MachineLearning,severity=High,status=REOPENED,tags=[timed out,INFRASTRUCTURE,billing dispute,timed out],
+    owner=maryse_hand74,
+    opened=2024-08-08 22:45:07,
+    note: mitigated by automated rollback,impact 2374 sessions
+},
+{
+    id=INC-548457,
+    team=sre,severity=High,status=OPEN,tags=[billing dispute,sign-in issue,api err],
+    owner=levi85,
+    opened=2024-03-15 17:59:17,
+    note:  requires partner communication,impact 1689 sessions
+},
+{
+    id=INC-427276,
+    team=sre,severity=Low,status=OPEN,tags=[slow response,Integration,Authentication],
+    owner=alivia.ziemann,
+    opened=2024-05-11 02:19:37,
+    note:requires partner communication,impact 4791 sessions
+},
+{
+    id=INC-882395,
+    team=Payments Squad,severity=Medium,status=CLOSED,tags=[TIMEOUT,Release,BILLING],
+    owner=angela_shanahan,
+    opened=2024-03-09 15:15:56,
+    note:escalated via pager,impact 810 sessions
+},
+{
+    id=INC-725025,
+    team=payments,severity=Low,status=CLOSED,tags=[LATENCY,deploy ment],
+    owner=gayle55,
+    opened=2024-02-20 02:57:12,
+    note: mitigated by automated rollback,impact 225 sessions
+},
+{
+    id=INC-218274,
+    team=payments,severity=Low,status=CLOSED,tags=[Release,invoice issue],
+    owner=era_larson13,
+    opened=2024-07-04 12:50:30,
+    note: requires partner communication,impact 1614 sessions
+},
+{
+    id=INC-529141,
+    team=sre,severity=Low,status=CLOSED,tags=[Timeout,ApiError,Integration],
+    owner=constance36,
+    opened=2024-04-08 14:23:29,
+    note: escalated via pager,impact 3941 sessions
+},
+{
+    id=INC-454157,
+    team=sre,severity=Medium,status=MONITORING,tags=[AUTH,slow response,release-task],
+    owner=devyn21,
+    opened=2024-04-01 14:01:35,
+    note:requires partner communication,impact 2187 sessions
+},
+{
+    id=INC-889102,
+    team=ML Ops,severity=Critical,status=CLOSED,tags=[billing dispute,Latency,Release,billing dispute],
+    owner=grace23,
+    opened=2024-07-26 03:59:39,
+    note:  follow-up action pending RCA,impact 3764 sessions
+},
+{
+    id=INC-329934,
+    team=data platform,severity=Critical,status=MONITORING,tags=[timed out,slow response,api-error],
+    owner=abigail86,
+    opened=2024-01-18 16:43:39,
+    note:  escalated via pager,impact 4872 sessions
+},
+{
+    id=INC-312964,
+    team=sre,severity=Low,status=REOPENED,tags=[Billing,Integration,LATENCY],
+    owner=myah.boehm27,
+    opened=2024-06-09 18:56:37,
+    note:  mitigated by automated rollback,impact 4241 sessions
+},
+{
+    id=INC-696950,
+    team=Payments Squad,severity=Medium,status=OPEN,tags=[api-error,bad data],
+    owner=jalen_runolfsdottir28,
+    opened=2024-05-20 18:50:16,
+    note:follow-up action pending RCA,impact 4770 sessions
+},
+{
+    id=INC-929429,
+    team=sre,severity=High,status=MONITORING,tags=[Deployment,Integration],
+    owner=breana.hansen,
+    opened=2024-02-18 11:09:14,
+    note: triaged during daily standup,impact 905 sessions
+},
+{
+    id=INC-196863,
+    team=MachineLearning,severity=Medium,status=OPEN,tags=[AUTH,release-task,Infrastructure],
+    owner=hanna.parisian56,
+    opened=2024-06-29 21:49:57,
+    note:requires partner communication,impact 2993 sessions
+},
+{
+    id=INC-255146,
+    team=sre,severity=Low,status=REOPENED,tags=[deploy,Auth failure,request timeout],
+    owner=scarlett.nikolaus9,
+    opened=2024-07-12 04:38:46,
+    note:triaged during daily standup,impact 3861 sessions
+},
+{
+    id=INC-385943,
+    team=ml-enablement,severity=High,status=OPEN,tags=[deploy,api err,api err],
+    owner=leon96,
+    opened=2024-03-15 18:35:24,
+    note:requires partner communication,impact 4790 sessions
+},
+{
+    id=INC-650372,
+    team=ML Ops,severity=Low,status=REOPENED,tags=[Integration,slow response,slow response],
+    owner=kody.graham6,
+    opened=2024-04-08 18:19:33,
+    note:  mitigated by automated rollback,impact 691 sessions
+},
+{
+    id=INC-404412,
+    team=Gateway,severity=Critical,status=CLOSED,tags=[deploy ment,Latency,Authentication,Infrastructure issue],
+    owner=sonny_renner,
+    opened=2024-07-28 05:09:45,
+    note:requires partner communication,impact 3267 sessions
+},
+{
+    id=INC-413177,
+    team=ml-enablement,severity=Critical,status=MONITORING,tags=[request timeout,Auth failure,request timeout],
+    owner=daphney24,
+    opened=2024-05-18 16:33:10,
+    note:escalated via pager,impact 2638 sessions
+},
+{
+    id=INC-866625,
+    team=Commerce,severity=Medium,status=REOPENED,tags=[Partner Integrations,invoice issue,TIMEOUT],
+    owner=cleo_jones93,
+    opened=2024-10-23 03:17:07,
+    note:  triaged during daily standup,impact 3783 sessions
+},
+{
+    id=INC-173291,
+    team=CommerceIT,severity=Medium,status=MONITORING,tags=[Timeout,integration issue,Data Quality],
+    owner=idell_greenfelder,
+    opened=2024-07-03 01:18:23,
+    note: follow-up action pending RCA,impact 2441 sessions
+},
+{
+    id=INC-543314,
+    team=Data Platform,severity=High,status=MONITORING,tags=[response lag,bad data,Integration,bad data],
+    owner=carmine.kshlerin99,
+    opened=2024-10-28 12:33:48,
+    note:  follow-up action pending RCA,impact 2754 sessions
+},
+{
+    id=INC-140608,
+    team=Commerce,severity=Low,status=REOPENED,tags=[deploy,DataQuality],
+    owner=torey.bailey82,
+    opened=2024-07-20 11:25:07,
+    note: follow-up action pending RCA,impact 2182 sessions
+},
+{
+    id=INC-837672,
+    team=Data Platform,severity=Low,status=CLOSED,tags=[request timeout,sign-in issue,INFRASTRUCTURE],
+    owner=marlee_weber,
+    opened=2024-03-14 04:06:11,
+    note:mitigated by automated rollback,impact 2694 sessions
+},
+{
+    id=INC-424654,
+    team=ML Enablement,severity=Low,status=OPEN,tags=[deploy,request timeout,request timeout],
+    owner=sigurd.conn27,
+    opened=2024-10-11 15:16:52,
+    note: escalated via pager,impact 881 sessions
+},
+{
+    id=INC-522781,
+    team=Commerce Ops,severity=Low,status=OPEN,tags=[slow-response,Infrastructure issue,Data Quality],
+    owner=brendon_christiansen72,
+    opened=2024-01-01 11:34:16,
+    note:  escalated via pager,impact 649 sessions
+},
+{
+    id=INC-630898,
+    team=Payments,severity=Critical,status=MONITORING,tags=[slow response,Authentication,Integration],
+    owner=alvera.rice,
+    opened=2024-10-30 17:50:14,
+    note: follow-up action pending RCA,impact 2313 sessions
+},
+{
+    id=INC-683478,
+    team=Site Reliability,severity=High,status=CLOSED,tags=[auth-error,infra,TIMEOUT],
+    owner=chanelle.bernhard-franecki5,
+    opened=2024-07-25 23:10:55,
+    note: requires partner communication,impact 3516 sessions
+},
+{
+    id=INC-237219,
+    team=Data-Platform,severity=High,status=OPEN,tags=[sign-in issue,Infrastructure,API Error,Integration],
+    owner=aurore.durgan-klocko57,
+    opened=2024-07-10 00:11:13,
+    note:  validated against observability dashboard,impact 844 sessions
+},
+{
+    id=INC-325008,
+    team=Payments-OPS,severity=Critical,status=REOPENED,tags=[Auth failure,time out,ApiError,Release],
+    owner=maxie.rutherford,
+    opened=2024-09-12 12:35:20,
+    note:requires partner communication,impact 294 sessions
+},
+{
+    id=INC-205825,
+    team=sre,severity=Critical,status=OPEN,tags=[time out,quality issue],
+    owner=jessica69,
+    opened=2024-05-11 21:31:52,
+    note:  escalated via pager,impact 2197 sessions
+},
+{
+    id=INC-327420,
+    team=ML Enablement,severity=Critical,status=REOPENED,tags=[time out,auth-error,deploy],
+    owner=yadira_bergnaum,
+    opened=2024-02-27 10:49:47,
+    note:escalated via pager,impact 4223 sessions
+},
+{
+    id=INC-212532,
+    team=sre,severity=Low,status=CLOSED,tags=[Billing,data-quality,integration-failure],
+    owner=hayley61,
+    opened=2024-01-21 19:23:31,
+    note: triaged during daily standup,impact 235 sessions
+},
+{
+    id=INC-475170,
+    team=ML Enablement,severity=Critical,status=OPEN,tags=[Integration,TIMEOUT,api failure],
+    owner=nat.bailey19,
+    opened=2024-05-24 09:25:55,
+    note: mitigated by automated rollback,impact 2965 sessions
+},
+{
+    id=INC-733701,
+    team=data platform,severity=Low,status=OPEN,tags=[AUTH,ApiError,INFRASTRUCTURE],
+    owner=marcus98,
+    opened=2024-10-10 10:59:00,
+    note:escalated via pager,impact 4136 sessions
+},
+{
+    id=INC-599081,
+    team=Data Platform,severity=Medium,status=MONITORING,tags=[response lag,BILLING],
+    owner=pete58,
+    opened=2024-06-03 04:46:24,
+    note:  follow-up action pending RCA,impact 4278 sessions
+},
+{
+    id=INC-861671,
+    team=Data-Platform,severity=High,status=OPEN,tags=[sign-in issue,Partner Integrations,BILLING,Partner Integrations],
+    owner=floy_ankunding,
+    opened=2024-05-23 06:43:51,
+    note:follow-up action pending RCA,impact 445 sessions
+},
+{
+    id=INC-367721,
+    team=Retail-IT,severity=Critical,status=MONITORING,tags=[deploy ment,Data Quality],
+    owner=rylee.schaefer,
+    opened=2024-06-16 11:32:43,
+    note: escalated via pager,impact 954 sessions
+},
+{
+    id=INC-811100,
+    team=MachineLearning,severity=Medium,status=REOPENED,tags=[Deployment,API Error,quality issue],
+    owner=alivia29,
+    opened=2024-06-29 19:12:26,
+    note:escalated via pager,impact 528 sessions
+},
+{
+    id=INC-630902,
+    team=Data-Platform,severity=Low,status=OPEN,tags=[Latency,infra-fault,release-task,release-task],
+    owner=jonatan.rau71,
+    opened=2024-05-23 05:24:50,
+    note: requires partner communication,impact 1286 sessions
+},
+{
+    id=INC-887700,
+    team=Data Platform,severity=High,status=MONITORING,tags=[data-quality,Billing,release-task,api-error],
+    owner=freida_davis,
+    opened=2024-07-06 16:26:33,
+    note:escalated via pager,impact 1366 sessions
+},
+{
+    id=INC-497450,
+    team=sre,severity=Critical,status=CLOSED,tags=[Latency,invoice issue,time out,invoice issue],
+    owner=beulah34,
+    opened=2024-10-31 09:41:38,
+    note:  mitigated by automated rollback,impact 4872 sessions
+},
+{
+    id=INC-650051,
+    team=payments,severity=Low,status=REOPENED,tags=[Data Quality,deploy ment,Integration],
+    owner=roxane.cummerata43,
+    opened=2024-01-20 15:34:16,
+    note: escalated via pager,impact 1507 sessions
+},
+{
+    id=INC-341753,
+    team=Commerce,severity=Low,status=CLOSED,tags=[time out,Integration],
+    owner=toy63,
+    opened=2024-07-23 23:51:32,
+    note:validated against observability dashboard,impact 1687 sessions
+},
+{
+    id=INC-361321,
+    team=Data Platform,severity=Medium,status=CLOSED,tags=[Data Quality,Latency,INFRASTRUCTURE,Integration,INFRASTRUCTURE],
+    owner=savanna_kuvalis13,
+    opened=2024-04-19 09:25:32,
+    note:triaged during daily standup,impact 4852 sessions
+},
+{
+    id=INC-851350,
+    team=Gateway,severity=Low,status=OPEN,tags=[billing dispute,slow-response,integration-failure],
+    owner=ray31,
+    opened=2024-02-18 04:05:15,
+    note:  triaged during daily standup,impact 2154 sessions
+},
+{
+    id=INC-659078,
+    team=Data-Platform,severity=High,status=CLOSED,tags=[billing-error,ApiError,quality issue,timed out,billing-error],
+    owner=avery6,
+    opened=2024-02-07 11:20:30,
+    note: validated against observability dashboard,impact 4251 sessions
+},
+{
+    id=INC-510121,
+    team=payments,severity=Low,status=CLOSED,tags=[data-quality,timed out],
+    owner=marc36,
+    opened=2024-07-29 03:54:09,
+    note:  triaged during daily standup,impact 4295 sessions
+},
+{
+    id=INC-111277,
+    team=sre,severity=Critical,status=CLOSED,tags=[DataQuality,Authentication,Deployment,LATENCY],
+    owner=ramona.hartmann35,
+    opened=2024-04-21 06:40:05,
+    note: requires partner communication,impact 2788 sessions
+},
+{
+    id=INC-117083,
+    team=ML Ops,severity=Low,status=REOPENED,tags=[Data Quality,api-error,deploy],
+    owner=kaden.swaniawski5,
+    opened=2024-05-24 21:37:21,
+    note: requires partner communication,impact 3638 sessions
+},
+{
+    id=INC-176842,
+    team=ml-enablement,severity=Low,status=REOPENED,tags=[integration-failure,slow response],
+    owner=florida_pfannerstill,
+    opened=2024-05-18 07:16:14,
+    note: follow-up action pending RCA,impact 3052 sessions
+},
+{
+    id=INC-369136,
+    team=DataPlatform,severity=High,status=OPEN,tags=[timed out,release-task,Latency,auth-error,auth-error],
+    owner=else.wunsch,
+    opened=2024-09-07 08:42:22,
+    note:escalated via pager,impact 3464 sessions
+},
+{
+    id=INC-403796,
+    team=MachineLearning,severity=High,status=OPEN,tags=[Billing,INFRASTRUCTURE,auth-error],
+    owner=mazie.considine76,
+    opened=2024-07-28 13:56:13,
+    note: mitigated by automated rollback,impact 1316 sessions
+},
+{
+    id=INC-447202,
+    team=Data-Platform,severity=High,status=MONITORING,tags=[Timeout,billing-error,Data Quality],
+    owner=cecil55,
+    opened=2024-05-04 04:45:11,
+    note:  escalated via pager,impact 3899 sessions
+},
+{
+    id=INC-210107,
+    team=MachineLearning,severity=Critical,status=REOPENED,tags=[slow-response,TIMEOUT,Data Quality],
+    owner=rashawn86,
+    opened=2024-02-29 16:51:25,
+    note:triaged during daily standup,impact 3429 sessions
+},
+{
+    id=INC-274876,
+    team=sre,severity=Medium,status=CLOSED,tags=[slow response,sign-in issue,Partner Integrations,request timeout],
+    owner=lorine18,
+    opened=2024-06-28 08:00:10,
+    note: requires partner communication,impact 1403 sessions
+},
+{
+    id=INC-732011,
+    team=CommerceIT,severity=Medium,status=OPEN,tags=[API Error,Authentication,Deployment],
+    owner=mara.casper,
+    opened=2024-01-11 17:03:06,
+    note:escalated via pager,impact 638 sessions
+},
+{
+    id=INC-409463,
+    team=sre,severity=Critical,status=OPEN,tags=[Billing,quality issue,LATENCY,Release],
+    owner=earl.emard76,
+    opened=2024-01-17 02:21:11,
+    note: follow-up action pending RCA,impact 2926 sessions
+},
+{
+    id=INC-955381,
+    team=Payments,severity=Low,status=MONITORING,tags=[API Error,billing-error],
+    owner=dayna_dubuque,
+    opened=2024-04-14 05:51:30,
+    note: requires partner communication,impact 3446 sessions
+},
+{
+    id=INC-528791,
+    team=sre,severity=High,status=MONITORING,tags=[release-task,Timeout],
+    owner=cassandra_stiedemann,
+    opened=2024-04-04 07:53:01,
+    note:escalated via pager,impact 1746 sessions
+},
+{
+    id=INC-208925,
+    team=MachineLearning,severity=Critical,status=OPEN,tags=[Auth failure,API Error,BILLING],
+    owner=eve_schmeler41,
+    opened=2024-03-13 22:22:17,
+    note:  validated against observability dashboard,impact 4283 sessions
+},
+{
+    id=INC-999227,
+    team=MachineLearning,severity=Medium,status=MONITORING,tags=[integration-failure,deploy ment],
+    owner=lisa.schneider32,
+    opened=2024-04-23 22:37:02,
+    note:  validated against observability dashboard,impact 3031 sessions
+},
+{
+    id=INC-752338,
+    team=sre,severity=Low,status=CLOSED,tags=[auth-error,api-error,INTG,Latency,auth-error],
+    owner=gerda99,
+    opened=2024-02-10 19:25:38,
+    note:validated against observability dashboard,impact 668 sessions
+},
+{
+    id=INC-110374,
+    team=ML Enablement,severity=Low,status=CLOSED,tags=[api failure,Latency,sign-in issue],
+    owner=osbaldo31,
+    opened=2024-03-14 08:22:20,
+    note: escalated via pager,impact 4186 sessions
+},
+{
+    id=INC-611084,
+    team=payments,severity=High,status=OPEN,tags=[time out,LATENCY],
+    owner=neha_zieme,
+    opened=2024-10-05 16:34:54,
+    note: mitigated by automated rollback,impact 4693 sessions
+},
+{
+    id=INC-398975,
+    team=sre,severity=Critical,status=CLOSED,tags=[TIMEOUT,LATENCY,api failure,quality issue],
+    owner=bailey.wiza,
+    opened=2024-05-11 13:19:13,
+    note:validated against observability dashboard,impact 686 sessions
+},
+{
+    id=INC-256119,
+    team=Payments,severity=Critical,status=REOPENED,tags=[sign-in issue,api err,api err],
+    owner=eleazar_lakin,
+    opened=2024-05-15 03:23:35,
+    note:validated against observability dashboard,impact 4448 sessions
+},
+{
+    id=INC-438213,
+    team=DataPlatform,severity=Medium,status=OPEN,tags=[Data Quality,timed out,Data Quality],
+    owner=fredrick.denesik,
+    opened=2024-09-18 13:21:35,
+    note:  requires partner communication,impact 3891 sessions
+},
+{
+    id=INC-438248,
+    team=Payments,severity=Medium,status=MONITORING,tags=[response lag,sign-in issue,sign-in issue],
+    owner=elise.ondricka,
+    opened=2024-09-28 14:58:28,
+    note:  triaged during daily standup,impact 2234 sessions
+},
+{
+    id=INC-663507,
+    team=ML Enablement,severity=Medium,status=MONITORING,tags=[Data Quality,time out],
+    owner=isabell28,
+    opened=2024-04-24 01:43:00,
+    note: follow-up action pending RCA,impact 3538 sessions
+},
+{
+    id=INC-398961,
+    team=Data-Platform,severity=Low,status=OPEN,tags=[BILLING,Partner Integrations,deploy,Latency],
+    owner=toney.bartoletti7,
+    opened=2024-07-08 17:03:55,
+    note: requires partner communication,impact 4404 sessions
+},
+{
+    id=INC-452073,
+    team=Retail-IT,severity=Medium,status=OPEN,tags=[BILLING,api err],
+    owner=riley19,
+    opened=2024-04-15 01:08:26,
+    note:  escalated via pager,impact 2385 sessions
+},
+{
+    id=INC-851710,
+    team=ML Enablement,severity=Medium,status=OPEN,tags=[time out,infra-fault,api-error,time out],
+    owner=dante_goodwin,
+    opened=2024-08-08 15:21:20,
+    note:  escalated via pager,impact 3569 sessions
+},
+{
+    id=INC-428938,
+    team=sre,severity=Low,status=CLOSED,tags=[Deployment,Data Quality,infra-fault],
+    owner=anissa51,
+    opened=2024-01-09 15:42:51,
+    note:triaged during daily standup,impact 4071 sessions
+},
+{
+    id=INC-945935,
+    team=data platform,severity=High,status=CLOSED,tags=[api err,billing dispute,infra],
+    owner=toney_kutch,
+    opened=2024-01-01 09:42:29,
+    note:  requires partner communication,impact 4062 sessions
+},
+{
+    id=INC-791877,
+    team=Gateway,severity=Low,status=MONITORING,tags=[data-quality,auth-error],
+    owner=janae_kunde,
+    opened=2024-02-23 21:21:55,
+    note: mitigated by automated rollback,impact 342 sessions
+},
+{
+    id=INC-157820,
+    team=Commerce Ops,severity=Critical,status=CLOSED,tags=[data-quality,Billing],
+    owner=reagan_adams34,
+    opened=2024-01-28 20:58:43,
+    note:  mitigated by automated rollback,impact 3683 sessions
+},
+{
+    id=INC-719959,
+    team=Payments,severity=Low,status=MONITORING,tags=[Auth failure,integration issue],
+    owner=akeem_dicki31,
+    opened=2024-09-10 21:46:38,
+    note:follow-up action pending RCA,impact 4949 sessions
+},
+{
+    id=INC-692230,
+    team=ml-enablement,severity=Medium,status=CLOSED,tags=[Infrastructure,BILLING,AUTH],
+    owner=litzy16,
+    opened=2024-07-26 15:17:31,
+    note:  follow-up action pending RCA,impact 3577 sessions
+},
+{
+    id=INC-352103,
+    team=Commerce,severity=Critical,status=REOPENED,tags=[release-task,Billing,INFRASTRUCTURE],
+    owner=meta_cremin,
+    opened=2024-07-26 21:27:14,
+    note:validated against observability dashboard,impact 873 sessions
+},
+{
+    id=INC-563176,
+    team=payments,severity=Low,status=CLOSED,tags=[infra-fault,integration-failure,integration-failure],
+    owner=desiree_armstrong,
+    opened=2024-05-20 21:33:35,
+    note:  follow-up action pending RCA,impact 2843 sessions
+},
+{
+    id=INC-907182,
+    team=Commerce,severity=Critical,status=MONITORING,tags=[DataQuality,BILLING,slow response],
+    owner=merle.brakus97,
+    opened=2024-06-21 07:45:46,
+    note:triaged during daily standup,impact 1484 sessions
+},
+{
+    id=INC-466600,
+    team=MachineLearning,severity=Critical,status=OPEN,tags=[Release,time out],
+    owner=arlene_pacocha,
+    opened=2024-06-08 14:15:58,
+    note: validated against observability dashboard,impact 1152 sessions
+},
+{
+    id=INC-244927,
+    team=data platform,severity=Medium,status=CLOSED,tags=[deploy ment,api-error,billing dispute],
+    owner=earnest39,
+    opened=2024-04-22 15:06:26,
+    note:  follow-up action pending RCA,impact 2128 sessions
+},
+{
+    id=INC-211927,
+    team=payments,severity=High,status=REOPENED,tags=[integration issue,billing-error],
+    owner=laron89,
+    opened=2024-01-18 07:56:11,
+    note: validated against observability dashboard,impact 3258 sessions
+},
+{
+    id=INC-283597,
+    team=Gateway,severity=Medium,status=OPEN,tags=[request timeout,Latency,ApiError],
+    owner=samson.steuber,
+    opened=2024-04-25 15:37:45,
+    note:escalated via pager,impact 2286 sessions
+},
+{
+    id=INC-509599,
+    team=MachineLearning,severity=High,status=MONITORING,tags=[DataQuality,slow-response,integration issue,integration issue],
+    owner=alverta21,
+    opened=2024-10-31 18:20:28,
+    note:triaged during daily standup,impact 1932 sessions
+},
+{
+    id=INC-195489,
+    team=ML Enablement,severity=High,status=REOPENED,tags=[Data Quality,infra],
+    owner=erwin_stamm33,
+    opened=2024-07-10 06:58:59,
+    note:requires partner communication,impact 3176 sessions
+},
+{
+    id=INC-375968,
+    team=Gateway,severity=Low,status=CLOSED,tags=[BILLING,Authentication],
+    owner=dave.mraz,
+    opened=2024-03-08 12:30:11,
+    note:  validated against observability dashboard,impact 3304 sessions
+},
+{
+    id=INC-236045,
+    team=sre,severity=High,status=OPEN,tags=[Data Quality,auth-error],
+    owner=weston.erdman10,
+    opened=2024-07-27 22:11:42,
+    note: escalated via pager,impact 3979 sessions
+},
+{
+    id=INC-328488,
+    team=commerce,severity=Critical,status=MONITORING,tags=[slow-response,Timeout],
+    owner=noelia.schultz93,
+    opened=2024-05-28 19:33:29,
+    note:  requires partner communication,impact 3465 sessions
+},
+{
+    id=INC-798520,
+    team=ML Ops,severity=Low,status=MONITORING,tags=[Latency,TIMEOUT],
+    owner=jake12,
+    opened=2024-06-15 15:00:13,
+    note: escalated via pager,impact 4554 sessions
+},
+{
+    id=INC-348299,
+    team=payments,severity=Critical,status=CLOSED,tags=[slow-response,invoice issue,slow-response],
+    owner=evelyn_haley,
+    opened=2024-09-15 08:27:04,
+    note: mitigated by automated rollback,impact 1528 sessions
+},
+{
+    id=INC-550938,
+    team=sre,severity=Low,status=REOPENED,tags=[Latency,Integration,Integration],
+    owner=matilda_witting25,
+    opened=2024-09-19 22:06:32,
+    note:triaged during daily standup,impact 3187 sessions
+},
+{
+    id=INC-769628,
+    team=ML Enablement,severity=High,status=MONITORING,tags=[deploy ment,Auth failure,quality issue],
+    owner=anjali84,
+    opened=2024-06-10 11:05:32,
+    note:escalated via pager,impact 1247 sessions
+},
+{
+    id=INC-515822,
+    team=Gateway,severity=Critical,status=CLOSED,tags=[ApiError,AUTH],
+    owner=jarvis7,
+    opened=2024-02-06 11:44:00,
+    note: mitigated by automated rollback,impact 1586 sessions
+},
+{
+    id=INC-586048,
+    team=ML Ops,severity=Critical,status=MONITORING,tags=[billing dispute,TIMEOUT],
+    owner=michaela_stracke,
+    opened=2024-09-21 10:46:25,
+    note:  validated against observability dashboard,impact 2182 sessions
+},
+{
+    id=INC-415506,
+    team=Payments Squad,severity=Low,status=CLOSED,tags=[ApiError,request timeout],
+    owner=skylar_feil,
+    opened=2024-08-11 20:42:03,
+    note:follow-up action pending RCA,impact 3500 sessions
+},
+{
+    id=INC-686674,
+    team=data platform,severity=Low,status=MONITORING,tags=[Release,quality issue,Timeout,INTG,Timeout],
+    owner=khalid.hamill,
+    opened=2024-02-02 12:08:01,
+    note:follow-up action pending RCA,impact 4756 sessions
+},
+{
+    id=INC-366814,
+    team=ML Enablement,severity=Critical,status=MONITORING,tags=[AUTH,release-task,API Error,release-task],
+    owner=maude_sipes28,
+    opened=2024-04-27 19:11:01,
+    note:follow-up action pending RCA,impact 983 sessions
+},
+{
+    id=INC-307658,
+    team=Platform (Data),severity=Critical,status=CLOSED,tags=[quality issue,api failure,api failure],
+    owner=brionna_yost43,
+    opened=2024-02-11 06:46:51,
+    note:  mitigated by automated rollback,impact 2194 sessions
+},
+{
+    id=INC-225071,
+    team=sre,severity=High,status=OPEN,tags=[INTG,request timeout],
+    owner=esther_green57,
+    opened=2024-01-11 14:00:59,
+    note: validated against observability dashboard,impact 4878 sessions
+},
+{
+    id=INC-562611,
+    team=payments,severity=Low,status=OPEN,tags=[INFRASTRUCTURE,time out,sign-in issue],
+    owner=andreanne_windler,
+    opened=2024-01-27 05:46:47,
+    note: escalated via pager,impact 4014 sessions
+},
+{
+    id=INC-206347,
+    team=sre,severity=High,status=CLOSED,tags=[integration-failure,API Error,Deployment],
+    owner=amara55,
+    opened=2024-02-27 17:27:41,
+    note:mitigated by automated rollback,impact 2209 sessions
+},
+{
+    id=INC-951354,
+    team=Platform (Data),severity=High,status=CLOSED,tags=[billing-error,INFRASTRUCTURE,INFRASTRUCTURE],
+    owner=rosalyn.jaskolski,
+    opened=2024-04-30 05:12:07,
+    note:mitigated by automated rollback,impact 364 sessions
+},
+{
+    id=INC-870583,
+    team=ML Enablement,severity=Low,status=REOPENED,tags=[request timeout,api failure,Deployment],
+    owner=jack_kiehn-schoen,
+    opened=2024-10-23 01:57:26,
+    note:  validated against observability dashboard,impact 219 sessions
+},
+{
+    id=INC-658777,
+    team=sre,severity=High,status=CLOSED,tags=[infra,time out,ApiError,ApiError],
+    owner=charlene.bailey23,
+    opened=2024-03-30 15:23:03,
+    note: requires partner communication,impact 3188 sessions
+},
+{
+    id=INC-806167,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[sign-in issue,request timeout,LATENCY],
+    owner=pearlie.green90,
+    opened=2024-10-23 21:22:10,
+    note:  requires partner communication,impact 1091 sessions
+},
+{
+    id=INC-334410,
+    team=Payments Squad,severity=High,status=MONITORING,tags=[DataQuality,INFRASTRUCTURE,sign-in issue],
+    owner=nicole_hauck,
+    opened=2024-02-09 10:01:20,
+    note: follow-up action pending RCA,impact 3131 sessions
+},
+{
+    id=INC-264156,
+    team=DataPlatform,severity=High,status=MONITORING,tags=[ApiError,Infrastructure],
+    owner=ezekiel87,
+    opened=2024-05-13 14:44:26,
+    note: mitigated by automated rollback,impact 4463 sessions
+},
+{
+    id=INC-339415,
+    team=DataPlatform,severity=Low,status=MONITORING,tags=[billing-error,api err],
+    owner=payton_larkin78,
+    opened=2024-10-02 01:41:10,
+    note: triaged during daily standup,impact 2901 sessions
+},
+{
+    id=INC-807669,
+    team=CommerceIT,severity=Low,status=OPEN,tags=[Data Quality,infra,response lag,infra],
+    owner=wilfrid97,
+    opened=2024-06-07 21:28:14,
+    note: follow-up action pending RCA,impact 1096 sessions
+},
+{
+    id=INC-758985,
+    team=sre,severity=Medium,status=MONITORING,tags=[Infrastructure,Partner Integrations,Partner Integrations],
+    owner=reyna69,
+    opened=2024-10-18 15:06:39,
+    note:  triaged during daily standup,impact 940 sessions
+},
+{
+    id=INC-223830,
+    team=Data Platform,severity=Medium,status=MONITORING,tags=[api failure,request timeout,deploy,Integration],
+    owner=maymie_kreiger59,
+    opened=2024-01-31 05:16:05,
+    note:validated against observability dashboard,impact 4132 sessions
+},
+{
+    id=INC-946354,
+    team=Gateway,severity=Critical,status=OPEN,tags=[sign-in issue,infra-fault,Integration],
+    owner=herminia_okuneva79,
+    opened=2024-07-31 01:06:18,
+    note: validated against observability dashboard,impact 2456 sessions
+},
+{
+    id=INC-963895,
+    team=DataPlatform,severity=Medium,status=CLOSED,tags=[Infrastructure issue,sign-in issue,quality issue],
+    owner=rosario.price-miller,
+    opened=2024-09-22 23:54:14,
+    note: escalated via pager,impact 779 sessions
+},
+{
+    id=INC-269281,
+    team=payments,severity=Low,status=REOPENED,tags=[integration-failure,BILLING],
+    owner=antone73,
+    opened=2024-03-21 01:40:20,
+    note:triaged during daily standup,impact 516 sessions
+},
+{
+    id=INC-516623,
+    team=MachineLearning,severity=Medium,status=MONITORING,tags=[api err,quality issue,Billing],
+    owner=victoria_medhurst17,
+    opened=2024-10-29 17:06:13,
+    note: triaged during daily standup,impact 2228 sessions
+},
+{
+    id=INC-139501,
+    team=data platform,severity=Critical,status=OPEN,tags=[request timeout,Authentication,Partner Integrations],
+    owner=mariana45,
+    opened=2024-04-12 08:57:11,
+    note: triaged during daily standup,impact 705 sessions
+},
+{
+    id=INC-791219,
+    team=ML Enablement,severity=Low,status=REOPENED,tags=[Billing,Release,data-quality,slow response],
+    owner=clare_bauch-mraz,
+    opened=2024-08-11 06:43:37,
+    note:  mitigated by automated rollback,impact 2722 sessions
+},
+{
+    id=INC-755471,
+    team=Gateway,severity=Medium,status=CLOSED,tags=[slow response,billing dispute,data-quality,Timeout],
+    owner=darron_hickle,
+    opened=2024-07-20 22:34:12,
+    note:escalated via pager,impact 4149 sessions
+},
+{
+    id=INC-249206,
+    team=Retail-IT,severity=Medium,status=MONITORING,tags=[api failure,timed out,response lag,api failure],
+    owner=sheridan28,
+    opened=2024-01-19 02:44:43,
+    note:  validated against observability dashboard,impact 4083 sessions
+},
+{
+    id=INC-237069,
+    team=Payments-OPS,severity=High,status=CLOSED,tags=[timed out,api-error,deploy ment,timed out],
+    owner=ahmad_hilpert,
+    opened=2024-10-26 01:47:06,
+    note: escalated via pager,impact 4723 sessions
+},
+{
+    id=INC-376844,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[api failure,Infrastructure,BILLING,Release,Infrastructure],
+    owner=jamey86,
+    opened=2024-01-04 08:08:53,
+    note:validated against observability dashboard,impact 4548 sessions
+},
+{
+    id=INC-116317,
+    team=Payments Squad,severity=Low,status=REOPENED,tags=[Latency,API Error],
+    owner=hiram53,
+    opened=2024-08-12 18:07:43,
+    note:follow-up action pending RCA,impact 2965 sessions
+},
+{
+    id=INC-967088,
+    team=payments,severity=Medium,status=REOPENED,tags=[integration-failure,infra],
+    owner=daija.gerlach29,
+    opened=2024-10-04 07:03:29,
+    note: requires partner communication,impact 1567 sessions
+},
+{
+    id=INC-669335,
+    team=Payments-OPS,severity=High,status=MONITORING,tags=[BILLING,deploy ment,Partner Integrations],
+    owner=osvaldo.waelchi,
+    opened=2024-05-10 01:53:19,
+    note: follow-up action pending RCA,impact 764 sessions
+},
+{
+    id=INC-904185,
+    team=ML Enablement,severity=Critical,status=OPEN,tags=[DataQuality,infra-fault,sign-in issue],
+    owner=nils_nitzsche,
+    opened=2024-10-13 07:22:00,
+    note:  triaged during daily standup,impact 390 sessions
+},
+{
+    id=INC-666493,
+    team=ml-enablement,severity=Low,status=MONITORING,tags=[Deployment,timed out,invoice issue,sign-in issue],
+    owner=norris.parisian11,
+    opened=2024-04-26 17:24:27,
+    note: requires partner communication,impact 2634 sessions
+},
+{
+    id=INC-279565,
+    team=sre,severity=Critical,status=MONITORING,tags=[Authentication,BILLING,response lag],
+    owner=shawn.schulist,
+    opened=2024-08-08 00:53:04,
+    note:  requires partner communication,impact 1030 sessions
+},
+{
+    id=INC-713420,
+    team=Commerce,severity=High,status=REOPENED,tags=[INTG,billing dispute,Timeout],
+    owner=edythe34,
+    opened=2024-04-25 00:09:44,
+    note:requires partner communication,impact 3469 sessions
+},
+{
+    id=INC-388635,
+    team=payments,severity=Critical,status=CLOSED,tags=[ApiError,response lag,DataQuality],
+    owner=dedrick.grady43,
+    opened=2024-08-21 05:22:02,
+    note: mitigated by automated rollback,impact 1793 sessions
+},
+{
+    id=INC-523184,
+    team=Site Reliability,severity=Critical,status=CLOSED,tags=[INFRASTRUCTURE,billing dispute],
+    owner=krystina6,
+    opened=2024-07-09 15:32:05,
+    note: triaged during daily standup,impact 1245 sessions
+},
+{
+    id=INC-663556,
+    team=sre,severity=Low,status=REOPENED,tags=[infra-fault,Timeout],
+    owner=zachery.ritchie30,
+    opened=2024-07-05 04:01:37,
+    note:  escalated via pager,impact 4377 sessions
+},
+{
+    id=INC-153594,
+    team=Payments Squad,severity=Low,status=REOPENED,tags=[deploy ment,API Error,integration issue,API Error],
+    owner=melyna_lind,
+    opened=2024-02-10 21:03:17,
+    note:  escalated via pager,impact 1068 sessions
+},
+{
+    id=INC-959490,
+    team=Retail-IT,severity=Medium,status=MONITORING,tags=[Latency,infra-fault],
+    owner=daren36,
+    opened=2024-08-15 11:20:01,
+    note:requires partner communication,impact 1233 sessions
+},
+{
+    id=INC-558632,
+    team=commerce,severity=Medium,status=MONITORING,tags=[api failure,Latency,Infrastructure,quality issue],
+    owner=reyes75,
+    opened=2024-03-04 13:18:01,
+    note: requires partner communication,impact 4264 sessions
+},
+{
+    id=INC-723594,
+    team=sre,severity=Low,status=CLOSED,tags=[bad data,integration-failure,billing dispute],
+    owner=wiley_kris45,
+    opened=2024-09-11 22:01:41,
+    note:mitigated by automated rollback,impact 3794 sessions
+},
+{
+    id=INC-389855,
+    team=MachineLearning,severity=Medium,status=CLOSED,tags=[Deployment,slow response],
+    owner=jedidiah93,
+    opened=2024-03-12 12:07:42,
+    note:  follow-up action pending RCA,impact 2457 sessions
+},
+{
+    id=INC-850747,
+    team=data platform,severity=Medium,status=CLOSED,tags=[deploy ment,Auth failure],
+    owner=kenya_kovacek90,
+    opened=2024-06-03 09:48:45,
+    note:follow-up action pending RCA,impact 4738 sessions
+},
+{
+    id=INC-285553,
+    team=Gateway,severity=Critical,status=REOPENED,tags=[auth-error,integration issue,bad data],
+    owner=arvid35,
+    opened=2024-05-10 05:55:49,
+    note:requires partner communication,impact 2035 sessions
+},
+{
+    id=INC-502341,
+    team=sre,severity=High,status=CLOSED,tags=[Deployment,data-quality,billing-error],
+    owner=eleanore.schoen74,
+    opened=2024-02-07 10:12:17,
+    note:  escalated via pager,impact 746 sessions
+},
+{
+    id=INC-923626,
+    team=ML Enablement,severity=High,status=OPEN,tags=[deploy ment,bad data,Infrastructure issue],
+    owner=winnifred77,
+    opened=2024-07-15 01:36:02,
+    note: mitigated by automated rollback,impact 2366 sessions
+},
+{
+    id=INC-693096,
+    team=Site Reliability,severity=Low,status=MONITORING,tags=[Latency,Integration,deploy,timed out],
+    owner=maximilian6,
+    opened=2024-02-09 06:02:31,
+    note:  follow-up action pending RCA,impact 705 sessions
+},
+{
+    id=INC-712419,
+    team=ML Enablement,severity=Low,status=REOPENED,tags=[integration-failure,Billing,auth-error,Billing],
+    owner=kiana.labadie91,
+    opened=2024-06-29 07:42:08,
+    note:validated against observability dashboard,impact 1599 sessions
+},
+{
+    id=INC-504495,
+    team=sre,severity=Low,status=MONITORING,tags=[quality issue,Latency],
+    owner=rudolph.volkman74,
+    opened=2024-09-28 09:06:34,
+    note:  triaged during daily standup,impact 3604 sessions
+},
+{
+    id=INC-368453,
+    team=commerce,severity=High,status=CLOSED,tags=[Release,Partner Integrations],
+    owner=frankie44,
+    opened=2024-06-21 15:06:41,
+    note: follow-up action pending RCA,impact 439 sessions
+},
+{
+    id=INC-134555,
+    team=Data-Platform,severity=High,status=CLOSED,tags=[INFRASTRUCTURE,bad data,timed out],
+    owner=ariane2,
+    opened=2024-09-05 05:19:29,
+    note:  follow-up action pending RCA,impact 1834 sessions
+},
+{
+    id=INC-951833,
+    team=MachineLearning,severity=High,status=CLOSED,tags=[slow response,Infrastructure,time out],
+    owner=hulda55,
+    opened=2024-03-29 23:14:02,
+    note:  follow-up action pending RCA,impact 2120 sessions
+},
+{
+    id=INC-100696,
+    team=Site Reliability,severity=Critical,status=REOPENED,tags=[slow response,Timeout,release-task,AUTH],
+    owner=ward.paucek,
+    opened=2024-03-22 06:33:50,
+    note:mitigated by automated rollback,impact 986 sessions
+},
+{
+    id=INC-754036,
+    team=CommerceIT,severity=High,status=OPEN,tags=[api err,Integration,billing-error,api err],
+    owner=vladimir_tillman,
+    opened=2024-10-01 07:08:06,
+    note: escalated via pager,impact 2280 sessions
+},
+{
+    id=INC-195506,
+    team=Payments,severity=Critical,status=REOPENED,tags=[invoice issue,AUTH,integration-failure],
+    owner=lyda.harris83,
+    opened=2024-02-06 07:18:49,
+    note: requires partner communication,impact 3864 sessions
+},
+{
+    id=INC-759255,
+    team=Data Platform,severity=Critical,status=OPEN,tags=[slow response,infra-fault],
+    owner=anne_swaniawski18,
+    opened=2024-04-16 20:14:45,
+    note:  triaged during daily standup,impact 1385 sessions
+},
+{
+    id=INC-453574,
+    team=MachineLearning,severity=Medium,status=MONITORING,tags=[Data Quality,timed out],
+    owner=andreane_kertzmann16,
+    opened=2024-10-08 09:28:06,
+    note:  validated against observability dashboard,impact 3853 sessions
+},
+{
+    id=INC-781544,
+    team=Platform (Data),severity=Critical,status=CLOSED,tags=[billing dispute,quality issue],
+    owner=willis54,
+    opened=2024-04-22 20:51:44,
+    note:  escalated via pager,impact 779 sessions
+},
+{
+    id=INC-859993,
+    team=Data Platform,severity=High,status=CLOSED,tags=[AUTH,slow response,DataQuality,integration-failure],
+    owner=vincent88,
+    opened=2024-01-30 15:12:52,
+    note:  mitigated by automated rollback,impact 1511 sessions
+},
+{
+    id=INC-879777,
+    team=sre,severity=Low,status=MONITORING,tags=[Release,auth-error,quality issue,timed out],
+    owner=saige43,
+    opened=2024-02-06 16:34:15,
+    note: mitigated by automated rollback,impact 3490 sessions
+},
+{
+    id=INC-909853,
+    team=sre,severity=Low,status=MONITORING,tags=[ApiError,Authentication,Latency],
+    owner=anderson_williamson,
+    opened=2024-05-22 06:15:20,
+    note:requires partner communication,impact 877 sessions
+},
+{
+    id=INC-727951,
+    team=data platform,severity=Low,status=OPEN,tags=[BILLING,INFRASTRUCTURE,Partner Integrations],
+    owner=haskell79,
+    opened=2024-05-19 23:16:19,
+    note:  mitigated by automated rollback,impact 2674 sessions
+},
+{
+    id=INC-786255,
+    team=ML Enablement,severity=Critical,status=OPEN,tags=[billing-error,time out],
+    owner=bertrand_becker,
+    opened=2024-08-17 21:27:06,
+    note:validated against observability dashboard,impact 1615 sessions
+},
+{
+    id=INC-146650,
+    team=DataPlatform,severity=Medium,status=REOPENED,tags=[Authentication,infra],
+    owner=palma.skiles41,
+    opened=2024-07-21 10:18:38,
+    note:  escalated via pager,impact 4615 sessions
+},
+{
+    id=INC-376093,
+    team=Data-Platform,severity=Medium,status=CLOSED,tags=[timed out,slow-response,infra,infra],
+    owner=arianna_gerlach-berge45,
+    opened=2024-09-24 23:00:47,
+    note:  follow-up action pending RCA,impact 3880 sessions
+},
+{
+    id=INC-308112,
+    team=data platform,severity=High,status=REOPENED,tags=[bad data,Infrastructure issue],
+    owner=nickolas.hegmann50,
+    opened=2024-01-15 06:49:52,
+    note:follow-up action pending RCA,impact 2038 sessions
+},
+{
+    id=INC-298787,
+    team=payments,severity=Medium,status=MONITORING,tags=[infra,data-quality,invoice issue],
+    owner=isabelle_wolf35,
+    opened=2024-03-29 08:03:11,
+    note:  escalated via pager,impact 3690 sessions
+},
+{
+    id=INC-173125,
+    team=Payments Squad,severity=Low,status=REOPENED,tags=[deploy ment,response lag,Infrastructure],
+    owner=ila.gleichner56,
+    opened=2024-10-06 17:31:33,
+    note: follow-up action pending RCA,impact 1673 sessions
+},
+{
+    id=INC-150302,
+    team=sre,severity=Medium,status=CLOSED,tags=[data-quality,Deployment,API Error],
+    owner=emie.frami89,
+    opened=2024-03-18 19:44:17,
+    note:follow-up action pending RCA,impact 2495 sessions
+},
+{
+    id=INC-846175,
+    team=Payments,severity=High,status=CLOSED,tags=[Deployment,response lag,integration-failure],
+    owner=deangelo_jacobson,
+    opened=2024-04-10 12:03:02,
+    note: validated against observability dashboard,impact 254 sessions
+},
+{
+    id=INC-169864,
+    team=ML Enablement,severity=High,status=REOPENED,tags=[DataQuality,release-task],
+    owner=abbie5,
+    opened=2024-10-12 20:02:54,
+    note: requires partner communication,impact 3198 sessions
+},
+{
+    id=INC-132306,
+    team=Platform (Data),severity=Critical,status=MONITORING,tags=[Data Quality,api failure],
+    owner=orville_marks,
+    opened=2024-03-05 01:04:58,
+    note:validated against observability dashboard,impact 4629 sessions
+},
+{
+    id=INC-357794,
+    team=sre,severity=Low,status=CLOSED,tags=[LATENCY,sign-in issue,Partner Integrations,Deployment],
+    owner=georgette_herman7,
+    opened=2024-10-04 18:24:20,
+    note: follow-up action pending RCA,impact 3812 sessions
+},
+{
+    id=INC-518578,
+    team=Gateway,severity=Low,status=CLOSED,tags=[Billing,Partner Integrations,Partner Integrations],
+    owner=fern95,
+    opened=2024-02-28 15:18:33,
+    note: mitigated by automated rollback,impact 1939 sessions
+},
+{
+    id=INC-294106,
+    team=CommerceIT,severity=High,status=OPEN,tags=[INFRASTRUCTURE,BILLING],
+    owner=emil14,
+    opened=2024-03-10 23:23:23,
+    note: validated against observability dashboard,impact 1143 sessions
+},
+{
+    id=INC-146314,
+    team=sre,severity=Critical,status=OPEN,tags=[slow-response,Partner Integrations],
+    owner=zakary.douglas16,
+    opened=2024-02-21 08:05:10,
+    note:  escalated via pager,impact 173 sessions
+},
+{
+    id=INC-652879,
+    team=sre,severity=High,status=CLOSED,tags=[Deployment,sign-in issue,ApiError,Deployment],
+    owner=etha54,
+    opened=2024-04-06 07:30:35,
+    note:  triaged during daily standup,impact 1359 sessions
+},
+{
+    id=INC-405589,
+    team=ML Enablement,severity=Critical,status=OPEN,tags=[time out,quality issue,api err,quality issue],
+    owner=frieda_abernathy,
+    opened=2024-04-02 15:25:39,
+    note: escalated via pager,impact 4646 sessions
+},
+{
+    id=INC-933161,
+    team=ML Enablement,severity=Critical,status=OPEN,tags=[INFRASTRUCTURE,ApiError,quality issue],
+    owner=bobby_kirlin-jacobson,
+    opened=2024-08-02 10:43:16,
+    note: validated against observability dashboard,impact 762 sessions
+},
+{
+    id=INC-291438,
+    team=Site Reliability,severity=High,status=REOPENED,tags=[api failure,integration issue],
+    owner=danny_fisher,
+    opened=2024-07-28 05:03:23,
+    note:  triaged during daily standup,impact 3024 sessions
+},
+{
+    id=INC-496261,
+    team=sre,severity=High,status=CLOSED,tags=[data-quality,LATENCY,invoice issue,Deployment,invoice issue],
+    owner=jordon.bernhard,
+    opened=2024-09-01 09:32:43,
+    note:validated against observability dashboard,impact 1948 sessions
+},
+{
+    id=INC-890408,
+    team=Payments-OPS,severity=Critical,status=CLOSED,tags=[time out,API Error,integration issue],
+    owner=elsa16,
+    opened=2024-04-28 04:59:48,
+    note:requires partner communication,impact 2887 sessions
+},
+{
+    id=INC-902844,
+    team=sre,severity=Critical,status=CLOSED,tags=[release-task,invoice issue,request timeout,invoice issue],
+    owner=collin_crooks,
+    opened=2024-01-22 15:44:54,
+    note:  triaged during daily standup,impact 3808 sessions
+},
+{
+    id=INC-935539,
+    team=ML Ops,severity=Low,status=MONITORING,tags=[TIMEOUT,Auth failure,Partner Integrations],
+    owner=jared_torp,
+    opened=2024-01-10 15:19:49,
+    note:mitigated by automated rollback,impact 117 sessions
+},
+{
+    id=INC-241858,
+    team=Payments-OPS,severity=Medium,status=CLOSED,tags=[Infrastructure issue,integration-failure],
+    owner=kari29,
+    opened=2024-01-25 07:15:33,
+    note: requires partner communication,impact 2326 sessions
+},
+{
+    id=INC-560322,
+    team=ml-enablement,severity=Low,status=MONITORING,tags=[Infrastructure,auth-error,timed out],
+    owner=jasper_lowe,
+    opened=2024-09-24 06:28:12,
+    note:  requires partner communication,impact 1610 sessions
+},
+{
+    id=INC-275250,
+    team=data platform,severity=Medium,status=OPEN,tags=[billing dispute,time out,Partner Integrations,API Error,Partner Integrations],
+    owner=katelyn_lynch51,
+    opened=2024-09-15 18:50:19,
+    note:validated against observability dashboard,impact 1499 sessions
+},
+{
+    id=INC-447882,
+    team=Data-Platform,severity=Critical,status=CLOSED,tags=[billing dispute,API Error],
+    owner=jennyfer_kulas14,
+    opened=2024-05-12 06:07:14,
+    note:requires partner communication,impact 1502 sessions
+},
+{
+    id=INC-746144,
+    team=ML Enablement,severity=Low,status=OPEN,tags=[infra,time out,LATENCY,LATENCY],
+    owner=connor87,
+    opened=2024-01-24 04:18:24,
+    note:requires partner communication,impact 1316 sessions
+},
+{
+    id=INC-572104,
+    team=Payments Squad,severity=High,status=OPEN,tags=[Infrastructure issue,BILLING,slow response],
+    owner=ralph26,
+    opened=2024-09-26 22:50:53,
+    note:  escalated via pager,impact 521 sessions
+},
+{
+    id=INC-566773,
+    team=payments,severity=Critical,status=MONITORING,tags=[timed out,Data Quality,Integration],
+    owner=eliza_waelchi,
+    opened=2024-07-26 05:28:53,
+    note:mitigated by automated rollback,impact 2263 sessions
+},
+{
+    id=INC-696215,
+    team=Commerce,severity=Medium,status=CLOSED,tags=[Partner Integrations,api err,time out],
+    owner=aimee.wolf54,
+    opened=2024-08-05 07:39:51,
+    note:  requires partner communication,impact 4275 sessions
+},
+{
+    id=INC-131795,
+    team=CommerceIT,severity=Medium,status=CLOSED,tags=[api-error,invoice issue,Release],
+    owner=cleo.kuhic60,
+    opened=2024-02-17 15:42:09,
+    note:  escalated via pager,impact 2987 sessions
+},
+{
+    id=INC-277467,
+    team=ml-enablement,severity=Critical,status=MONITORING,tags=[Integration,Auth failure],
+    owner=madison49,
+    opened=2024-01-17 04:20:32,
+    note:follow-up action pending RCA,impact 4643 sessions
+},
+{
+    id=INC-598448,
+    team=DataPlatform,severity=Low,status=CLOSED,tags=[Integration,Auth failure],
+    owner=eldora_lowe,
+    opened=2024-06-01 03:17:29,
+    note: mitigated by automated rollback,impact 2488 sessions
+},
+{
+    id=INC-771331,
+    team=Commerce Ops,severity=Low,status=MONITORING,tags=[deploy ment,INFRASTRUCTURE],
+    owner=rossie.crist74,
+    opened=2024-10-03 19:48:08,
+    note:requires partner communication,impact 3208 sessions
+},
+{
+    id=INC-393481,
+    team=sre,severity=Critical,status=OPEN,tags=[ApiError,BILLING,BILLING],
+    owner=grady63,
+    opened=2024-05-10 12:50:40,
+    note: escalated via pager,impact 324 sessions
+},
+{
+    id=INC-898209,
+    team=CommerceIT,severity=High,status=CLOSED,tags=[auth-error,request timeout,billing-error,auth-error],
+    owner=demario_parker14,
+    opened=2024-07-22 21:38:00,
+    note:  triaged during daily standup,impact 2518 sessions
+},
+{
+    id=INC-936670,
+    team=DataPlatform,severity=Low,status=CLOSED,tags=[timed out,slow response,api failure],
+    owner=jeanette.simonis54,
+    opened=2024-01-02 14:19:40,
+    note:  validated against observability dashboard,impact 4015 sessions
+},
+{
+    id=INC-803736,
+    team=Commerce Ops,severity=Medium,status=REOPENED,tags=[integration issue,request timeout,response lag],
+    owner=murphy.harvey45,
+    opened=2024-09-15 17:37:12,
+    note:  requires partner communication,impact 3821 sessions
+},
+{
+    id=INC-586341,
+    team=Platform (Data),severity=Critical,status=OPEN,tags=[TIMEOUT,Data Quality],
+    owner=elena.schultz67,
+    opened=2024-05-06 00:09:49,
+    note: escalated via pager,impact 4549 sessions
+},
+{
+    id=INC-794258,
+    team=Retail-IT,severity=Critical,status=REOPENED,tags=[Release,INFRASTRUCTURE,timed out],
+    owner=eula_kuphal,
+    opened=2024-08-06 06:31:37,
+    note:follow-up action pending RCA,impact 1781 sessions
+},
+{
+    id=INC-805849,
+    team=Site Reliability,severity=High,status=OPEN,tags=[deploy,integration-failure,Data Quality],
+    owner=roger.quigley,
+    opened=2024-07-31 11:40:21,
+    note:requires partner communication,impact 1615 sessions
+},
+{
+    id=INC-603330,
+    team=MachineLearning,severity=Critical,status=CLOSED,tags=[slow-response,API Error],
+    owner=ladarius.gutmann,
+    opened=2024-08-25 18:22:07,
+    note:requires partner communication,impact 4530 sessions
+},
+{
+    id=INC-784789,
+    team=ML Ops,severity=Low,status=OPEN,tags=[integration-failure,LATENCY,billing-error],
+    owner=caesar_bartell64,
+    opened=2024-06-15 10:30:22,
+    note:  requires partner communication,impact 3401 sessions
+},
+{
+    id=INC-540475,
+    team=Data-Platform,severity=Critical,status=OPEN,tags=[billing dispute,deploy,billing dispute],
+    owner=nelle.howell,
+    opened=2024-10-24 22:00:40,
+    note:validated against observability dashboard,impact 4781 sessions
+},
+{
+    id=INC-587380,
+    team=Payments,severity=Medium,status=CLOSED,tags=[quality issue,Infrastructure],
+    owner=nikolas15,
+    opened=2024-09-22 14:15:10,
+    note:mitigated by automated rollback,impact 1802 sessions
+},
+{
+    id=INC-564901,
+    team=ml-enablement,severity=Low,status=MONITORING,tags=[ApiError,Integration,slow-response,Timeout,ApiError],
+    owner=candida15,
+    opened=2024-09-24 07:04:49,
+    note:mitigated by automated rollback,impact 1334 sessions
+},
+{
+    id=INC-973915,
+    team=payments,severity=Medium,status=OPEN,tags=[integration-failure,api failure,Authentication],
+    owner=jalyn_wisoky60,
+    opened=2024-02-22 19:41:09,
+    note:requires partner communication,impact 440 sessions
+},
+{
+    id=INC-857181,
+    team=sre,severity=Low,status=OPEN,tags=[deploy,DataQuality,api err],
+    owner=sedrick_dicki22,
+    opened=2024-10-25 21:39:32,
+    note:triaged during daily standup,impact 2684 sessions
+},
+{
+    id=INC-149035,
+    team=Payments-OPS,severity=High,status=CLOSED,tags=[slow response,api failure,Release,slow response],
+    owner=everett_reynolds,
+    opened=2024-10-10 01:30:49,
+    note:  follow-up action pending RCA,impact 888 sessions
+},
+{
+    id=INC-964018,
+    team=ML Enablement,severity=Medium,status=CLOSED,tags=[api-error,AUTH,api-error],
+    owner=billie_dibbert,
+    opened=2024-05-31 10:30:27,
+    note:  validated against observability dashboard,impact 1835 sessions
+},
+{
+    id=INC-694053,
+    team=payments,severity=Critical,status=MONITORING,tags=[response lag,deploy],
+    owner=lauriane_dare,
+    opened=2024-09-29 05:23:39,
+    note: requires partner communication,impact 884 sessions
+},
+{
+    id=INC-988445,
+    team=payments,severity=Medium,status=MONITORING,tags=[DataQuality,BILLING,api-error],
+    owner=jordane_macgyver5,
+    opened=2024-03-10 11:38:44,
+    note:  requires partner communication,impact 706 sessions
+},
+{
+    id=INC-466568,
+    team=Retail-IT,severity=Critical,status=MONITORING,tags=[integration-failure,Authentication],
+    owner=adam39,
+    opened=2024-10-23 01:03:27,
+    note:follow-up action pending RCA,impact 3787 sessions
+},
+{
+    id=INC-434222,
+    team=Data Platform,severity=Low,status=MONITORING,tags=[slow response,AUTH,TIMEOUT],
+    owner=leone_boyer,
+    opened=2024-01-11 00:50:10,
+    note:follow-up action pending RCA,impact 3425 sessions
+},
+{
+    id=INC-780798,
+    team=MachineLearning,severity=Low,status=OPEN,tags=[INFRASTRUCTURE,Deployment,TIMEOUT,sign-in issue,TIMEOUT],
+    owner=aletha.champlin25,
+    opened=2024-09-11 19:56:25,
+    note:  escalated via pager,impact 832 sessions
+},
+{
+    id=INC-813781,
+    team=DataPlatform,severity=Critical,status=MONITORING,tags=[Timeout,infra-fault],
+    owner=carmela4,
+    opened=2024-10-12 17:15:07,
+    note:  triaged during daily standup,impact 3534 sessions
+},
+{
+    id=INC-766670,
+    team=MachineLearning,severity=Medium,status=MONITORING,tags=[Integration,timed out,BILLING],
+    owner=dino84,
+    opened=2024-07-17 21:27:07,
+    note: escalated via pager,impact 678 sessions
+},
+{
+    id=INC-123716,
+    team=Data Platform,severity=High,status=CLOSED,tags=[Infrastructure,Latency,time out,api-error],
+    owner=julie5,
+    opened=2024-08-13 20:18:59,
+    note: mitigated by automated rollback,impact 4179 sessions
+},
+{
+    id=INC-291688,
+    team=CommerceIT,severity=Critical,status=CLOSED,tags=[api-error,infra,Deployment,api-error],
+    owner=delores_murray72,
+    opened=2024-05-05 23:06:40,
+    note:validated against observability dashboard,impact 583 sessions
+},
+{
+    id=INC-167310,
+    team=Gateway,severity=Critical,status=MONITORING,tags=[Billing,Infrastructure,request timeout],
+    owner=cleveland.mills20,
+    opened=2024-10-06 11:37:29,
+    note:  follow-up action pending RCA,impact 1313 sessions
+},
+{
+    id=INC-163668,
+    team=commerce,severity=Low,status=REOPENED,tags=[Data Quality,api-error,deploy ment,Latency,deploy ment],
+    owner=lowell_hansen48,
+    opened=2024-07-12 04:27:36,
+    note:  validated against observability dashboard,impact 2125 sessions
+},
+{
+    id=INC-118862,
+    team=Platform (Data),severity=Medium,status=MONITORING,tags=[INFRASTRUCTURE,Deployment,LATENCY],
+    owner=asia21,
+    opened=2024-05-12 00:20:12,
+    note: validated against observability dashboard,impact 4025 sessions
+},
+{
+    id=INC-583042,
+    team=Payments-OPS,severity=High,status=OPEN,tags=[integration issue,Authentication,deploy ment],
+    owner=dolores.lockman20,
+    opened=2024-06-24 00:06:37,
+    note:  mitigated by automated rollback,impact 1928 sessions
+},
+{
+    id=INC-378029,
+    team=sre,severity=Critical,status=OPEN,tags=[response lag,release-task,infra],
+    owner=leatha_aufderhar,
+    opened=2024-06-09 00:09:06,
+    note:escalated via pager,impact 2533 sessions
+},
+{
+    id=INC-408359,
+    team=Platform (Data),severity=Medium,status=MONITORING,tags=[TIMEOUT,AUTH,INTG,AUTH],
+    owner=bessie_durgan,
+    opened=2024-04-04 02:52:28,
+    note:follow-up action pending RCA,impact 986 sessions
+},
+{
+    id=INC-122785,
+    team=Data Platform,severity=High,status=REOPENED,tags=[integration issue,response lag,INFRASTRUCTURE],
+    owner=joesph_green,
+    opened=2024-07-14 00:29:41,
+    note:follow-up action pending RCA,impact 4741 sessions
+},
+{
+    id=INC-626312,
+    team=ML Ops,severity=Medium,status=MONITORING,tags=[billing dispute,sign-in issue],
+    owner=clint.mosciski21,
+    opened=2024-05-17 22:15:02,
+    note:mitigated by automated rollback,impact 2613 sessions
+},
+{
+    id=INC-515169,
+    team=ML Enablement,severity=High,status=CLOSED,tags=[integration-failure,Release,api-error],
+    owner=fiona23,
+    opened=2024-04-20 22:50:52,
+    note:validated against observability dashboard,impact 721 sessions
+},
+{
+    id=INC-602983,
+    team=ML Ops,severity=Medium,status=CLOSED,tags=[timed out,Infrastructure],
+    owner=sedrick_murazik35,
+    opened=2024-07-02 14:04:41,
+    note:  mitigated by automated rollback,impact 2867 sessions
+},
+{
+    id=INC-829521,
+    team=sre,severity=Medium,status=MONITORING,tags=[infra,api failure,Billing],
+    owner=chad22,
+    opened=2024-03-22 12:42:16,
+    note:requires partner communication,impact 645 sessions
+},
+{
+    id=INC-569669,
+    team=Gateway,severity=High,status=MONITORING,tags=[infra,Billing,integration issue,Timeout,Timeout],
+    owner=abe_powlowski50,
+    opened=2024-09-21 18:35:38,
+    note:escalated via pager,impact 3894 sessions
+},
+{
+    id=INC-539895,
+    team=sre,severity=Critical,status=REOPENED,tags=[Latency,AUTH,Latency],
+    owner=marco17,
+    opened=2024-09-09 07:11:56,
+    note:escalated via pager,impact 2243 sessions
+},
+{
+    id=INC-991865,
+    team=sre,severity=Critical,status=CLOSED,tags=[Infrastructure,sign-in issue],
+    owner=francesca46,
+    opened=2024-07-02 15:22:04,
+    note: requires partner communication,impact 1329 sessions
+},
+{
+    id=INC-572211,
+    team=data platform,severity=High,status=MONITORING,tags=[time out,Deployment,integration issue],
+    owner=rosalinda.wilderman,
+    opened=2024-05-12 09:00:03,
+    note:follow-up action pending RCA,impact 3219 sessions
+},
+{
+    id=INC-800021,
+    team=MachineLearning,severity=Medium,status=OPEN,tags=[billing-error,infra-fault,Deployment],
+    owner=alison77,
+    opened=2024-06-04 21:25:12,
+    note:follow-up action pending RCA,impact 4302 sessions
+},
+{
+    id=INC-122029,
+    team=MachineLearning,severity=High,status=MONITORING,tags=[LATENCY,request timeout,AUTH,AUTH],
+    owner=waldo_trantow,
+    opened=2024-09-26 23:34:13,
+    note:validated against observability dashboard,impact 4382 sessions
+},
+{
+    id=INC-350363,
+    team=CommerceIT,severity=Critical,status=OPEN,tags=[Latency,infra,Release,Release],
+    owner=rowland87,
+    opened=2024-08-20 18:59:46,
+    note:validated against observability dashboard,impact 2265 sessions
+},
+{
+    id=INC-292725,
+    team=sre,severity=High,status=CLOSED,tags=[Deployment,API Error],
+    owner=savion35,
+    opened=2024-02-13 19:55:06,
+    note:  validated against observability dashboard,impact 1795 sessions
+},
+{
+    id=INC-304324,
+    team=commerce,severity=Low,status=REOPENED,tags=[BILLING,AUTH,quality issue,api-error],
+    owner=alysa.abbott,
+    opened=2024-04-06 15:42:23,
+    note:triaged during daily standup,impact 2414 sessions
+},
+{
+    id=INC-721051,
+    team=CommerceIT,severity=Low,status=CLOSED,tags=[Authentication,INFRASTRUCTURE],
+    owner=francisco_homenick,
+    opened=2024-03-30 05:32:06,
+    note: mitigated by automated rollback,impact 4315 sessions
+},
+{
+    id=INC-561069,
+    team=Payments-OPS,severity=Critical,status=OPEN,tags=[BILLING,bad data],
+    owner=emely18,
+    opened=2024-10-14 16:32:44,
+    note: validated against observability dashboard,impact 1769 sessions
+},
+{
+    id=INC-619255,
+    team=MachineLearning,severity=Low,status=REOPENED,tags=[request timeout,response lag,data-quality,sign-in issue],
+    owner=armando85,
+    opened=2024-06-17 06:31:57,
+    note: triaged during daily standup,impact 4769 sessions
+},
+{
+    id=INC-564040,
+    team=sre,severity=Medium,status=OPEN,tags=[timed out,sign-in issue],
+    owner=ronaldo.beatty34,
+    opened=2024-10-23 21:18:42,
+    note:  triaged during daily standup,impact 4298 sessions
+},
+{
+    id=INC-556748,
+    team=DataPlatform,severity=Critical,status=MONITORING,tags=[invoice issue,infra-fault,API Error,Timeout],
+    owner=emelie_senger57,
+    opened=2024-07-25 02:25:18,
+    note: escalated via pager,impact 3136 sessions
+},
+{
+    id=INC-125913,
+    team=sre,severity=Critical,status=CLOSED,tags=[integration issue,Release,LATENCY],
+    owner=ansley46,
+    opened=2024-09-20 11:57:59,
+    note: triaged during daily standup,impact 3556 sessions
+},
+{
+    id=INC-850297,
+    team=sre,severity=High,status=MONITORING,tags=[time out,Latency,release-task,time out],
+    owner=adelbert.fritsch,
+    opened=2024-10-02 12:21:22,
+    note: mitigated by automated rollback,impact 2323 sessions
+},
+{
+    id=INC-602088,
+    team=Data-Platform,severity=High,status=OPEN,tags=[INTG,timed out,timed out],
+    owner=barney68,
+    opened=2024-08-22 14:58:23,
+    note: mitigated by automated rollback,impact 1703 sessions
+},
+{
+    id=INC-965498,
+    team=Data Platform,severity=Critical,status=REOPENED,tags=[bad data,ApiError,integration issue],
+    owner=miguel10,
+    opened=2024-07-03 14:30:53,
+    note:  follow-up action pending RCA,impact 860 sessions
+},
+{
+    id=INC-242474,
+    team=MachineLearning,severity=High,status=OPEN,tags=[BILLING,Data Quality],
+    owner=maci_hermann69,
+    opened=2024-03-06 20:45:12,
+    note:  validated against observability dashboard,impact 1971 sessions
+},
+{
+    id=INC-685542,
+    team=MachineLearning,severity=Low,status=REOPENED,tags=[Infrastructure issue,api failure],
+    owner=breanne51,
+    opened=2024-04-19 01:51:40,
+    note:follow-up action pending RCA,impact 313 sessions
+},
+{
+    id=INC-298342,
+    team=Data-Platform,severity=High,status=OPEN,tags=[integration-failure,slow response,Authentication],
+    owner=felipe.kub,
+    opened=2024-08-05 10:52:54,
+    note: requires partner communication,impact 554 sessions
+},
+{
+    id=INC-956214,
+    team=sre,severity=Medium,status=OPEN,tags=[quality issue,BILLING],
+    owner=anita_cummerata49,
+    opened=2024-02-05 12:46:36,
+    note:triaged during daily standup,impact 4156 sessions
+},
+{
+    id=INC-291497,
+    team=Site Reliability,severity=Low,status=MONITORING,tags=[LATENCY,billing-error,sign-in issue,data-quality],
+    owner=emmy_hilpert,
+    opened=2024-09-14 09:30:34,
+    note:escalated via pager,impact 3196 sessions
+},
+{
+    id=INC-306733,
+    team=Platform (Data),severity=Low,status=OPEN,tags=[AUTH,response lag,integration issue],
+    owner=shanie.nitzsche90,
+    opened=2024-08-09 08:53:59,
+    note: mitigated by automated rollback,impact 1258 sessions
+},
+{
+    id=INC-771230,
+    team=MachineLearning,severity=High,status=MONITORING,tags=[LATENCY,sign-in issue,Data Quality,api-error],
+    owner=lexus.price-fahey,
+    opened=2024-08-17 17:27:41,
+    note:  requires partner communication,impact 2815 sessions
+},
+{
+    id=INC-596226,
+    team=Data Platform,severity=Critical,status=REOPENED,tags=[api err,billing dispute,Infrastructure],
+    owner=annie51,
+    opened=2024-05-13 14:50:42,
+    note: escalated via pager,impact 2681 sessions
+},
+{
+    id=INC-322370,
+    team=Payments,severity=Low,status=OPEN,tags=[billing-error,quality issue,Auth failure],
+    owner=mervin.schoen78,
+    opened=2024-07-15 13:03:21,
+    note:  escalated via pager,impact 2683 sessions
+},
+{
+    id=INC-301851,
+    team=Data Platform,severity=Low,status=MONITORING,tags=[timed out,response lag,ApiError],
+    owner=jamir.hills,
+    opened=2024-06-29 04:10:50,
+    note: requires partner communication,impact 4685 sessions
+},
+{
+    id=INC-180210,
+    team=Retail-IT,severity=Critical,status=MONITORING,tags=[AUTH,INTG],
+    owner=aylin15,
+    opened=2024-08-12 16:57:48,
+    note: follow-up action pending RCA,impact 1515 sessions
+},
+{
+    id=INC-678875,
+    team=ML Enablement,severity=Low,status=OPEN,tags=[Partner Integrations,Infrastructure,slow response],
+    owner=isaias_klocko58,
+    opened=2024-05-23 23:26:29,
+    note:mitigated by automated rollback,impact 3049 sessions
+},
+{
+    id=INC-502579,
+    team=Data-Platform,severity=High,status=OPEN,tags=[response lag,DataQuality,INTG],
+    owner=dave99,
+    opened=2024-06-21 03:10:19,
+    note: validated against observability dashboard,impact 1988 sessions
+},
+{
+    id=INC-977746,
+    team=ml-enablement,severity=Low,status=OPEN,tags=[AUTH,slow-response,INTG,INFRASTRUCTURE],
+    owner=maudie.vandervort,
+    opened=2024-09-19 19:34:37,
+    note: requires partner communication,impact 4391 sessions
+},
+{
+    id=INC-996741,
+    team=Payments Squad,severity=Critical,status=REOPENED,tags=[Partner Integrations,ApiError,AUTH],
+    owner=ole55,
+    opened=2024-01-16 08:12:12,
+    note:mitigated by automated rollback,impact 3216 sessions
+},
+{
+    id=INC-365862,
+    team=Commerce Ops,severity=Low,status=CLOSED,tags=[slow response,release-task,Partner Integrations],
+    owner=elliott.marks,
+    opened=2024-09-24 15:58:19,
+    note:mitigated by automated rollback,impact 3407 sessions
+},
+{
+    id=INC-174053,
+    team=ML Ops,severity=Medium,status=MONITORING,tags=[timed out,Data Quality],
+    owner=cara99,
+    opened=2024-06-24 11:35:40,
+    note: mitigated by automated rollback,impact 3169 sessions
+},
+{
+    id=INC-465852,
+    team=Gateway,severity=Low,status=CLOSED,tags=[Billing,INTG],
+    owner=cora.mccullough,
+    opened=2024-04-18 08:23:17,
+    note:  mitigated by automated rollback,impact 1925 sessions
+},
+{
+    id=INC-547449,
+    team=payments,severity=Medium,status=MONITORING,tags=[billing dispute,slow-response,Deployment],
+    owner=kristin54,
+    opened=2024-09-08 09:08:35,
+    note: requires partner communication,impact 3861 sessions
+},
+{
+    id=INC-926298,
+    team=data platform,severity=High,status=MONITORING,tags=[billing dispute,response lag],
+    owner=nathanial_brown88,
+    opened=2024-04-30 06:22:26,
+    note:follow-up action pending RCA,impact 4017 sessions
+},
+{
+    id=INC-959511,
+    team=sre,severity=High,status=CLOSED,tags=[Authentication,billing-error],
+    owner=daphney_wolff,
+    opened=2024-01-07 23:17:39,
+    note:follow-up action pending RCA,impact 3499 sessions
+},
+{
+    id=INC-766191,
+    team=Payments Squad,severity=High,status=CLOSED,tags=[deploy ment,request timeout],
+    owner=carmela19,
+    opened=2024-06-15 23:43:53,
+    note: mitigated by automated rollback,impact 1505 sessions
+},
+{
+    id=INC-788668,
+    team=sre,severity=Medium,status=CLOSED,tags=[Timeout,data-quality,Timeout],
+    owner=jaycee39,
+    opened=2024-08-14 08:18:53,
+    note:  follow-up action pending RCA,impact 349 sessions
+},
+{
+    id=INC-869479,
+    team=payments,severity=Medium,status=CLOSED,tags=[sign-in issue,slow response,api err],
+    owner=cortez.trantow,
+    opened=2024-03-29 06:12:26,
+    note: follow-up action pending RCA,impact 2165 sessions
+},
+{
+    id=INC-718340,
+    team=data platform,severity=Medium,status=CLOSED,tags=[slow-response,request timeout,Partner Integrations,infra,slow-response],
+    owner=christop.jaskolski20,
+    opened=2024-09-29 12:35:15,
+    note: mitigated by automated rollback,impact 2654 sessions
+},
+{
+    id=INC-996526,
+    team=Data-Platform,severity=High,status=OPEN,tags=[INTG,infra,time out,BILLING],
+    owner=brooklyn_reilly46,
+    opened=2024-08-11 18:42:58,
+    note: escalated via pager,impact 4723 sessions
+},
+{
+    id=INC-303207,
+    team=sre,severity=Low,status=REOPENED,tags=[integration issue,DataQuality,Auth failure,ApiError],
+    owner=raina_kutch64,
+    opened=2024-06-08 04:25:40,
+    note: requires partner communication,impact 4681 sessions
+},
+{
+    id=INC-366031,
+    team=data platform,severity=Medium,status=MONITORING,tags=[billing dispute,infra-fault,response lag],
+    owner=pearline_cole16,
+    opened=2024-09-24 19:01:18,
+    note:triaged during daily standup,impact 2482 sessions
+},
+{
+    id=INC-644428,
+    team=Data Platform,severity=Low,status=OPEN,tags=[deploy ment,request timeout],
+    owner=luella_gottlieb,
+    opened=2024-10-07 12:39:58,
+    note: follow-up action pending RCA,impact 3331 sessions
+},
+{
+    id=INC-225550,
+    team=CommerceIT,severity=High,status=CLOSED,tags=[Latency,Partner Integrations,billing-error],
+    owner=mitchel2,
+    opened=2024-07-08 15:13:15,
+    note:  follow-up action pending RCA,impact 4311 sessions
+},
+{
+    id=INC-394430,
+    team=CommerceIT,severity=Critical,status=CLOSED,tags=[time out,Billing,ApiError],
+    owner=ernest_cartwright89,
+    opened=2024-09-29 14:29:00,
+    note: mitigated by automated rollback,impact 839 sessions
+},
+{
+    id=INC-397860,
+    team=ML Enablement,severity=High,status=MONITORING,tags=[bad data,LATENCY],
+    owner=reggie.walker54,
+    opened=2024-07-10 09:37:59,
+    note:triaged during daily standup,impact 4678 sessions
+},
+{
+    id=INC-759569,
+    team=sre,severity=Low,status=OPEN,tags=[request timeout,response lag],
+    owner=elvera99,
+    opened=2024-07-20 05:13:59,
+    note: requires partner communication,impact 891 sessions
+},
+{
+    id=INC-546251,
+    team=ML Enablement,severity=Critical,status=CLOSED,tags=[sign-in issue,infra-fault,Deployment],
+    owner=kiana28,
+    opened=2024-05-29 20:50:43,
+    note:validated against observability dashboard,impact 1976 sessions
+},
+{
+    id=INC-648366,
+    team=sre,severity=Medium,status=OPEN,tags=[integration-failure,data-quality],
+    owner=kiera_reinger,
+    opened=2024-03-28 17:19:03,
+    note: mitigated by automated rollback,impact 857 sessions
+},
+{
+    id=INC-773958,
+    team=Payments-OPS,severity=Medium,status=CLOSED,tags=[Auth failure,INTG,deploy ment],
+    owner=rogers62,
+    opened=2024-03-08 07:36:52,
+    note:  follow-up action pending RCA,impact 1857 sessions
+},
+{
+    id=INC-988404,
+    team=sre,severity=Critical,status=OPEN,tags=[slow response,TIMEOUT,TIMEOUT],
+    owner=maximo.kub,
+    opened=2024-07-21 05:08:24,
+    note:  follow-up action pending RCA,impact 1013 sessions
+},
+{
+    id=INC-149392,
+    team=sre,severity=Low,status=CLOSED,tags=[request timeout,Infrastructure,data-quality,slow-response],
+    owner=gracie52,
+    opened=2024-06-10 04:47:47,
+    note:mitigated by automated rollback,impact 123 sessions
+},
+{
+    id=INC-692105,
+    team=payments,severity=High,status=CLOSED,tags=[integration issue,Authentication,DataQuality,Release],
+    owner=mallory46,
+    opened=2024-09-25 10:36:05,
+    note:requires partner communication,impact 1311 sessions
+},
+{
+    id=INC-625035,
+    team=Payments Squad,severity=Critical,status=OPEN,tags=[release-task,ApiError,ApiError],
+    owner=javier17,
+    opened=2024-08-28 16:42:13,
+    note:validated against observability dashboard,impact 1629 sessions
+},
+{
+    id=INC-493950,
+    team=Data-Platform,severity=Low,status=OPEN,tags=[slow-response,billing dispute,api failure,api failure],
+    owner=marian_stanton,
+    opened=2024-02-21 22:44:22,
+    note:validated against observability dashboard,impact 984 sessions
+},
+{
+    id=INC-709847,
+    team=Commerce Ops,severity=Medium,status=MONITORING,tags=[data-quality,Partner Integrations,data-quality],
+    owner=petra_jaskolski,
+    opened=2024-02-25 02:53:23,
+    note:  validated against observability dashboard,impact 4707 sessions
+},
+{
+    id=INC-119421,
+    team=ML Ops,severity=Low,status=MONITORING,tags=[Release,time out,api-error],
+    owner=reva_wiegand71,
+    opened=2024-08-05 22:11:30,
+    note: mitigated by automated rollback,impact 3656 sessions
+},
+{
+    id=INC-815917,
+    team=ML Enablement,severity=Critical,status=CLOSED,tags=[Deployment,api-error],
+    owner=sage_dietrich-hessel,
+    opened=2024-02-11 04:31:37,
+    note:  requires partner communication,impact 4513 sessions
+},
+{
+    id=INC-915582,
+    team=ML Enablement,severity=Medium,status=REOPENED,tags=[sign-in issue,api err,Partner Integrations],
+    owner=shanon.spinka,
+    opened=2024-07-31 18:44:44,
+    note: requires partner communication,impact 3444 sessions
+},
+{
+    id=INC-531011,
+    team=sre,severity=Medium,status=OPEN,tags=[DataQuality,billing-error,AUTH,AUTH],
+    owner=kelly_hauck77,
+    opened=2024-03-24 02:53:42,
+    note:  triaged during daily standup,impact 4282 sessions
+},
+{
+    id=INC-337453,
+    team=Payments Squad,severity=Low,status=MONITORING,tags=[response lag,TIMEOUT,Billing],
+    owner=imogene.willms,
+    opened=2024-09-17 00:57:13,
+    note:requires partner communication,impact 81 sessions
+},
+{
+    id=INC-953130,
+    team=MachineLearning,severity=Low,status=MONITORING,tags=[Authentication,bad data,api failure],
+    owner=rae.kassulke,
+    opened=2024-06-02 22:07:51,
+    note:triaged during daily standup,impact 3231 sessions
+},
+{
+    id=INC-848538,
+    team=sre,severity=Medium,status=CLOSED,tags=[infra,Billing],
+    owner=josiah.little45,
+    opened=2024-05-05 12:25:15,
+    note: triaged during daily standup,impact 4466 sessions
+},
+{
+    id=INC-883018,
+    team=DataPlatform,severity=High,status=MONITORING,tags=[INFRASTRUCTURE,API Error,bad data],
+    owner=carlos24,
+    opened=2024-03-26 18:41:55,
+    note: validated against observability dashboard,impact 567 sessions
+},
+{
+    id=INC-607014,
+    team=sre,severity=High,status=REOPENED,tags=[Data Quality,AUTH],
+    owner=josiah5,
+    opened=2024-02-01 09:01:53,
+    note:  triaged during daily standup,impact 646 sessions
+},
+{
+    id=INC-740654,
+    team=Commerce Ops,severity=Critical,status=REOPENED,tags=[integration issue,request timeout,Billing],
+    owner=carlo67,
+    opened=2024-09-16 21:39:01,
+    note:requires partner communication,impact 1798 sessions
+},
+{
+    id=INC-413222,
+    team=data platform,severity=Critical,status=CLOSED,tags=[auth-error,billing dispute],
+    owner=charlie_braun38,
+    opened=2024-03-14 17:57:31,
+    note:validated against observability dashboard,impact 643 sessions
+},
+{
+    id=INC-353358,
+    team=Site Reliability,severity=Critical,status=OPEN,tags=[deploy,timed out,slow-response],
+    owner=casimer_denesik-schuppe,
+    opened=2024-02-09 11:40:46,
+    note:  mitigated by automated rollback,impact 1281 sessions
+},
+{
+    id=INC-406941,
+    team=Site Reliability,severity=Critical,status=OPEN,tags=[auth-error,ApiError,Timeout],
+    owner=tia44,
+    opened=2024-09-13 12:19:57,
+    note: requires partner communication,impact 158 sessions
+},
+{
+    id=INC-584702,
+    team=commerce,severity=High,status=MONITORING,tags=[billing-error,INTG],
+    owner=bailey_watsica,
+    opened=2024-06-25 22:59:55,
+    note:triaged during daily standup,impact 1544 sessions
+},
+{
+    id=INC-238775,
+    team=ML Enablement,severity=Low,status=MONITORING,tags=[request timeout,Integration,request timeout],
+    owner=craig_schiller54,
+    opened=2024-07-11 06:07:13,
+    note: validated against observability dashboard,impact 256 sessions
+},
+{
+    id=INC-324884,
+    team=Site Reliability,severity=Critical,status=MONITORING,tags=[DataQuality,ApiError],
+    owner=german39,
+    opened=2024-02-02 06:30:10,
+    note:follow-up action pending RCA,impact 4632 sessions
+},
+{
+    id=INC-572033,
+    team=payments,severity=High,status=REOPENED,tags=[Release,infra-fault],
+    owner=larry.goyette23,
+    opened=2024-03-05 04:26:50,
+    note: follow-up action pending RCA,impact 1043 sessions
+},
+{
+    id=INC-285280,
+    team=Payments Squad,severity=Medium,status=MONITORING,tags=[API Error,integration-failure,release-task],
+    owner=ed66,
+    opened=2024-03-20 06:33:50,
+    note:follow-up action pending RCA,impact 3699 sessions
+},
+{
+    id=INC-118313,
+    team=data platform,severity=Critical,status=REOPENED,tags=[integration issue,sign-in issue,billing-error],
+    owner=april_huel,
+    opened=2024-07-31 12:24:33,
+    note: validated against observability dashboard,impact 4507 sessions
+},
+{
+    id=INC-374195,
+    team=Platform (Data),severity=Critical,status=CLOSED,tags=[LATENCY,INFRASTRUCTURE],
+    owner=veronica_mohr7,
+    opened=2024-01-16 22:19:58,
+    note: triaged during daily standup,impact 4531 sessions
+},
+{
+    id=INC-326515,
+    team=sre,severity=Medium,status=REOPENED,tags=[infra,API Error,response lag],
+    owner=consuelo.mckenzie,
+    opened=2024-06-23 01:30:59,
+    note:escalated via pager,impact 3994 sessions
+},
+{
+    id=INC-872125,
+    team=Commerce Ops,severity=High,status=CLOSED,tags=[bad data,slow-response,Authentication,bad data],
+    owner=dewitt.deckow68,
+    opened=2024-08-25 09:32:09,
+    note: escalated via pager,impact 542 sessions
+},
+{
+    id=INC-356618,
+    team=sre,severity=Low,status=REOPENED,tags=[api err,Data Quality,infra,invoice issue],
+    owner=ashlee_kuhn,
+    opened=2024-04-15 10:20:35,
+    note:  requires partner communication,impact 1112 sessions
+},
+{
+    id=INC-738001,
+    team=sre,severity=Low,status=MONITORING,tags=[Infrastructure issue,API Error,Latency],
+    owner=antoinette.deckow,
+    opened=2024-08-10 04:47:56,
+    note: triaged during daily standup,impact 4771 sessions
+},
+{
+    id=INC-169427,
+    team=sre,severity=Critical,status=OPEN,tags=[release-task,slow-response,Auth failure],
+    owner=emelia.hoppe-ziemann,
+    opened=2024-03-26 00:04:45,
+    note:follow-up action pending RCA,impact 2977 sessions
+},
+{
+    id=INC-608706,
+    team=ML Enablement,severity=Low,status=OPEN,tags=[INTG,BILLING,time out,INTG],
+    owner=yoshiko.hodkiewicz46,
+    opened=2024-09-25 00:33:34,
+    note: triaged during daily standup,impact 2841 sessions
+},
+{
+    id=INC-845437,
+    team=CommerceIT,severity=Medium,status=CLOSED,tags=[Timeout,api failure],
+    owner=rebeka_nikolaus,
+    opened=2024-05-13 16:50:40,
+    note: requires partner communication,impact 1291 sessions
+},
+{
+    id=INC-613738,
+    team=payments,severity=High,status=REOPENED,tags=[Partner Integrations,LATENCY,Partner Integrations],
+    owner=ezra93,
+    opened=2024-09-21 00:09:45,
+    note:  escalated via pager,impact 4789 sessions
+},
+{
+    id=INC-906529,
+    team=Commerce,severity=Medium,status=OPEN,tags=[data-quality,TIMEOUT,Infrastructure issue],
+    owner=janis_blanda,
+    opened=2024-05-03 23:46:45,
+    note:follow-up action pending RCA,impact 992 sessions
+},
+{
+    id=INC-387897,
+    team=Site Reliability,severity=Low,status=OPEN,tags=[integration-failure,API Error,Billing],
+    owner=cletus.treutel40,
+    opened=2024-10-17 14:20:33,
+    note:follow-up action pending RCA,impact 2669 sessions
+},
+{
+    id=INC-516990,
+    team=MachineLearning,severity=Low,status=MONITORING,tags=[integration issue,TIMEOUT],
+    owner=ana.walsh74,
+    opened=2024-06-27 17:44:44,
+    note: escalated via pager,impact 2198 sessions
+},
+{
+    id=INC-359059,
+    team=ML Enablement,severity=Low,status=REOPENED,tags=[TIMEOUT,integration-failure,Release,API Error,integration-failure],
+    owner=valentina22,
+    opened=2024-02-21 04:53:53,
+    note:validated against observability dashboard,impact 2882 sessions
+},
+{
+    id=INC-540532,
+    team=Gateway,severity=Medium,status=CLOSED,tags=[api-error,time out,Release],
+    owner=alvah5,
+    opened=2024-08-12 18:09:51,
+    note: requires partner communication,impact 4284 sessions
+},
+{
+    id=INC-884439,
+    team=Gateway,severity=Low,status=CLOSED,tags=[integration issue,API Error],
+    owner=bill.littel,
+    opened=2024-01-25 15:06:38,
+    note: mitigated by automated rollback,impact 478 sessions
+},
+{
+    id=INC-144707,
+    team=Gateway,severity=Critical,status=CLOSED,tags=[release-task,auth-error,bad data],
+    owner=orpha_glover,
+    opened=2024-04-21 12:20:11,
+    note: requires partner communication,impact 4648 sessions
+},
+{
+    id=INC-630941,
+    team=CommerceIT,severity=Low,status=CLOSED,tags=[integration-failure,api failure,infra],
+    owner=aurore50,
+    opened=2024-03-10 16:08:53,
+    note: mitigated by automated rollback,impact 3017 sessions
+},
+{
+    id=INC-804319,
+    team=data platform,severity=Low,status=CLOSED,tags=[ApiError,sign-in issue,sign-in issue],
+    owner=nickolas.durgan,
+    opened=2024-08-08 08:18:37,
+    note:mitigated by automated rollback,impact 4410 sessions
+},
+{
+    id=INC-189984,
+    team=sre,severity=Critical,status=MONITORING,tags=[Timeout,API Error,billing dispute],
+    owner=hollis67,
+    opened=2024-01-17 10:04:13,
+    note:  validated against observability dashboard,impact 3778 sessions
+},
+{
+    id=INC-436912,
+    team=commerce,severity=Low,status=MONITORING,tags=[BILLING,infra-fault,slow response,slow response],
+    owner=ruthie.marvin40,
+    opened=2024-09-22 22:56:27,
+    note:  validated against observability dashboard,impact 4702 sessions
+},
+{
+    id=INC-588124,
+    team=DataPlatform,severity=Critical,status=REOPENED,tags=[AUTH,bad data,TIMEOUT],
+    owner=arianna.homenick,
+    opened=2024-09-11 09:44:22,
+    note:validated against observability dashboard,impact 2147 sessions
+},
+{
+    id=INC-996321,
+    team=ml-enablement,severity=Low,status=MONITORING,tags=[slow response,auth-error],
+    owner=pasquale.bednar53,
+    opened=2024-03-25 10:38:13,
+    note: mitigated by automated rollback,impact 4851 sessions
+},
+{
+    id=INC-710833,
+    team=Payments Squad,severity=Medium,status=REOPENED,tags=[invoice issue,deploy],
+    owner=bennie_marvin,
+    opened=2024-09-08 12:28:51,
+    note:mitigated by automated rollback,impact 4640 sessions
+},
+{
+    id=INC-214335,
+    team=sre,severity=High,status=OPEN,tags=[api-error,invoice issue,deploy ment],
+    owner=alysson.dibbert,
+    opened=2024-10-17 23:16:46,
+    note:triaged during daily standup,impact 1994 sessions
+},
+{
+    id=INC-837122,
+    team=Commerce Ops,severity=Critical,status=OPEN,tags=[billing dispute,Infrastructure,Auth failure],
+    owner=emma15,
+    opened=2024-08-05 07:42:05,
+    note:mitigated by automated rollback,impact 1666 sessions
+},
+{
+    id=INC-675342,
+    team=commerce,severity=High,status=REOPENED,tags=[time out,deploy,AUTH],
+    owner=hilbert98,
+    opened=2024-09-24 00:54:26,
+    note: escalated via pager,impact 3374 sessions
+},
+{
+    id=INC-162632,
+    team=CommerceIT,severity=Medium,status=MONITORING,tags=[integration-failure,infra-fault,infra-fault],
+    owner=nella40,
+    opened=2024-07-03 01:31:17,
+    note: requires partner communication,impact 3080 sessions
+},
+{
+    id=INC-724623,
+    team=Site Reliability,severity=Low,status=MONITORING,tags=[deploy,data-quality],
+    owner=pablo_hand83,
+    opened=2024-10-10 00:31:27,
+    note:triaged during daily standup,impact 4860 sessions
+},
+{
+    id=INC-160326,
+    team=sre,severity=High,status=CLOSED,tags=[infra,request timeout,response lag],
+    owner=gussie84,
+    opened=2024-06-28 02:03:11,
+    note: triaged during daily standup,impact 358 sessions
+},
+{
+    id=INC-731266,
+    team=DataPlatform,severity=Medium,status=CLOSED,tags=[INTG,bad data,release-task],
+    owner=blaze45,
+    opened=2024-07-30 04:29:12,
+    note:escalated via pager,impact 879 sessions
+},
+{
+    id=INC-619557,
+    team=commerce,severity=Medium,status=REOPENED,tags=[auth-error,Data Quality,billing dispute],
+    owner=rebecca.witting,
+    opened=2024-06-03 22:02:42,
+    note: follow-up action pending RCA,impact 1564 sessions
+},
+{
+    id=INC-885879,
+    team=Commerce Ops,severity=High,status=MONITORING,tags=[bad data,Integration,slow-response],
+    owner=meggie.herzog4,
+    opened=2024-05-02 05:58:56,
+    note: requires partner communication,impact 2723 sessions
+},
+{
+    id=INC-637918,
+    team=Payments Squad,severity=Critical,status=REOPENED,tags=[LATENCY,Release,ApiError],
+    owner=manley.gislason83,
+    opened=2024-03-28 01:48:01,
+    note: mitigated by automated rollback,impact 3364 sessions
+},
+{
+    id=INC-862333,
+    team=sre,severity=Critical,status=MONITORING,tags=[Deployment,quality issue,api failure],
+    owner=jan_hoppe,
+    opened=2024-10-30 16:06:31,
+    note:  follow-up action pending RCA,impact 3441 sessions
+},
+{
+    id=INC-450040,
+    team=Data-Platform,severity=Critical,status=MONITORING,tags=[LATENCY,integration issue,infra-fault],
+    owner=price.hayes,
+    opened=2024-08-05 13:23:10,
+    note:follow-up action pending RCA,impact 1919 sessions
+},
+{
+    id=INC-658689,
+    team=ML Enablement,severity=Medium,status=MONITORING,tags=[integration-failure,timed out,auth-error],
+    owner=gavin17,
+    opened=2024-10-25 12:07:15,
+    note: triaged during daily standup,impact 4705 sessions
+},
+{
+    id=INC-178250,
+    team=Payments,severity=Medium,status=MONITORING,tags=[Billing,slow-response,integration issue,Infrastructure issue],
+    owner=ceasar.collins,
+    opened=2024-09-08 16:58:49,
+    note:follow-up action pending RCA,impact 4647 sessions
+},
+{
+    id=INC-304928,
+    team=CommerceIT,severity=High,status=OPEN,tags=[api failure,integration issue,integration issue],
+    owner=keanu74,
+    opened=2024-04-13 21:47:00,
+    note:requires partner communication,impact 3085 sessions
+},
+{
+    id=INC-383731,
+    team=sre,severity=Medium,status=CLOSED,tags=[Deployment,response lag,Deployment],
+    owner=trevion18,
+    opened=2024-10-13 08:24:13,
+    note:  triaged during daily standup,impact 3089 sessions
+},
+{
+    id=INC-371657,
+    team=sre,severity=High,status=OPEN,tags=[billing dispute,infra-fault],
+    owner=euna.beahan20,
+    opened=2024-08-25 06:15:33,
+    note:escalated via pager,impact 1137 sessions
+},
+{
+    id=INC-940260,
+    team=Data Platform,severity=High,status=CLOSED,tags=[auth-error,Billing],
+    owner=ernesto.adams38,
+    opened=2024-05-26 17:45:17,
+    note:  triaged during daily standup,impact 3925 sessions
+},
+{
+    id=INC-729592,
+    team=sre,severity=Critical,status=MONITORING,tags=[slow-response,integration-failure],
+    owner=miller_kulas,
+    opened=2024-08-12 18:43:41,
+    note:  validated against observability dashboard,impact 1644 sessions
+},
+{
+    id=INC-587420,
+    team=data platform,severity=Low,status=CLOSED,tags=[INTG,sign-in issue,slow response],
+    owner=rodolfo65,
+    opened=2024-08-15 02:17:48,
+    note:validated against observability dashboard,impact 430 sessions
+},
+{
+    id=INC-324942,
+    team=sre,severity=Low,status=REOPENED,tags=[Auth failure,api err,Data Quality],
+    owner=lowell_collins56,
+    opened=2024-07-13 16:56:34,
+    note:escalated via pager,impact 3640 sessions
+},
+{
+    id=INC-111730,
+    team=Data-Platform,severity=Low,status=OPEN,tags=[response lag,billing dispute,request timeout,Deployment],
+    owner=newton.pacocha,
+    opened=2024-08-30 13:46:33,
+    note: requires partner communication,impact 1594 sessions
+},
+{
+    id=INC-356375,
+    team=sre,severity=High,status=OPEN,tags=[response lag,deploy ment,Timeout],
+    owner=juston.reilly15,
+    opened=2024-04-18 19:07:42,
+    note: triaged during daily standup,impact 4108 sessions
+},
+{
+    id=INC-182387,
+    team=Commerce Ops,severity=Medium,status=CLOSED,tags=[Authentication,Partner Integrations,time out,bad data],
+    owner=kurt_murphy,
+    opened=2024-08-07 14:14:39,
+    note:  triaged during daily standup,impact 1481 sessions
+},
+{
+    id=INC-381674,
+    team=Commerce Ops,severity=High,status=REOPENED,tags=[quality issue,API Error],
+    owner=miguel7,
+    opened=2024-03-01 00:56:32,
+    note:  follow-up action pending RCA,impact 906 sessions
+},
+{
+    id=INC-414039,
+    team=Platform (Data),severity=Low,status=CLOSED,tags=[deploy ment,infra-fault],
+    owner=zaria.torp13,
+    opened=2024-05-25 01:09:48,
+    note:mitigated by automated rollback,impact 967 sessions
+},
+{
+    id=INC-726435,
+    team=payments,severity=High,status=REOPENED,tags=[Authentication,Infrastructure issue,Deployment],
+    owner=enos51,
+    opened=2024-05-20 16:23:51,
+    note:mitigated by automated rollback,impact 4037 sessions
+},
+{
+    id=INC-488125,
+    team=ML Enablement,severity=Medium,status=MONITORING,tags=[integration-failure,billing-error,INFRASTRUCTURE],
+    owner=raleigh.hilll,
+    opened=2024-06-16 17:06:52,
+    note:  requires partner communication,impact 1312 sessions
+},
+{
+    id=INC-755778,
+    team=sre,severity=Low,status=OPEN,tags=[Deployment,request timeout,Deployment],
+    owner=emma.bogan22,
+    opened=2024-10-04 22:37:29,
+    note:mitigated by automated rollback,impact 1709 sessions
+},
+{
+    id=INC-849186,
+    team=sre,severity=Medium,status=OPEN,tags=[slow-response,ApiError],
+    owner=fredrick13,
+    opened=2024-06-09 03:26:00,
+    note:triaged during daily standup,impact 911 sessions
+},
+{
+    id=INC-747833,
+    team=Gateway,severity=High,status=MONITORING,tags=[slow-response,time out,BILLING],
+    owner=tyrese57,
+    opened=2024-04-25 06:29:03,
+    note:triaged during daily standup,impact 1872 sessions
+},
+{
+    id=INC-978782,
+    team=payments,severity=Medium,status=OPEN,tags=[slow response,data-quality],
+    owner=nya22,
+    opened=2024-04-01 14:33:41,
+    note:triaged during daily standup,impact 2285 sessions
+},
+{
+    id=INC-641674,
+    team=CommerceIT,severity=High,status=REOPENED,tags=[Integration,sign-in issue,sign-in issue],
+    owner=vernon97,
+    opened=2024-02-25 06:34:00,
+    note:  mitigated by automated rollback,impact 4273 sessions
+},
+{
+    id=INC-747863,
+    team=Platform (Data),severity=Medium,status=REOPENED,tags=[DataQuality,infra,API Error],
+    owner=emiliano_reynolds,
+    opened=2024-04-01 10:47:27,
+    note:mitigated by automated rollback,impact 942 sessions
+},
+{
+    id=INC-966899,
+    team=Payments Squad,severity=Critical,status=REOPENED,tags=[auth-error,API Error,request timeout,BILLING],
+    owner=mazie.renner40,
+    opened=2024-08-02 18:14:52,
+    note: mitigated by automated rollback,impact 4879 sessions
+},
+{
+    id=INC-624607,
+    team=Data Platform,severity=Critical,status=REOPENED,tags=[TIMEOUT,billing dispute,Infrastructure issue],
+    owner=lorna_crona1,
+    opened=2024-07-01 17:56:26,
+    note:validated against observability dashboard,impact 3356 sessions
+}
+]
